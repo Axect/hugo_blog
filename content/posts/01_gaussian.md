@@ -38,7 +38,7 @@ $$
 > 이것을 바로 증명하기에는 어려움이 있으므로 제곱 꼴을 고려해야 합니다.
 > $$\left(\int_{-\infty}^\infty e^{-\alpha x^2}\right)^2 = \int_{-\infty}^\infty \int_{-\infty}^\infty e^{-\alpha(x^2 + y^2)} dx dy$$
 > 이것을 $x^2 + y^2 = r^2,~dxdy = rdrd\theta$임을 이용하여 극좌표계 적분으로 변환합니다. 그렇다면 아주 간단한 치환 적분으로 적분을 계산할 수 있습니다.
-> $$\int_{0}^\infty \int_{0}^{2\pi} re^{-\alpha r^2} dr d\theta = 2\pi\int_0^\infty e^{-t} \frac{dt}{2\alpha} = \frac{\pi}{\alpha}$$
+> $$\int_{0}^\infty \int_{0}^{2\pi} re^{-\alpha r^2} dr d\theta = \frac{\pi}{\alpha}$$
 > 가우스 적분의 제곱이 위와 같은 결과가 되었고, 가우시안 함수($e^{-\alpha x^2}$)는 항상 양수이므로 위 식이 성립함을 알 수 있습니다.
 
 보통 물리학이나 통계학에서 자주 사용되는 가우스 적분은 다음과 같은 형태입니다.
@@ -56,7 +56,7 @@ $$
 $$
 
 > 단순히 완전제곱식을 이용하여 정리하면 해결되는 적분입니다.
-> $$\int_{-\infty}^\infty e^{-\frac{a}{2}(y - \frac{J}{a})^2 + \frac{J^2}{2a}} = \int_{-\infty}^\infty e^{-\frac{a}{2}t^2} dt \cdot e^{\frac{J^2}{2a}} = (2\pi)^{\frac{1}{2}} a^{-\frac{1}{2}} e^{\frac{J^2}{2a}}$$
+> $$\int_{-\infty}^\infty e^{-\frac{a}{2}(y - \frac{J}{a})^2 + \frac{J^2}{2a}} = \int_{-\infty}^\infty e^{-\frac{a}{2}t^2} dt \cdot e^{\frac{J^2}{2a}}$$
 
 -----
 
