@@ -1,4 +1,4 @@
-baseURL = "localhost"
+baseURL = "https://axect.github.io"
 languageCode = "en-us"
 title = "Socialst"
 theme = "hello-friend-ng"
