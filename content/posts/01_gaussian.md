@@ -180,4 +180,11 @@ $$
 이번 글에서는 1차원 단일 변수에 대한 간단한 가우스 적분을 알아보고 이에 대한 활용으로 단변수 가우시안 분포의 기본적인 성질을 알아보았습니다.
 다음에는 이를 다차원으로 확장하여 행렬 꼴로 표현되는 가우스 적분과 다변수 가우시안 분포에 대해 알아보겠습니다.
 
+&nbsp;
+
+-----
+## 참고문헌
+
+* Russell L. Herman, *An introduction to Mathematical physics via oscillations*, 2012
+* Massimiliano Bonamente, *Statistics and Analysis of Scientific Data*, Springer, 2017 
 
