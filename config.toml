@@ -58,5 +58,5 @@ paginate = 10
 
   [[menu.main]]
     identifier = "tags"
-    name = "Tags"
-    url = "/tags"
+    name       = "Tags"
+    url        = "/tags"
