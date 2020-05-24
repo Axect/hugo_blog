@@ -24,6 +24,23 @@ paginate = 10
     # Default theme "light" or "dark"
     defaultTheme = "light"
 
+    [[params.social]]
+        name = "github"
+        url = "https://github.com/Axect"
+
+    [[params.social]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/tae-geun-kim/"
+
+    [[params.social]]
+        name = "email"
+        url = "mailto:axect@outlook.kr"
+
+
+
+[author]
+    name = "Axect"
+
 [taxonomies]
     category = "blog"
     tag      = "tags"
@@ -46,6 +63,7 @@ paginate = 10
     # alt = "Your example logo alt text"
 
   # And you can even create generic menu
+[menu]
   [[menu.main]]
     identifier = "blog"
     name       = "Blog"
