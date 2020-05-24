@@ -5,7 +5,6 @@ draft: false
 toc: true
 images:
 tags:
-  - mathematics
   - statistics
   - gaussian
 ---
