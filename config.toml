@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Socialst"
 theme = "hello-friend-ng"
 paginate = 10
+googleAnalytics = "UA-167590700-1"
 
 [params]
     dateform = "Jan 2, 2006"
