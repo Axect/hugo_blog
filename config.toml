@@ -1,6 +1,6 @@
 baseURL = "https://axect.github.io"
 languageCode = "en-us"
-title = "Socialst"
+title = "Axect's Blog"
 theme = "hello-friend-ng"
 paginate = 10
 googleAnalytics = "UA-167590700-1"
@@ -18,7 +18,7 @@ googleAnalytics = "UA-167590700-1"
     disableReadOtherPosts = false
 
     # Metadata mostly used in document's head
-    description = "Socialst: Axect's Blog"
+    description = "Axect's Blog"
     keywords = "blog, homepage"
     images = [""]
 
@@ -49,8 +49,8 @@ googleAnalytics = "UA-167590700-1"
 
 [languages]
   [languages.en]
-    title = "Socialst"
-    subtitle = "Axect's Blog"
+    title = "Axect's Blog"
+    subtitle = "Mathematics, Physics and Computations"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
