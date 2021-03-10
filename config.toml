@@ -1,5 +1,5 @@
 baseURL = "https://axect.github.io"
-defaultContentLanguage = "en"
+defaultContentLanguage = "kr"
 title = "Axect's Blog"
 theme = "hello-friend-ng"
 paginate = 10
@@ -48,20 +48,6 @@ googleAnalytics = "UA-167590700-1"
     series   = "series"
 
 [languages]
-  [languages.en]
-    languageCode = "en"
-    languageName = "English"
-    title = "Axect's Blog"
-    subtitle = "Mathematics, Physics and Computations"
-    keywords = ""
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
-    weight = 1
-
-    [languages.en.params.logo]
-      logoText = "cd /home/axect/"
-      logoHomeLink = "/"
-  
   [languages.kr]
     languageCode = "kr"
     languageName = "Korean"
@@ -74,7 +60,23 @@ googleAnalytics = "UA-167590700-1"
 
     [languages.kr.params.logo]
       logoText = "cd /home/axect/"
-      logoHomeLink = "/kr"
+      logoHomeLink = "/"
+
+  [languages.en]
+    languageCode = "en"
+    languageName = "English"
+    title = "Axect's Blog"
+    subtitle = "Mathematics, Physics and Computations"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+    weight = 1
+
+    [languages.en.params.logo]
+      logoText = "cd /home/axect/"
+      logoHomeLink = "/en"
+  
+  
     # or
     #
     # path = "/img/your-example-logo.svg"
