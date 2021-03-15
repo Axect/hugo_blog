@@ -1,4 +1,8 @@
 <div class="notepaper">
+    {{- if .Get "title" }}
+    <br/>
+    <span><b>{{ .Get "title" }}</b></span>
+    {{- end }}
     <figure class="quote">
         <span class="curly-quotes">
             {{ .Inner | markdownify }}
