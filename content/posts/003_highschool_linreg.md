@@ -1,7 +1,7 @@
 ---
 title: "🏫 고등학교 수학으로 이해하는 선형회귀"
 date: 2021-03-09T22:01:39+09:00
-draft: true
+draft: false
 toc: true
 images:
 tags:
@@ -378,6 +378,179 @@ $$
 p(y) = \mathcal{N}(y| ax+b, \sigma^2)
 $$
 
+&ensp;
+
+### 3.3 최대 가능도 추정 (MLE)
+
+앞서 베이즈 정리 단원에서 언급했다시피, 우리의 목적은 주어진 데이터들의 분포로부터 사후확률분포를 구하는 것입니다. 이를 추정하는 방법은 크게 두 가지로 나눠집니다.
+
+1. {{<emph "최대 가능도 추정 (Maximum Likelihood Estimation)">}}
+2. **베이즈 추론** (Bayesian Inference)
+
+여기서는 1번의 방법을 따라 설명하겠습니다. 앞서 본 것처럼, 베이즈 정리를 이용하면 사후확률분포의 비례식을 작성할 수 있습니다.
+
+$$
+p(C_i | \mathcal{D}) \propto p(\mathcal{D} | C_i)p(C_i)
+$$
+
+이때, $p(C_i)$는 데이터와 상관없는 사전확률분포이므로 $p(\mathcal{D}|C_i)$를 최대화하면 $p(C_i|\mathcal{D})$ 역시 최대가 되지 않겠냐는 것이 최대 가능도 추정입니다. 따라서 이 경우엔 사후확률분포함수는 구할 수 없고 단순히 사후확률분포가 최대가 되는 지점만 구할 수 있습니다. 이에 대해서는 장단점이 있는데, 간단한 선형회귀에서는 이것으로도 충분합니다.
+
+앞서 세운 선형모델을 베이즈 정리로 적어보면, 가능도(likelihood)는 다음과 같습니다.
+
+$$
+p(\mathcal{D}|a,b) = p(\mathbf{y}|\mathbf{x},a,b)p(\mathbf{x}) = \left\\{ \prod_{i=1}^n\mathcal{N}(y_i|ax_i+b,\sigma^2)\right\\}  \times p(\mathbf{x})
+$$
+
+위 식에서 $\mathbf{x},~ \mathbf{y}$는 각각 $(x_1,\cdots,x_n),~(y_1,\cdots,y_n)$을 나타냅니다. 이제 이것을 최대로 만드는 $a,~b$를 찾기만 하면 되는데, 이는 고등학교 미적분 문제처럼 접근하면 됩니다. 극대, 극소를 먼저 찾고, 그것이 최대인지 최소인지 구분하면 되는 것이죠. 다만, 위 식처럼 $n$개의 곱으로 되어있는 경우에는 미분하기가 힘드므로 먼저 로그를 취한 후 미분하도록 하겠습니다.
+
+$$
+\begin{aligned}
+\ln p(\mathcal{D}|a,b) &= \sum_{i=1}^n \ln \left\\{\mathcal{N}(y_i|ax_i + b, \sigma^2)\right\\} + \ln p(\mathbf{x}) \\\\
+&= \sum_{i=1}^n \left\\{- \ln(\sqrt{2\pi\sigma^2}) - \frac{(y_i - (ax_i+b))^2}{2\sigma^2} \right\\} + \ln p(\mathbf{x})
+\end{aligned}
+$$
+
+곱이 합으로 바뀌었습니다. 이제 이를 $a,b$로 각각 미분하여 0이 되는 값을 구해볼 겁니다. 이때, 두 번째줄의 첫 항과 마지막 항은 $a,b$와 상관없으니 무시하고 계산합시다.
+
+> **1) $b$로 미분**
+> 
+> $$
+> \begin{aligned}
+> &\frac{\partial}{\partial b} \ln p(\mathcal{D}|a,b) = -\frac{1}{\sigma^2}\sum_{i=1}^n (y_i - ax_i - b) = 0 \\\\
+> \Rightarrow~&\therefore b = \overline{y} - a\overline{x} \qquad (\overline{x} \equiv \frac{1}{n}\sum_{i=1}^n x_i,~\overline{y} = \frac{1}{n}\sum_{i=1}^n y_i)
+> \end{aligned}
+> $$
+>
+> **2) $a$로 미분**
+> 
+> $$
+> \begin{aligned}
+> &\frac{\partial}{\partial a} \ln p(\mathcal{D}|a,b) = -\frac{1}{\sigma^2}\sum_{i=1}^n (ax_i + b - y_i) x_i = 0 \\\\
+> \Rightarrow~& a \sum_{i=1}^n x_i^2 + b \sum_{i=1}^n x_i - \sum_{i=1}^n x_iy_i = 0 \\\\
+> \Rightarrow~& a\overline{x^2} - (a\overline{x} - \overline{y}) \overline{x} - \overline{xy} = 0 \\\\
+> \\\\
+> \Rightarrow~&\therefore a = \frac{\overline{xy} - \overline{x}\overline{y}}{\overline{x^2} - \overline{x}^2}
+> \end{aligned}
+> $$
+
+위 결과를 요약하면 다음과 같습니다.
+
+{{<note title="선형모델의 최대 가능도 추정">}}
+데이터 $\mathcal{D} = \left\\{(x_1,y_1),\\,\cdots,\\, (x_n,y_n)\right\\}$으로 주어졌을때, 이를 최대 가능도 추정을 통해 선형모델 $y=ax+b+\epsilon$로 근사한다면 이에 대한 매개변수 $a,b$는 다음과 같이 구할 수 있다.
+
+$$
+a = \frac{\overline{xy} - \overline{x}\overline{y}}{\overline{x^2} - \overline{x}^2},\quad b = \overline{y} - a\overline{x} 
+$$
+{{</note>}}
+
+이제 이를 코드로 나타내봅시다.
+
+&ensp;
+
+### 3.4. 코드 구현
+
+코드는 편의를 위해 Julia를 이용하겠습니다. 다음 코드를 위해 필요한 것은 다음과 같습니다.
+
+> **Pre-requisites**
+> * Julia
+>   * NCDataFrame
+>   * Statistics
+>   * DataFrames
+> * Python
+>   * NetCDF4
+>   * matplotlib
+> * libnetcdf
+
+필요한 데이터는 위에서 선형 모델을 설명하기 위해 추출하였던 데이터를 사용하겠습니다. 데이터 추출 코드는 부록에 수록해놓았습니다.
+
+```julia
+# Julia
+# https://git.io/Jm2gf
+using NCDataFrame, Statistics, DataFrames
+
+# 데이터 불러오기
+df = readnc("linear.nc")
+
+# 표본평균 구하기
+x_bar = mean(df[!,:x])
+y_bar = mean(df[!,:y])
+x²_bar = mean(df[!,:x] .^ 2)
+xy_bar = mean(df[!,:x] .* df[!,:y])
+
+# 최대가능도추정
+a = (xy_bar - x_bar * y_bar) / (x²_bar - x_bar^2)
+b = y_bar - a * x_bar
+
+# a,b 출력
+@show a
+@show b
+
+# 그림 그릴 준비
+x_plot = -1.0:0.01:1.0
+y_plot = a .* x_plot .+ b
+
+# 데이터 쓰기
+dg = DataFrame(x=x_plot, y=y_plot)
+writenc(dg, "linear_plot.nc")
+```
+
+이렇게 나온 데이터를 갖고 그림을 그리는 코드는 다음과 같습니다.
+
+```python
+# Python
+# https://git.io/Jm2gs
+from netCDF4 import Dataset
+import matplotlib.pyplot as plt
+
+# Import netCDF file
+ncfile = './linear.nc'
+data = Dataset(ncfile)
+var = data.variables
+
+# Prepare Data to Plot
+x = var['x'][:]
+y = var['y'][:]
+
+# Import netCDF file
+ncfile = './linear_plot.nc'
+data = Dataset(ncfile)
+var = data.variables
+
+# Prepare Data to Plot
+x_reg = var['x'][:]
+y_reg = var['y'][:]
+a = var['a'][:][0]
+b = var['b'][:][0]
+
+# Use latex
+plt.rc('text', usetex=True)
+plt.rc('font', family='serif')
+
+# Prepare Plot
+plt.figure(figsize=(10,6), dpi=300)
+plt.title(r"Linear Regression", fontsize=16)
+plt.xlabel(r'$x$', fontsize=14)
+plt.ylabel(r'$y$', fontsize=14)
+
+
+# Plot with Legends
+plt.scatter(x, y, label=r'$y=2x+1+\epsilon$', alpha=0.7)
+plt.plot(x_reg, y_reg, label=r'$y={:.2f}x+{:.2f}$'.format(a, b))
+
+# Other options
+plt.legend(fontsize=12)
+plt.grid()
+plt.savefig("linear_reg.png", dpi=300)
+```
+
+이렇게 나온 그림은 다음과 같습니다.
+
+{{<img src="/posts/images/linear_reg.png" caption="드디어 선형 회귀!">}}
+
+## 4. 마치며
+
+최대한 간결하게 적으려 했는데, 내용이 내용이다보니 말이 많이 길어졌네요. 고등학교 과정에 국한해서 적다보니 빠진 내용들도 꽤 많은데, 혹시나 좀 더 공부하고 싶은 분들은 Bishop의 PRML을 보시는 것을 추천드립니다.
+
 -----
 ## 부록
 
@@ -460,9 +633,31 @@ fn main() {
 }
 ```
 
+&emsp;
+
+### 3. 선형 모델 데이터 코드
+
+```julia
+# Julia
+using NCDataFrame, DataFrames;
+
+function f(x::S) where {T <: Number, S <: AbstractVector{T}}
+	2x .+ 1
+end
+
+x = -1.0:0.01:1.0;
+ϵ = randn(length(x));
+y = f(x) + ϵ;
+
+df = DataFrame(x=x, y=y);
+writenc(df, "linear.nc")
+```
+
 -----
 ## 출처
 
 [1] : [서울신문 - 올해의 과학 성과 1위는 '중력파' 탐지](http://m.seoul.co.kr/news/newsView.php?cp=seoul&id=20161223011007)
 
 [2] : [메가스터디 - 역대 등급컷 공개](https://www.megastudy.net/Entinfo/service_p/rank_cut/jungsi_real.asp)
+
+* C. Bishop, *Pattern Recognition and Machine Learning (Information Science and Statistics)*, Springer-Verlag, 2006
