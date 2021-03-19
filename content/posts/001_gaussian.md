@@ -1,5 +1,5 @@
 ---
-title: "🐪 Gaussian Conquest 01: Single variable"
+title: "🐪 가우시안 정복하기 01: 단일변수"
 date: 2020-05-22T17:00:31+09:00
 draft: false
 toc: true
