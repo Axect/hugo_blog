@@ -32,9 +32,12 @@ $$\int_{-\infty}^\infty e^{-\alpha x^2} dx$$
 
 ### 일차원 가우스 적분
 
+{{<animated>}}
 $$
 \int_{-\infty}^\infty e^{-\alpha x^2} dx = \sqrt{\frac{\pi}{\alpha}}
 $$
+{{</animated>}}
+
 
 > 이것을 바로 증명하기에는 어려움이 있으므로 제곱 꼴을 고려해야 합니다.
 > $$\left(\int_{-\infty}^\infty e^{-\alpha x^2}\right)^2 = \int_{-\infty}^\infty \int_{-\infty}^\infty e^{-\alpha(x^2 + y^2)} dx dy$$
@@ -52,9 +55,11 @@ $$
 
 ### 일차원 가우스 적분 일반화
 
+{{<animated>}}
 $$
 (2\pi)^{-\frac{1}{2}}\int_{-\infty}^\infty e^{-\frac{1}{2}a x^2 + Jx} = a^{-\frac{1}{2}} e^{\frac{J^2}{2a}}
 $$
+{{</animated>}}
 
 > 단순히 완전제곱식을 이용하여 정리하면 해결되는 적분입니다.
 > $$\int_{-\infty}^\infty e^{-\frac{a}{2}(y - \frac{J}{a})^2 + \frac{J^2}{2a}} = \int_{-\infty}^\infty e^{-\frac{a}{2}t^2} dt \cdot e^{\frac{J^2}{2a}}$$
@@ -65,9 +70,11 @@ $$
 
 ### 파인만 트릭을 이용한 가우스 적분
 
+{{<animated>}}
 $$
 \int_{-\infty}^\infty x^2 e^{-a x^2}dx = \frac{1}{2}\pi^{\frac{1}{2}} a^{-\frac{3}{2}}
 $$
+{{</animated>}}
 
 > 먼저 다음과 같이 가우스 적분을 $a$에 대한 함수로 정의합니다.
 > $$I(a) \equiv \int_{-\infty}^\infty e^{-ax^2} dx$$
@@ -92,9 +99,11 @@ $$
 
 가우스 적분의 꽃은 역시 가우시안 분포라고 할 수 있습니다. 통계학에서 정규분포라고도 일컫는 이 확률 분포는 확률을 구하기 위해서 반드시 가우스 적분을 필요로 합니다. 단변수 가우시안 혹은 1차원 가우시안 분포의 확률밀도함수(Probability density function)은 다음과 같습니다.
 
+{{<animated>}}
 $$
 p(x) = \mathcal{N}(x | \mu, \sigma^2) = \frac{1}{\sqrt{2\pi \sigma^2}} \exp{\left(-\frac{1}{2\sigma^2}(x-\mu)^2 \right)}
 $$
+{{</animated>}}
 
 위 식에서 보다시피 단변수 가우시안 분포를 정의하기 위해서는 두 매개변수(Parameter) $\mu$와 $\sigma$가 필요합니다. 이미 이 매개변수들의 의미를 알고 있는 사람들이 많을 것 같지만 일단은 매개변수 이상의 의미를 두지 않고 성질을 살펴보도록 하겠습니다.
 
@@ -120,9 +129,11 @@ $$
 
 확률밀도함수가 주어졌을 때, 기댓값의 정의는 다음과 같습니다.
 
+{{<animated>}}
 $$
 \mathbb{E}[X] = \int_{-\infty}^\infty x p(x) dx
 $$
+{{</animated>}}
 
 이를 이용하여 단변수 가우시안 분포의 기댓값을 구해봅시다. 식이 조금 복잡할 수 있으니 상수는 제외하고 적분을 먼저 계산하겠습니다.
 
@@ -149,9 +160,11 @@ $$
 
 표준편차는 *분산 (Variance)* 을 구하면 자동으로 도출되는 값입니다. 분산의 정의는 다음과 같습니다.
 
+{{<animated>}}
 $$
 Var[X] = \mathbb{E}\left[(X - \mu)^2 \right]
 $$
+{{</animated>}}
 
 그럼 바로 계산을 시작해봅시다.
 

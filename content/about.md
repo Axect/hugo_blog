@@ -85,6 +85,12 @@ toc: false
         * [Crates](https://crates.io/crates/puruspe)
         * [Docs](https://docs.rs/puruspe)
 
+* **NCDataFrame.jl**: Julia에서 DataFrame으로 netCDF I/O를 구현한 라이브러리 (Maintainer)
+    * 링크
+        * [Github](https://github.com/Axect/NCDataFrame.jl)
+        * [JuliaHub](https://juliahub.com/ui/Packages/NCDataFrame/zhMPT/)
+        * [Docs](https://juliahub.com/docs/NCDataFrame/zhMPT)
+
 * **HNumeric**: Haskell 수치 계산 라이브러리 (Archived)
     * 링크
         * [Github](https://github.com/Axect/HNumeric)

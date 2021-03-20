@@ -87,6 +87,12 @@ Graduate student & Rustacean
         * [Crates](https://crates.io/crates/puruspe)
         * [Docs](https://docs.rs/puruspe)
 
+* **NCDataFrame.jl**: Julia netCDF I/O with DataFrame (Maintainer)
+    * 링크
+        * [Github](https://github.com/Axect/NCDataFrame.jl)
+        * [JuliaHub](https://juliahub.com/ui/Packages/NCDataFrame/zhMPT/)
+        * [Docs](https://juliahub.com/docs/NCDataFrame/zhMPT)
+
 * **HNumeric**: Numerical library for Haskell (Archived)
     * Link
         * [Github](https://github.com/Axect/HNumeric)
