@@ -7,11 +7,6 @@ images:
 tags:
   - statistics
   - julia
-  - linear regression
-  - highschool
-  - 통계
-  - 선형회귀
-  - 고등수학
 ---
 
 {{<img src="/posts/images/breakthrough2016.gif" caption="[2016 Breakthrough of the year](https://www.youtube.com/watch?v=2ncTCM7t79o)">}}

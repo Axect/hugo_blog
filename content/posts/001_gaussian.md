@@ -7,8 +7,6 @@ images:
 tags:
   - statistics
   - gaussian
-  - 통계
-  - 가우시안
 ---
 
 물리학이나 통계학 등을 하다보면 항상 마주치는 원수 같은 존재가 있습니다. 별로 어렵지는 않은데 마주칠 때마다 헷갈리는 그 존재는 바로 **가우스 적분**(Gaussian Integral)입니다.
