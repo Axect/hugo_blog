@@ -88,7 +88,7 @@ Graduate student & Rustacean
         * [Docs](https://docs.rs/puruspe)
 
 * **NCDataFrame.jl**: Julia netCDF I/O with DataFrame (Maintainer)
-    * 링크
+    * Link
         * [Github](https://github.com/Axect/NCDataFrame.jl)
         * [JuliaHub](https://juliahub.com/ui/Packages/NCDataFrame/zhMPT/)
         * [Docs](https://juliahub.com/docs/NCDataFrame/zhMPT)
