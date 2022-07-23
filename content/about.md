@@ -157,7 +157,7 @@ toc: false
 
 ### 기계학습
 
-* **통계적 기게학습**
+* **통계적 기계학습**
     * Masashi Sugiyama, *Introduction to Statistical Machine Learning*. 1st ed., Morgan Kaufmann (2015)
     * Christopher M. Bishop, *Pattern Recognition and Machine Learning*, Springer (2006)
     * Gareth James et al., *An Introduction to Statistical Learning: with Applications in R*. 1st ed., Springer (2013)
