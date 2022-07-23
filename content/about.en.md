@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2020-05-21T15:15:36+09:00
+date: 2022-07-23T14:27:50+09:00
 draft: false
 toc: false
 ---
@@ -25,9 +25,10 @@ Graduate student & Rustacean
 
 ## Research Area
 
-* Numerical Relativity
-* Scientific Computation
 * Particle Physics (Phenomenology)
+* Scientific Computation
+* Machine Learning
+* Numerical Relativity
 
 -----
 
@@ -48,15 +49,29 @@ Graduate student & Rustacean
 * Quantum Field Theory
 * Mathematical Physics
 
+### Machine Learning
+
+* Statistical Machine Learning
+    * Linear Regression (LASSO, Ridge)
+    * Logistic Regression
+    * Linear Discrimination
+    * Kernel Based Methods
+        * Kernel Smoothing
+        * Kernel Density Estimation
+* Neural Network
+    * MLP, CNN, RNN (LSTM, GRU), Transformer
+    * Spiking Neural Network
+    * Graph Neural Network
+
 ### Programming
 
-* Main language: Rust
-* Sub languages: Python, C++, Julia, R
+* Main language: Rust, Julia, Python
+* Sub languages: C/C++, Haskell
 * Frameworks or Libraries
     * Numerical: peroxide, BLAS, LAPACK, numpy, scipy
     * Visualization: matplotlib, vegas, ggplot2, plotly
     * Web: Django, Vue, Firebase, Surge, Hugo
-    * Machine Learning: Tensorflow, Torch
+    * Machine Learning: PyTorch, PyTorch Lightning, Wandb, Flux, Tensorflow, Norse
 
 -----
 
@@ -102,3 +117,62 @@ Graduate student & Rustacean
     * Link
         * [Github](https://github.com/Axect/DNumeric)
         * [DUB](https://code.dlang.org/packages/dnumeric)
+
+-----
+
+## Books I've read
+
+### Mathematics
+
+* **Linear Algebra**
+    * Mark S, Gockenbach, *Finite-Dimensional Linear Algebra*. 1st ed., CRC Press (2010)
+* **Analysis**
+    * Walter Rudin, *Principles of Mathematical Analysis*. 3rd ed., McGraw Hill (1976)
+    * Elias M. Stein, Rami Shakarchi, *Fourier Analysis: An Introduction*. Illustrated ed., Princeton University Press (2003)
+    * Elias M. Stein, Rami Shakarchi, *Real Analysis: Measure Theory, Integration, and Hilbert Spaces*. 1st ed., Princeton University Press (2005)
+* **Differential Geometry**
+    * William M. Boothby, *An Introduction to Differentiable Manifolds and Riemannian Geometry*. Revised 2nd ed., Academic Press (2002)
+    * Barrett O'Neill, *Elementary Differential Geometry*. Revised 2nd ed., Academic Press (2006)
+* **Topology**
+    * James R. Munkres, *Topology*. 2nd ed., Pearson College Div (2000)
+    * Werner Ballmann, *Introduction to Geometry and Topology*. 1st ed., Birkhäuser (2018)
+
+### Physics
+
+* **Classical Mechanics**
+    * L. D. Landau, E. M. Lifshitz, *Mechanics: Volume 1*. 3rd ed., Butterworth-Heinemann (1976)
+    * Herbert Goldstein, *Classical Mechanics*. 3rd ed., Pearson (2001)
+* **Quantum Mechanics**
+    * Ashok Das, *Lectures on Quantum Mechanics*. 2nd ed., World Scientific Publishing Company (2012)
+    * J. J. Sakurai, Jim J. Napolitano, *Modern Quantum Mechanics*. 2nd ed., Pearson (2010)
+* **General Relativity**
+    * Harvey Reall, *Part 3 General Relativity*, University of Cambridge 65 (2013)
+    * M. P. Hobson et al., *General Relativity: An Introduction for Physicists*. Illustrated ed., Cambridge University Press (2006)
+    * F. de Felice, C. J. S. Clarke, *Relativity on Curved Manifolds*, Cambridge University Press (1992)
+* **Quantum Field Theory**
+    * Lewis H. Ryder, *Quantum Field Theory*. 2nd ed., Cambridge University Press (1996)
+    * Michael E. Peskin, Daniel V. Schroeder, *An Introduction to Quantum Field Theory, Student Economy Edition*. 1st ed., Westview Press (2015)
+    * Michele Maggiore, *A Modern Introduction to Quantum Field Theory*, Oxford University Press (2005)
+    * Ashok Das, *Field Theory: A Path Integral Approach*. 3rd ed., World Scientific (2006)
+
+### Machine Learning
+
+* **Statistical Machine Learning**
+    * Masashi Sugiyama, *Introduction to Statistical Machine Learning*. 1st ed., Morgan Kaufmann (2015)
+    * Christopher M. Bishop, *Pattern Recognition and Machine Learning*, Springer (2006)
+    * Gareth James et al., *An Introduction to Statistical Learning: with Applications in R*. 1st ed., Springer (2013)
+    * Trevor Hastie et al., *The Elements of Statistical Learning: Data Mining, Inference, and Prediction*. 2nd ed., Springer (2016)
+    * Yaser S. Abu-Mostafa et al., *Learning from Data*, AMLBook (2012)
+* **Deep Learning**
+    * Zhang et al., *Dive into Deep Learning*. 1.0.0-alpha0. (2022)
+    * Eli Stevens et al., *Deep Learning with PyTorch*, Manning (2020)
+    * 오가와 유타로, *만들면서 배우는 파이토치 딥러닝: 12가지 모델로 알아보는 딥러닝 응용법*, 한빛미디어 (2021)
+
+### ETC
+
+* **Algorithm**
+    * Tim Roughgarden, *Algorithms Illuminated: Part1: The Basics*. Illustrated ed., Soundlikeyourself Publishing (2017)
+* **Rust**
+    * Steve Klabnik, Carol Nichols, *The Rust Programming Language*. 1st ed., No Starch Press (2018)
+    * Jim Blandy, Jason Orendorff, *Programming Rust: Fast, Safe, Systems Development*. 1st ed., O'Reilly Media (2018)
+    * Tim McNamara, *Rust in Action*, Manning (2021)
