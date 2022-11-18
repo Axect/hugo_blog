@@ -11,12 +11,12 @@ tags:
   - paper-review
 ---
 
-{{<img src="/posts/images/006_01_paper.png" caption="[arXiv: 1511.06068](https://arxiv.org/abs/1511.06068) ">}}
+{{<img src="/posts/images/005_01_paper.png" caption="[arXiv: 1511.06068](https://arxiv.org/abs/1511.06068) ">}}
 
 &emsp;&emsp;딥러닝에서 가장 빈번하게 일어나는 문제로 {{<emph "Overfitting (과적합)">}}이 있습니다.
 이는 데이터가 많지 않을 때, 학습을 많이 할 수록 잘 발생하는 문제이며 이로 인하여 훈련 데이터셋에 대해서는 성능이 좋더라도 검증 데이터셋이나 실제 데이터셋에 대해서는 성능이 안 나오는 문제가 발생합니다. 이를 해결하기 위하여 사람들은 여러 방법을 고안했는데, 통계학에서는 일찌감치 Ridge나 LASSO와 같은 regularization 방법을 사용하였으며 딥러닝에서도 마찬가지로 weight을 regularize하거나 신경망에 여러 기술을 적용하는 것들을 도입하였습니다. 이러한 기술로는 다음과 같은 방법들이 있습니다.
 
-{{<img src="/posts/images/006_02_overfitting.png" caption="Bejani, M.M., Ghatee, M. *A systematic review on overfitting control in shallow and deep neural networks.* Artif Intell Rev 54, 6391–6438 (2021)">}}
+{{<img src="/posts/images/005_02_overfitting.png" caption="Bejani, M.M., Ghatee, M. *A systematic review on overfitting control in shallow and deep neural networks.* Artif Intell Rev 54, 6391–6438 (2021)">}}
 
 특히 이 중에서 가장 유명하다고 할 수 있는 것은 {{<emph "Dropout">}}인데, 이는 신경망의 뉴런들 중 일부를 제거함으로써 뉴런들의 중복활동을 억제하는 효과를 주는 것입니다.
 실제로 이는 Overfitting을 줄일 수 있는 굉장히 효과적인 방법이었고, 이제는 신경망 구성에 포함되는 것이 당연한 정도가 되었습니다. 다만 Dropout이 모든 경우에 효과적인 방법은 아닙니다. 훈련 데이터가 적거나 뉴런 수 자체가 적다면 임의의 뉴런을 제거하는 것이 신경망의 표현력을 제한할 수 있습니다. 또한 그 효과와는 별개로 Dropout은 특유의 간단한 구조와 개념 덕에 이론적인 즐거움은 반감되는 면이 있습니다. 여기서는 그 즐거움과 효과를 보완해주는 재미있는 논문을 소개하고자 합니다.
@@ -83,7 +83,7 @@ $$
 
 &emsp;&emsp;딥러닝에서 갑자기 상관관계를 설명하는 까닭은 두 변수 혹은 여러 변수가 서로 유의미한 상관관계를 갖고 있다면 이것이 모델에 악영향을 끼치기 때문입니다. 심층신경망은 각 feature들에 할당된 가중치를 업데이트하며 학습하게 되는데, 만일 두 feature가 정확히 같은 역할을 한다면 둘 중 어떤 가중치를 변경해도 같은 결과가 발생하는 일종의 degeneracy가 발생하게 됩니다. 이는 정확한 학습을 방해하고 신경망을 편향시키는데, 위 논문에서는 이것이 과적합을 발생시키는 원인으로 간주하였습니다. 실제로 논문에서는 과적합 정도를 훈련 정확도와 검증 정확도의 차이로 정의하고 Decorrelation 정도를 수치화한 것을 `DeCov`라는 변수로 둔다면 다음과 같은 결과를 얻을 수 있음을 보였습니다.
 
-{{<img src="/posts/images/006_03_decov.png" caption="Overfitting과 Covariance의 상관관계">}}
+{{<img src="/posts/images/005_03_decov.png" caption="Overfitting과 Covariance의 상관관계">}}
 
 위 그림에서는 훈련 샘플을 늘리면서 Overfitting 정도가 작아질 때, Cross-Covariance 정도도 같이 줄어드는 것을 볼 수 있습니다. 이를 이용하면 Covariance를 줄인다면, 즉, Decorrelation을 한다면 Overfitting을 줄일 수 있을 것이라 생각할 수 있습니다.
 
@@ -125,7 +125,7 @@ def decov(h):
 
 &emsp;&emsp;원 논문에서는 이를 여러가지 image 데이터들에 적용해보았지만, 여기서는 그 효과를 좀 더 쉽게 실감하기 위하여 간단한 회귀문제에 적용해보고자 합니다. 신경망에게 출제할 데이터는 다음과 같습니다.
 
-{{<img src="/posts/images/006_04_data.png" caption="비선형 데이터 [참고: [Peroxide_Gallery](https://github.com/Axect/Peroxide_Gallery/tree/master/Machine_Learning/linear_reg_ridge)]">}}
+{{<img src="/posts/images/005_04_data.png" caption="비선형 데이터 [참고: [Peroxide_Gallery](https://github.com/Axect/Peroxide_Gallery/tree/master/Machine_Learning/linear_reg_ridge)]">}}
 
 이를 간단한 신경망과 `DeCov`를 구현한 신경망 각각에 대해 풀어보게 하였는데, `DeCov` 신경망의 구조는 다음과 같습니다.
 
@@ -180,17 +180,17 @@ class DeCovMLP(pl.LightningModule):
 ```
 이를 간단히 살펴보면 `fc_init` 단일층을 지났을 때의 값을 이용하여 `loss_0`를 정의하였고, `fc_mid`라는 3개 층을 지났을 때의 값을 이용하여 `loss_1`을 정의하여 이를 MSE loss에 regularization 항처럼 적용한 것을 볼 수 있습니다. 결과를 보기 전에 `SimpleMLP`와 `DeCovMLP`의 훈련과정을 보면 재미있는 것을 관측할 수 있습니다.
 
-{{<img src="/posts/images/006_07_SimpleMLP.png" caption="SimpleMLP losses ([wandb.ai](https://wandb.ai/axect/DeCov/runs/2dx8i9b7?workspace=user-axect))">}}
+{{<img src="/posts/images/005_07_SimpleMLP.png" caption="SimpleMLP losses ([wandb.ai](https://wandb.ai/axect/DeCov/runs/2dx8i9b7?workspace=user-axect))">}}
 
-{{<img src="/posts/images/006_08_DeCovMLP.png" caption="DeCovMLP losses ([wandb.ai](https://wandb.ai/axect/DeCov/runs/22ggcfkd?workspace=user-axect))">}}
+{{<img src="/posts/images/005_08_DeCovMLP.png" caption="DeCovMLP losses ([wandb.ai](https://wandb.ai/axect/DeCov/runs/22ggcfkd?workspace=user-axect))">}}
 
 `SimpleMLP`에서는 훈련이 거듭될수록 `decov_1`이 증가하다 더 이상 줄어들지 않는 것을 볼 수 있습니다. 하지만 `DeCovMLP`에서는 `decov_1`의 값이 꾸준히 줄어드는 것을 볼 수 있습니다. 이는 논문에서 예상했던 것과 같이 overfitting 되면 feature 간의 correlation 역시 늘어나는 것과 같은 양상입니다. 그렇다면 이제 결과를 보도록 하겠습니다.
 
-{{<img src="/posts/images/006_05_total.png" caption="Results!">}}
+{{<img src="/posts/images/005_05_total.png" caption="Results!">}}
 
 붉은 선은 `SimpleMLP`의 결과이고 파란 선은 `DeCovMLP`의 결과입니다. 붉은 선이 Overfit 되어 요동이 심한 것에 비해 파란 선은 `true`에서 별로 벗어나지 않고 요동도 심하지 않다는 것을 볼 수 있습니다. 여기까지만 해도 충분히 놀라운 결과이지만 조금만 extrapolate을 해보면 더 재미있는 결과를 얻을 수 있었습니다.
 
-{{<img src="/posts/images/006_06_extrapolate.png" caption="Extrapolate!">}}
+{{<img src="/posts/images/005_06_extrapolate.png" caption="Extrapolate!">}}
 
 훈련 데이터셋에 과적합된 붉은 선은 정의역이 조금만 벗어나도 완전히 어긋난 결과를 보여주는 반면 푸른 선은 크게 벗어나지 않는 양상을 보여줍니다. 확실히 `DeCovMLP`가 더 일반화 성능이 뛰어나다는 것을 그림으로부터 알 수 있습니다.
 
