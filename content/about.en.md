@@ -75,6 +75,22 @@ Graduate student & Rustacean
 
 -----
 
+## Academic Activities
+
+### Papers
+
+* Yongsoo Jho, {{<emph "Tae-Geun Kim">}}, Jong-Chul Park, Seong Chan Park and Yeji Park, *Axions from Primordial Black Holes*, [arXiv:2212.11977](https://arxiv.org/abs/2212.11977) (2022)
+
+### Conferences
+
+* {{<emph "Tae-Geun Kim">}}, [*Constraining ALPs via PBH with time-varying decay process*](https://axect.github.io/Slides/PHY/PBH_ALP/20221021_WPDC.html), Workshop on Physics of Dark Cosmos: dark matter, dark energy, and all (2022)
+
+* {{<emph "Tae-Geun Kim">}}, [*Constraining ALPs via PBH with time-varying decay process Part.2*](https://axect.github.io/Slides/PHY/PBH_ALP/20221021_kps.html), KPS 70th Anniversary and 2022 Fall Meeting (2022)
+
+* {{<emph "Tae-Geun Kim">}}, [*Bird's eye view of Neutron star cooling*](https://axect.github.io/Slides/PHY/NS/neutron-saga.html), 16th Saga-Yonsei Joint Workshop (2019)
+
+-----
+
 ## Project
 
 * **Peroxide**: Numerical library for Rust (Maintainer)
