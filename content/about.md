@@ -124,6 +124,7 @@ toc: false
 
 ### 논문
 
+* Kayoung Ban, Dong Woo Kang, {{<emph "Tae-Geun Kim">}}, Seoung Chan Park and Yeji Park, *DeeLeMa : Missing information search with Deep Learning for Mass estimation*, [arXiv:2212.12836](https://arxiv.org/abs/2212.12836) (2022)
 * Yongsoo Jho, {{<emph "Tae-Geun Kim">}}, Jong-Chul Park, Seong Chan Park and Yeji Park, *Axions from Primordial Black Holes*, [arXiv:2212.11977](https://arxiv.org/abs/2212.11977) (2022)
 
 ### 발표
