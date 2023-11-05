@@ -3,98 +3,144 @@ defaultContentLanguage = "kr"
 title = "Axect's Blog"
 theme = "hello-friend-ng"
 paginate = 10
+rssLimit = 10
 googleAnalytics = "UA-167590700-1"
 
+archetypeDir = "archetypes"
+contentDir = "content"
+dataDir = "data"
+layoutDir = "layouts"
+publishDir = "public"
+
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo = false
+enableEmoji = true
+enableMissingTranslationPlaceholders = false
+disableRSS = false
+disableSitemap = false
+disable404 = false
+disableHugoGeneratorInject = false
+
 [params]
-    dateform = "Jan 2, 2006"
-    dateformShort = "Jan 2"
-    dateformNum = "2006-01-02"
-    dateformNumTime = "2006-01-02 15:04 -0700"
+dateform = "Jan 2, 2006"
+dateformShort = "Jan 2"
+dateformNum = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04 -0700"
 
-    # Subtitle for home
-    homeSubtitle = "Mathematics, Physics and Computations"
+# Subtitle for home
+#homeSubtitle = "Mathematics, Physics and Computations"
 
-    # Set disableReadOtherPosts to true in order to hide the links to other posts.
-    disableReadOtherPosts = false
+# Set disableReadOtherPosts to true in order to hide the links to other posts.
+disableReadOtherPosts = false
 
-    # Metadata mostly used in document's head
-    description = "Axect's Blog"
-    keywords = "blog, homepage"
-    images = [""]
+# Metadata mostly used in document's head
+description = "Axect's Blog"
+keywords = "blog, homepage"
+images = [""]
 
-    # Default theme "light" or "dark"
-    defaultTheme = "light"
+# Default theme "light" or "dark"
+defaultTheme = "light"
 
-    [[params.social]]
-        name = "github"
-        url = "https://github.com/Axect"
+enableSharingButtons = true
+enableGlobalLanguageMenu = true
 
-    [[params.social]]
-        name = "linkedin"
-        url = "https://www.linkedin.com/in/tae-geun-kim/"
+[params.footer]
+trademark = 2023
+rss = true
+copyright = true
+author = true
 
-    [[params.social]]
-        name = "email"
-        url = "mailto:axect@outlook.kr"
+topText = []
+bottomText = [
+  "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+  "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>",
+]
+# Colors for favicons
+#
+[params.favicon.color]
+mask = "#1b1c1d"
+msapplication = "#1b1c1d"
+theme = "#1b1c1d"
 
+[[params.social]]
+name = "github"
+url = "https://github.com/Axect"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/tae-geun-kim/"
+
+[[params.social]]
+name = "email"
+url = "mailto:axect@outlook.kr"
 
 
 [author]
-    name = "Axect"
+name = "Axect"
 
 [taxonomies]
-    category = "blog"
-    tag      = "tags"
-    series   = "series"
+category = "blog"
+tag = "tags"
+series = "series"
 
 [languages]
-  [languages.kr]
-    languageCode = "kr"
-    languageName = "Korean"
-    title = "Axect's Blog"
-    subtitle = "수학, 물리 그리고 계산"
-    keywords = ""
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "다른 글 읽기"
-    weight = 2
+[languages.kr]
+languageCode = "kr"
+languageName = "Korean"
+title = "Axect's Blog"
+copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+weight = 2
 
-    [languages.kr.params.logo]
-      logoText = "cd /home/axect/"
-      logoHomeLink = "/"
+[languages.kr.params]
+subtitle = "수학, 물리 그리고 계산"
+readOtherPosts = "다른 글 읽기"
+keywords = ""
 
-  [languages.en]
-    languageCode = "en"
-    languageName = "English"
-    title = "Axect's Blog"
-    subtitle = "Mathematics, Physics and Computations"
-    keywords = ""
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
-    weight = 1
+[languages.kr.params.logo]
+logoText = "cd /home/axect/"
+logoHomeLink = "/"
 
-    [languages.en.params.logo]
-      logoText = "cd /home/axect/"
-      logoHomeLink = "/en"
-  
-  
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
+[languages.en]
+languageCode = "en"
+languageName = "English"
+title = "Axect's Blog"
+copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+weight = 1
 
-  # And you can even create generic menu
+[languages.en.params]
+subtitle = "Mathematics, Physics and Computations"
+readOtherPosts = "Read other posts"
+keywords = ""
+
+
+[languages.en.params.logo]
+logoText = "cd /home/axect/"
+logoHomeLink = "/en"
+
+
+# or
+#
+# path = "/img/your-example-logo.svg"
+# alt = "Your example logo alt text"
+
+# And you can even create generic menu
 [menu]
-  [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/posts"
 
-  [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "/about"
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about"
 
-  [[menu.main]]
-    identifier = "tags"
-    name       = "Tags"
-    url        = "/tags"
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags"
