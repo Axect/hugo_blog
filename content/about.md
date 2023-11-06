@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2022-07-23T14:27:50+09:00
+date: 2023-11-06T19:03:00+09:00
 draft: false
 toc: false
 ---
@@ -91,22 +91,46 @@ toc: false
     * Vectorization: SIMD, BLAS, LAPACK
     * FFI: C, Fortran, Python
     * Data structures: Dataframe
-    * IO: csv, netcdf, json
+    * IO: csv, netcdf, json, parquet
+    * Meta-programming: `proc-macro`
 
 * **Puruspe**: 순수 Rust Special function 라이브러리 (Maintainer)
   * 링크
     * [Github](https://github.com/Axect/Puruspe)
     * [Crates](https://crates.io/crates/puruspe)
     * [Docs](https://docs.rs/puruspe)
+
+* **DeeLeMa**: Deep Learning for Mass estimation (Maintainer)
+  * Link
+    * [Github](https://github.com/Yonsei-HEP-COSMO/DeeLeMa)
+    * [ArXiv](https://arxiv.org/abs/2212.12836)
   * 사용기술
-    * Meta-programming: `proc-macro`
-    * IO: csv, netcdf
+    * Deep Learning Framework: PyTorch, PyTorch Lightning
+    * Hyperparameter Optimization: Wandb-sweep
+    * Monitoring: Wandb, Tensorboard
+    * Package Management: PDM
+
+* ZelLayGen: Zellij Layout Generator (Maintainer)
+  * Link
+    * [Github](https://github.com/Axect/Zellaygen)
+  * 사용기술
+    * Language: Rust
+    * Serialization & Deserialization: Serde
+    * Data format: TOML, KDL
 
 * **NCDataFrame.jl**: Julia에서 DataFrame으로 netCDF I/O를 구현한 라이브러리 (Maintainer)
   * 링크
     * [Github](https://github.com/Axect/NCDataFrame.jl)
     * [JuliaHub](https://juliahub.com/ui/Packages/NCDataFrame/zhMPT/)
     * [Docs](https://juliahub.com/docs/NCDataFrame/zhMPT)
+
+* **Puruda**: Pure Rust Dataframe library (Archived)
+  * Link
+    * [Github](https://github.com/Axect/Puruda)
+    * [Crates](https://crates.io/crates/puruda)
+  * 사용기술
+    * Meta-programming: `proc-macro`
+    * IO: csv, netcdf
 
 * **HNumeric**: Haskell 수치 계산 라이브러리 (Archived)
   * 링크

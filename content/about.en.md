@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2022-07-23T14:27:50+09:00
+date: 2023-11-06T19:03:00+09:00
 draft: false
 toc: false
 ---
@@ -106,15 +106,8 @@ Graduate student & Rustacean
     * Vectorization: SIMD, BLAS, LAPACK
     * FFI: C, Fortran, Python
     * Data structures: Dataframe
-    * IO: csv, netcdf, json
-
-* **Puruda**: Pure Rust Dataframe library (Maintainer)
-  * Link
-    * [Github](https://github.com/Axect/Puruda)
-    * [Crates](https://crates.io/crates/puruda)
-  * Technologies
+    * IO: csv, netcdf, json, parquet
     * Meta-programming: `proc-macro`
-    * IO: csv, netcdf
 
 * **Puruspe**: Pure Rust Special function library (Maintainer)
   * Link
@@ -122,11 +115,37 @@ Graduate student & Rustacean
     * [Crates](https://crates.io/crates/puruspe)
     * [Docs](https://docs.rs/puruspe)
 
+* **DeeLeMa**: Deep Learning for Mass estimation (Maintainer)
+  * Link
+    * [Github](https://github.com/Yonsei-HEP-COSMO/DeeLeMa)
+    * [ArXiv](https://arxiv.org/abs/2212.12836)
+  * Technologies
+    * Deep Learning Framework: PyTorch, PyTorch Lightning
+    * Hyperparameter Optimization: Wandb-sweep
+    * Monitoring: Wandb, Tensorboard
+    * Package Management: PDM
+
+* ZelLayGen: Zellij Layout Generator (Maintainer)
+  * Link
+    * [Github](https://github.com/Axect/Zellaygen)
+  * Technologies
+    * Language: Rust
+    * Serialization & Deserialization: Serde
+    * Data format: TOML, KDL
+
 * **NCDataFrame.jl**: Julia netCDF I/O with DataFrame (Maintainer)
   * Link
     * [Github](https://github.com/Axect/NCDataFrame.jl)
     * [JuliaHub](https://juliahub.com/ui/Packages/NCDataFrame/zhMPT/)
     * [Docs](https://juliahub.com/docs/NCDataFrame/zhMPT)
+
+* **Puruda**: Pure Rust Dataframe library (Archived)
+  * Link
+    * [Github](https://github.com/Axect/Puruda)
+    * [Crates](https://crates.io/crates/puruda)
+  * Technologies
+    * Meta-programming: `proc-macro`
+    * IO: csv, netcdf
 
 * **HNumeric**: Numerical library for Haskell (Archived)
   * Link
