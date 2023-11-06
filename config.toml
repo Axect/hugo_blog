@@ -25,6 +25,7 @@ disableRSS = false
 disableSitemap = false
 disable404 = false
 disableHugoGeneratorInject = false
+enableGlobalLanguageMenu = true
 
 [params]
 dateform = "Jan 2, 2006"
