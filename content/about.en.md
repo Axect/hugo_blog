@@ -75,26 +75,6 @@ Graduate student & Rustacean
 
 -----
 
-## Academic Activities
-
-### Papers
-
-* Chang Min Hyun, {{<emph "Tae-Geun Kim">}}, and Kyounghun Lee, *Unsupervised sequence-to-sequence learning for automatic signal quality assessment in multi-channel electrical impedance-based hemodynamic monitoring*, [arXiv:2305.09368](https://arxiv.org/abs/2305.09368) (2023)
-* Kayoung Ban, Dong Woo Kang, {{<emph "Tae-Geun Kim">}}, Seong Chan Park and Yeji Park, *DeeLeMa : Missing information search with Deep Learning for Mass estimation*, [arXiv:2212.12836](https://arxiv.org/abs/2212.12836) (2022)
-* Yongsoo Jho, {{<emph "Tae-Geun Kim">}}, Jong-Chul Park, Seong Chan Park and Yeji Park, *Axions from Primordial Black Holes*, [arXiv:2212.11977](https://arxiv.org/abs/2212.11977) (2022)
-
-### Conferences
-
-* {{<emph "Tae-Geun Kim">}}, [*Exploration of Primordial Black Holes and Axion-Like Particles through a novel decay model on cosmological scale*](https://www.dropbox.com/scl/fi/q79z6wwwxrshj88gw5y3k/SI2023_TGKim.pdf?rlkey=jv0ypybbi8175rju495a1k0xt&dl=0), 27th International Summer Institute on Phenomenology of Elementary Particle Physics and Cosmology (2023) [Poster]
-
-* {{<emph "Tae-Geun Kim">}}, [*Constraining ALPs via PBH with time-varying decay process*](https://axect.github.io/Slides/PHY/PBH_ALP/20221021_WPDC.html), Workshop on Physics of Dark Cosmos: dark matter, dark energy, and all (2022) [Oral]
-
-* {{<emph "Tae-Geun Kim">}}, [*Constraining ALPs via PBH with time-varying decay process Part.2*](https://axect.github.io/Slides/PHY/PBH_ALP/20221021_kps.html), KPS 70th Anniversary and 2022 Fall Meeting (2022) [Oral] [Best Oral Award]
-
-* {{<emph "Tae-Geun Kim">}}, [*Bird's eye view of Neutron star cooling*](https://axect.github.io/Slides/PHY/NS/neutron-saga.html), 16th Saga-Yonsei Joint Workshop (2019) [Oral]
-
------
-
 ## Project
 
 * **Peroxide**: Numerical library for Rust (Maintainer)
@@ -102,7 +82,7 @@ Graduate student & Rustacean
     * [Github](https://github.com/Axect/Peroxide)
     * [Crates](https://crates.io/crates/peroxide)
     * [Docs](https://peroxide.surge.sh)
-  * Technologies
+  * Tech stacks
     * Vectorization: SIMD, BLAS, LAPACK
     * FFI: C, Fortran, Python
     * Data structures: Dataframe
@@ -115,11 +95,32 @@ Graduate student & Rustacean
     * [Crates](https://crates.io/crates/puruspe)
     * [Docs](https://docs.rs/puruspe)
 
+* **Radient**: Rust automatic differentiation library (Maintainer)
+  * Link
+    * [Github](https://github.com/Axect/Radient)
+    * [Crates](https://crates.io/crates/radient)
+    * [Docs](https://docs.rs/radient)
+  * Tech stacks
+    * Reverse mode automatic differentiation
+    * Arena based memory management
+
+* **Forger**: Rust Reinforcement Learning library (Maintainer)
+  * Link
+    * [Github](https://github.com/Axect/Forger)
+    * [Crates](https://crates.io/crates/forger)
+    * [Docs](https://docs.rs/forger)
+  * Tech stacks
+    * Reinforcement Learning
+      * Monte Carlo
+      * Temporal Difference
+      * Q-Learning
+
 * **DeeLeMa**: Deep Learning for Mass estimation (Maintainer)
   * Link
     * [Github](https://github.com/Yonsei-HEP-COSMO/DeeLeMa)
     * [ArXiv](https://arxiv.org/abs/2212.12836)
-  * Technologies
+    * [PRR](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.043186)
+  * Tech stacks
     * Deep Learning Framework: PyTorch, PyTorch Lightning
     * Hyperparameter Optimization: Wandb-sweep
     * Monitoring: Wandb, Tensorboard
@@ -128,7 +129,7 @@ Graduate student & Rustacean
 * ZelLayGen: Zellij Layout Generator (Maintainer)
   * Link
     * [Github](https://github.com/Axect/Zellaygen)
-  * Technologies
+  * Tech stacks
     * Language: Rust
     * Serialization & Deserialization: Serde
     * Data format: TOML, KDL
@@ -143,7 +144,7 @@ Graduate student & Rustacean
   * Link
     * [Github](https://github.com/Axect/Puruda)
     * [Crates](https://crates.io/crates/puruda)
-  * Technologies
+  * Tech stacks
     * Meta-programming: `proc-macro`
     * IO: csv, netcdf
 
@@ -156,6 +157,26 @@ Graduate student & Rustacean
   * Link
     * [Github](https://github.com/Axect/DNumeric)
     * [DUB](https://code.dlang.org/packages/dnumeric)
+
+-----
+
+## Academic Activities
+
+### Papers
+
+* Chang Min Hyun, {{<emph "Tae-Geun Kim">}}, and Kyounghun Lee, *Unsupervised sequence-to-sequence learning for automatic signal quality assessment in multi-channel electrical impedance-based hemodynamic monitoring*, [arXiv:2305.09368](https://arxiv.org/abs/2305.09368) (2023)
+* Kayoung Ban, Dong Woo Kang, {{<emph "Tae-Geun Kim">}}, Seong Chan Park and Yeji Park, *DeeLeMa : Missing information search with Deep Learning for Mass estimation*, [arXiv:2212.12836](https://arxiv.org/abs/2212.12836), [Phys. Rev. Research **5**, 043186](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.043186) (2022)
+* Yongsoo Jho, {{<emph "Tae-Geun Kim">}}, Jong-Chul Park, Seong Chan Park and Yeji Park, *Axions from Primordial Black Holes*, [arXiv:2212.11977](https://arxiv.org/abs/2212.11977) (2022)
+
+### Conferences
+
+* {{<emph "Tae-Geun Kim">}}, [*Exploration of Primordial Black Holes and Axion-Like Particles through a novel decay model on cosmological scale*](https://www.dropbox.com/scl/fi/q79z6wwwxrshj88gw5y3k/SI2023_TGKim.pdf?rlkey=jv0ypybbi8175rju495a1k0xt&dl=0), 27th International Summer Institute on Phenomenology of Elementary Particle Physics and Cosmology (2023) [Poster]
+
+* {{<emph "Tae-Geun Kim">}}, [*Constraining ALPs via PBH with time-varying decay process*](https://axect.github.io/Slides/PHY/PBH_ALP/20221021_WPDC.html), Workshop on Physics of Dark Cosmos: dark matter, dark energy, and all (2022) [Oral]
+
+* {{<emph "Tae-Geun Kim">}}, [*Constraining ALPs via PBH with time-varying decay process Part.2*](https://axect.github.io/Slides/PHY/PBH_ALP/20221021_kps.html), KPS 70th Anniversary and 2022 Fall Meeting (2022) [Oral] [Best Oral Award]
+
+* {{<emph "Tae-Geun Kim">}}, [*Bird's eye view of Neutron star cooling*](https://axect.github.io/Slides/PHY/NS/neutron-saga.html), 16th Saga-Yonsei Joint Workshop (2019) [Oral]
 
 -----
 

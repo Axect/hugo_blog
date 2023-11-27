@@ -100,10 +100,31 @@ toc: false
     * [Crates](https://crates.io/crates/puruspe)
     * [Docs](https://docs.rs/puruspe)
 
+* **Radient**: Rust 자동미분 라이브러리 (Maintainer)
+  * 링크
+    * [Github](https://github.com/Axect/Radient)
+    * [Crates](https://crates.io/crates/radient)
+    * [Docs](https://docs.rs/radient)
+  * 사용기술
+    * Reverse mode automatic differentiation
+    * Arena based memory management
+
+* **Forger**: Rust 강화학습 라이브러리 (Maintainer)
+  * 링크
+    * [Github](https://github.com/Axect/Forger)
+    * [Crates](https://crates.io/crates/forger)
+    * [Docs](https://docs.rs/forger)
+  * 사용기술
+    * Reinforcement Learning
+      * Monte Carlo
+      * Temporal Difference
+      * Q-Learning
+
 * **DeeLeMa**: Deep Learning for Mass estimation (Maintainer)
-  * Link
+  * 링크
     * [Github](https://github.com/Yonsei-HEP-COSMO/DeeLeMa)
     * [ArXiv](https://arxiv.org/abs/2212.12836)
+    * [PRR](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.043186)
   * 사용기술
     * Deep Learning Framework: PyTorch, PyTorch Lightning
     * Hyperparameter Optimization: Wandb-sweep
@@ -111,7 +132,7 @@ toc: false
     * Package Management: PDM
 
 * ZelLayGen: Zellij Layout Generator (Maintainer)
-  * Link
+  * 링크
     * [Github](https://github.com/Axect/Zellaygen)
   * 사용기술
     * Language: Rust
@@ -125,7 +146,7 @@ toc: false
     * [Docs](https://juliahub.com/docs/NCDataFrame/zhMPT)
 
 * **Puruda**: Pure Rust Dataframe library (Archived)
-  * Link
+  * 링크
     * [Github](https://github.com/Axect/Puruda)
     * [Crates](https://crates.io/crates/puruda)
   * 사용기술
@@ -149,7 +170,7 @@ toc: false
 ### 논문
 
 * Chang Min Hyun, {{<emph "Tae-Geun Kim">}}, and Kyounghun Lee, *Unsupervised sequence-to-sequence learning for automatic signal quality assessment in multi-channel electrical impedance-based hemodynamic monitoring*, [arXiv:2305.09368](https://arxiv.org/abs/2305.09368) (2023)
-* Kayoung Ban, Dong Woo Kang, {{<emph "Tae-Geun Kim">}}, Seong Chan Park and Yeji Park, *DeeLeMa : Missing information search with Deep Learning for Mass estimation*, [arXiv:2212.12836](https://arxiv.org/abs/2212.12836) (2022)
+* Kayoung Ban, Dong Woo Kang, {{<emph "Tae-Geun Kim">}}, Seong Chan Park and Yeji Park, *DeeLeMa : Missing information search with Deep Learning for Mass estimation*, [arXiv:2212.12836](https://arxiv.org/abs/2212.12836), [Phys. Rev. Research **5**, 043186](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.043186) (2022)
 * Yongsoo Jho, {{<emph "Tae-Geun Kim">}}, Jong-Chul Park, Seong Chan Park and Yeji Park, *Axions from Primordial Black Holes*, [arXiv:2212.11977](https://arxiv.org/abs/2212.11977) (2022)
 
 ### 발표
