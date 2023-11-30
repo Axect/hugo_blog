@@ -1,4 +1,4 @@
-baseURL = "https://axect.github.io"
+baseURL = "https://axect.github.io/blog"
 defaultContentLanguage = "kr"
 title = "Axect's Blog"
 theme = "hello-friend-ng"
