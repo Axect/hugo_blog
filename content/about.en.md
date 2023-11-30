@@ -165,7 +165,9 @@ Graduate student & Rustacean
 ### Papers
 
 * Chang Min Hyun, {{<emph "Tae-Geun Kim">}}, and Kyounghun Lee, *Unsupervised sequence-to-sequence learning for automatic signal quality assessment in multi-channel electrical impedance-based hemodynamic monitoring*, [arXiv:2305.09368](https://arxiv.org/abs/2305.09368) (2023)
+
 * Kayoung Ban, Dong Woo Kang, {{<emph "Tae-Geun Kim">}}, Seong Chan Park and Yeji Park, *DeeLeMa : Missing information search with Deep Learning for Mass estimation*, [arXiv:2212.12836](https://arxiv.org/abs/2212.12836), [Phys. Rev. Research **5**, 043186](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.043186) (2022)
+
 * Yongsoo Jho, {{<emph "Tae-Geun Kim">}}, Jong-Chul Park, Seong Chan Park and Yeji Park, *Axions from Primordial Black Holes*, [arXiv:2212.11977](https://arxiv.org/abs/2212.11977) (2022)
 
 ### Conferences
