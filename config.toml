@@ -73,6 +73,14 @@ name = "github"
 url = "https://github.com/Axect"
 
 [[params.social]]
+name = "cv"
+url = "https://axect.github.io/cv"
+
+[[params.social]]
+name = "researchgate"
+url = "https://www.researchgate.net/profile/Tae-Geun-Kim-3"
+
+[[params.social]]
 name = "linkedin"
 url = "https://www.linkedin.com/in/tae-geun-kim/"
 
