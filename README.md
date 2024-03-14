@@ -1,5 +1,11 @@
 # Blog with Hugo
 
+## First steps after clone
+
+1. Submodule init: `git submodule init`
+2. Submodule update: `git submodule update`
+3. Build with theme: `hugo -t hello-friend-ng`
+
 ## Deploy process
 
 1. Add new post: `hugo new posts/test.md`
