@@ -5,6 +5,7 @@ theme = "hello-friend-ng"
 paginate = 10
 rssLimit = 10
 googleAnalytics = "UA-167590700-1"
+googleAnalyticsID = "GTM-MZKNMBNK"
 
 archetypeDir = "archetypes"
 contentDir = "content"
@@ -88,8 +89,7 @@ url = "https://www.linkedin.com/in/tae-geun-kim/"
 name = "email"
 url = "mailto:ax2ct@outlook.com"
 
-
-[author]
+[[params.author]]
 name = "Axect"
 
 [taxonomies]
