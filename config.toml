@@ -92,6 +92,9 @@ url = "mailto:ax2ct@outlook.com"
 [[params.author]]
 name = "Axect"
 
+[author]
+name = "Axect"
+
 [taxonomies]
 category = "blog"
 tag = "tags"
