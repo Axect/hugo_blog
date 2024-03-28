@@ -4,8 +4,6 @@ title = "Axect's Blog"
 theme = "hello-friend-ng"
 paginate = 10
 rssLimit = 10
-googleAnalytics = "UA-167590700-1"
-googleAnalyticsID = "GTM-MZKNMBNK"
 
 archetypeDir = "archetypes"
 contentDir = "content"
@@ -50,6 +48,7 @@ defaultTheme = "light"
 
 enableSharingButtons = true
 enableGlobalLanguageMenu = true
+googleAnalyticsID = "G-KME9ENECWV"
 
 [params.footer]
 trademark = 2023
