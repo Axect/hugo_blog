@@ -17,18 +17,16 @@ Graduate student & Rustacean
 
 ## Education
 
-* Ph.D: Department of Physics, Yonsei University (2020 ~ )
-* M.S.: Department of Physics, Yonsei University (2017 ~ 2019)
+* M.S. & Ph.D. Integrated: Department of Physics, Yonsei University (2017 ~ )
 * B.S.: Department of Astronomy, Yonsei University (2012 ~ 2017)
 
 -----
 
 ## Research Area
 
-* Particle Physics (Phenomenology)
-* Scientific Computation
-* Machine Learning
-* Numerical Relativity
+* Astroparticle Physics
+* Dark matter & BSM
+* Scientific computation & Machine learning
 
 -----
 
@@ -60,6 +58,7 @@ Graduate student & Rustacean
     * Kernel Density Estimation
 * Neural Network
   * MLP, CNN, RNN (LSTM, GRU), Transformer
+  * Operator learning & Neural ODE
   * Spiking Neural Network
   * Graph Neural Network
 
@@ -86,7 +85,7 @@ Graduate student & Rustacean
     * Vectorization: SIMD, BLAS, LAPACK
     * FFI: C, Fortran, Python
     * Data structures: Dataframe
-    * IO: csv, netcdf, json, parquet
+    * IO: csv, netcdf, json, parquet, serde
     * Meta-programming: `proc-macro`
 
 * **Puruspe**: Pure Rust Special function library (Maintainer)

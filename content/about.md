@@ -17,17 +17,16 @@ toc: false
 
 ## 학력
 
-* Ph.D: 연세대학교 대학원 물리학과 (2020 ~ )
-* M.S.: 연세대학교 대학원 물리학과 (2017 ~ 2019)
+* M.S. & Ph.D. Integrated: 연세대학교 대학원 물리학과 (2017 ~ )
 * B.S.: 연세대학교 천문우주학과 (2012 ~ 2017)
 
 -----
 
 ## 연구분야
 
-* 입자물리학 현상론
+* 천체입자물리
+* 암흑물질 및 BSM
 * 과학계산 및 기계학습
-* 우주론 및 수치 상대론
 
 -----
 
@@ -60,6 +59,7 @@ toc: false
     * Kernel Density Estimation
 * 인공신경망
   * MLP, CNN, RNN (LSTM, GRU), Transformer
+  * Operator learning & Nerual ODE
   * Spiking Neural Network
   * Graph Neural Network
 
@@ -77,7 +77,7 @@ toc: false
   * 웹
     * Django, Vue, Firebase, Surge, Hugo, Zola
   * 머신러닝
-    * PyTorch, PyTorch Lightning, Wandb, Flux, Tensorflow, Norse
+    * PyTorch, PyTorch Lightning, Candle, Wandb, Optuna, Tensorflow, Norse
 
 -----
 
@@ -92,7 +92,7 @@ toc: false
     * Vectorization: SIMD, BLAS, LAPACK
     * FFI: C, Fortran, Python
     * Data structures: Dataframe
-    * IO: csv, netcdf, json, parquet
+    * IO: csv, netcdf, json, parquet, serde
     * Meta-programming: `proc-macro`
 
 * **Puruspe**: 순수 Rust Special function 라이브러리 (Maintainer)
