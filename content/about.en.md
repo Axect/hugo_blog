@@ -57,10 +57,9 @@ Graduate student & Rustacean
     * Kernel Smoothing
     * Kernel Density Estimation
 * Neural Network
-  * MLP, CNN, RNN (LSTM, GRU), Transformer
+  * MLP, CNN, RNN (LSTM, GRU), Transformer, Mamba
   * Operator learning & Neural ODE
-  * Spiking Neural Network
-  * Graph Neural Network
+  * Bayesian Neural Network
 
 ### Programming
 

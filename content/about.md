@@ -58,10 +58,9 @@ toc: false
     * Kernel Smoothing
     * Kernel Density Estimation
 * 인공신경망
-  * MLP, CNN, RNN (LSTM, GRU), Transformer
+  * MLP, CNN, RNN (LSTM, GRU), Transformer, Mamba
   * Operator learning & Nerual ODE
-  * Spiking Neural Network
-  * Graph Neural Network
+  * Bayesian Neural Network
 
 ### 프로그래밍
 
