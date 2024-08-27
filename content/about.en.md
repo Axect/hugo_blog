@@ -69,7 +69,7 @@ Graduate student & Rustacean
   * Numerical: peroxide, BLAS, LAPACK, numpy, scipy
   * Visualization: matplotlib, vegas, ggplot2, plotly
   * Web: Django, Vue, Firebase, Surge, Hugo
-  * Machine Learning: PyTorch, PyTorch Lightning, Wandb, Flux, Tensorflow, Norse
+  * Machine Learning: PyTorch, JAX, Optax, Equinox, Wandb, Optuna, Candle, Tensorflow, Norse
 
 -----
 

@@ -76,7 +76,7 @@ toc: false
   * 웹
     * Django, Vue, Firebase, Surge, Hugo, Zola
   * 머신러닝
-    * PyTorch, PyTorch Lightning, Candle, Wandb, Optuna, Tensorflow, Norse
+    * PyTorch, JAX, Optax, Equinox, Wandb, Optuna, Candle, Tensorflow, Norse
 
 -----
 
