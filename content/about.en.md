@@ -162,6 +162,8 @@ Graduate student & Rustacean
 
 ### Papers
 
+* {{<emph "Tae-Geun Kim">}}, *Neural Hamilton: Can A.I. Understand Hamiltonian Mechanics?*, [arXiv:2410.20951](https://arxiv.org/abs/2410.20951) (2024)
+
 * {{<emph "Tae-Geun Kim">}}, *HyperbolicLR: Epoch insensitive learning rate scheduler*, [arXiv:2407.15200](https://arxiv.org/abs/2407.15200) (2024)
 
 * Chang Min Hyun, {{<emph "Tae-Geun Kim">}}, and Kyounghun Lee, *Unsupervised sequence-to-sequence learning for automatic signal quality assessment in multi-channel electrical impedance-based hemodynamic monitoring*, [CMPB 108079](https://doi.org/10.1016/j.cmpb.2024.108079), [arXiv:2305.09368](https://arxiv.org/abs/2305.09368) (2023)
@@ -171,6 +173,8 @@ Graduate student & Rustacean
 * Yongsoo Jho, {{<emph "Tae-Geun Kim">}}, Jong-Chul Park, Seong Chan Park and Yeji Park, *Axions from Primordial Black Holes*, [arXiv:2212.11977](https://arxiv.org/abs/2212.11977) (2022)
 
 ### Conferences
+
+* {{<emph "Tae-Geun Kim">}}, *Primordial Black Hole dominant Axion background*, 2024 KPS Fall Meeting (2024) [Oral]
 
 * {{<emph "Tae-Geun Kim">}}, [*Exploration of Primordial Black Holes and Axion-Like Particles through a novel decay model on cosmological scale*](https://www.dropbox.com/scl/fi/q79z6wwwxrshj88gw5y3k/SI2023_TGKim.pdf?rlkey=jv0ypybbi8175rju495a1k0xt&dl=0), 27th International Summer Institute on Phenomenology of Elementary Particle Physics and Cosmology (2023) [Poster]
 
