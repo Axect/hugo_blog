@@ -181,6 +181,16 @@ toc: false
 
 ### 발표
 
+* {{<emph "Tae-Geun Kim">}}, *Can A.I. Understand Hamiltonian Mechanics?*, Dark Matter as a portal to New Physics 2025 (2025) [Oral, Invited]
+
+* {{<emph "Tae-Geun Kim">}}, *Can A.I. Understand Hamiltonian Mechanics?*, Focused workshop on AI in High Energy Physics (2025) [Oral]
+
+* {{<emph "Tae-Geun Kim">}}, *Can A.I. Understand Hamiltonian Mechanics?*, 2024 Korea-France STAR Workshop [Oral]
+
+* {{<emph "Tae-Geun Kim">}}, *Can A.I. Understand Hamiltonian Mechanics?*, Invited Seminar @ KIAS (2024) [Oral, Invited]
+
+* {{<emph "Tae-Geun Kim">}}, *Can A.I. Understand Hamiltonian Mechanics?*, 21st Saga-Yonsei Joint Workshop (2024) [Oral]
+
 * {{<emph "Tae-Geun Kim">}}, *Primordial Black Hole dominant Axion background*, 2024 KPS Fall Meeting (2024) [Oral]
 
 * {{<emph "Tae-Geun Kim">}}, [*Exploration of Primordial Black Holes and Axion-Like Particles through a novel decay model on cosmological scale*](https://www.dropbox.com/scl/fi/q79z6wwwxrshj88gw5y3k/SI2023_TGKim.pdf?rlkey=jv0ypybbi8175rju495a1k0xt&dl=0), 27th International Summer Institute on Phenomenology of Elementary Particle Physics and Cosmology (2023) [Poster]

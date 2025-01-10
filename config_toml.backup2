@@ -99,6 +99,9 @@ category = "blog"
 tag = "tags"
 series = "series"
 
+defaultContentLanguage = 'kr'
+defaultContentLanguageInSubdir = true
+
 [languages]
 [languages.kr]
 languageCode = "kr"
