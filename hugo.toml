@@ -1,6 +1,5 @@
 baseURL = "https://axect.github.io"
 defaultContentLanguage = "kr"
-defaultContentLanguageInSubdir = true
 title = "Axect's Blog"
 theme = "hello-friend-ng"
 paginate = 10
