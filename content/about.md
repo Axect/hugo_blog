@@ -169,7 +169,9 @@ toc: false
 
 ### 논문
 
-* {{<emph "Tae-Geun Kim">}}, *Neural Hamilton: Can A.I. Understand Hamiltonian Mechanics?*, [arXiv:2410.20951](https://arxiv.org/abs/2410.20951) (2024)
+* Taehyeun Kim, {{<emph "Tae-Geun Kim">}}, Anouk Girard and Ilya Kolmanovsky, *Learning Hamiltonian Dynamics with Bayesian Data Assimilation*, [arXiv:2501.18808](https://arxiv.org/abs/2501.18808) (2025)
+
+* {{<emph "Tae-Geun Kim">}} and Seong Chan Park, *Neural Hamilton: Can A.I. Understand Hamiltonian Mechanics?*, [arXiv:2410.20951](https://arxiv.org/abs/2410.20951) (2024)
 
 * {{<emph "Tae-Geun Kim">}}, *HyperbolicLR: Epoch insensitive learning rate scheduler*, [arXiv:2407.15200](https://arxiv.org/abs/2407.15200) (2024)
 
@@ -181,25 +183,27 @@ toc: false
 
 ### 발표
 
-* {{<emph "Tae-Geun Kim">}}, *Can A.I. Understand Hamiltonian Mechanics?*, Dark Matter as a portal to New Physics 2025 (2025) [Oral, Invited]
+* *Can A.I. Understand Hamiltonian Mechanics?*, RIKEN DEEP-IN Seminar (2025) [Oral, Invited]
 
-* {{<emph "Tae-Geun Kim">}}, *Can A.I. Understand Hamiltonian Mechanics?*, Focused workshop on AI in High Energy Physics (2025) [Oral]
+* *Can A.I. Understand Hamiltonian Mechanics?*, Dark Matter as a portal to New Physics 2025 (2025) [Oral, Invited]
 
-* {{<emph "Tae-Geun Kim">}}, *Can A.I. Understand Hamiltonian Mechanics?*, 2024 Korea-France STAR Workshop [Oral]
+* *Can A.I. Understand Hamiltonian Mechanics?*, Focused workshop on AI in High Energy Physics (2025) [Oral]
 
-* {{<emph "Tae-Geun Kim">}}, *Can A.I. Understand Hamiltonian Mechanics?*, Invited Seminar @ KIAS (2024) [Oral, Invited]
+* *Can A.I. Understand Hamiltonian Mechanics?*, 2024 Korea-France STAR Workshop [Oral]
 
-* {{<emph "Tae-Geun Kim">}}, *Can A.I. Understand Hamiltonian Mechanics?*, 21st Saga-Yonsei Joint Workshop (2024) [Oral]
+* *Can A.I. Understand Hamiltonian Mechanics?*, Invited Seminar @ KIAS (2024) [Oral, Invited]
 
-* {{<emph "Tae-Geun Kim">}}, *Primordial Black Hole dominant Axion background*, 2024 KPS Fall Meeting (2024) [Oral]
+* *Can A.I. Understand Hamiltonian Mechanics?*, 21st Saga-Yonsei Joint Workshop (2024) [Oral]
 
-* {{<emph "Tae-Geun Kim">}}, [*Exploration of Primordial Black Holes and Axion-Like Particles through a novel decay model on cosmological scale*](https://www.dropbox.com/scl/fi/q79z6wwwxrshj88gw5y3k/SI2023_TGKim.pdf?rlkey=jv0ypybbi8175rju495a1k0xt&dl=0), 27th International Summer Institute on Phenomenology of Elementary Particle Physics and Cosmology (2023) [Poster]
+* *Primordial Black Hole dominant Axion background*, 2024 KPS Fall Meeting (2024) [Oral]
 
-* {{<emph "Tae-Geun Kim">}}, [*Constraining ALPs via PBH with time-varying decay process*](https://axect.github.io/Slides/PHY/PBH_ALP/20221021_WPDC.html), Workshop on Physics of Dark Cosmos: dark matter, dark energy, and all (2022) [Oral]
+* [*Exploration of Primordial Black Holes and Axion-Like Particles through a novel decay model on cosmological scale*](https://www.dropbox.com/scl/fi/q79z6wwwxrshj88gw5y3k/SI2023_TGKim.pdf?rlkey=jv0ypybbi8175rju495a1k0xt&dl=0), 27th International Summer Institute on Phenomenology of Elementary Particle Physics and Cosmology (2023) [Poster]
 
-* {{<emph "Tae-Geun Kim">}}, [*Constraining ALPs via PBH with time-varying decay process Part.2*](https://axect.github.io/Slides/PHY/PBH_ALP/20221021_kps.html), 2022년 한국물리학회 창립 70주년 가을 학술논문발표회 (2022) [Oral] [Best Oral Award]
+* [*Constraining ALPs via PBH with time-varying decay process*](https://axect.github.io/Slides/PHY/PBH_ALP/20221021_WPDC.html), Workshop on Physics of Dark Cosmos: dark matter, dark energy, and all (2022) [Oral]
 
-* {{<emph "Tae-Geun Kim">}}, [*Bird's eye view of Neutron star cooling*](https://axect.github.io/Slides/PHY/NS/neutron-saga.html), 16th Saga-Yonsei Joint Workshop (2019) [Oral]
+* [*Constraining ALPs via PBH with time-varying decay process Part.2*](https://axect.github.io/Slides/PHY/PBH_ALP/20221021_kps.html), 2022년 한국물리학회 창립 70주년 가을 학술논문발표회 (2022) [Oral] [Best Oral Award]
+
+* [*Bird's eye view of Neutron star cooling*](https://axect.github.io/Slides/PHY/NS/neutron-saga.html), 16th Saga-Yonsei Joint Workshop (2019) [Oral]
 
 -----
 
