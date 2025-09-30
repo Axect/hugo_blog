@@ -17,7 +17,7 @@ Graduate student & Rustacean
 
 ## Education
 
-* M.S. & Ph.D. Integrated: Department of Physics, Yonsei University (2017 ~ )
+* M.S. & Ph.D. Integrated: Department of Physics, Yonsei University (2017 ~ 2025)
 * B.S.: Department of Astronomy, Yonsei University (2012 ~ 2017)
 
 -----
@@ -175,6 +175,14 @@ Graduate student & Rustacean
 * Yongsoo Jho, {{<emph "Tae-Geun Kim">}}, Jong-Chul Park, Seong Chan Park and Yeji Park, *Axions from Primordial Black Holes*, [arXiv:2212.11977](https://arxiv.org/abs/2212.11977) (2022)
 
 ### Conferences
+
+* [*Can AI Understand Hamiltonian Mechanics?*](https://www.dropbox.com/scl/fi/ac1233d41f7amxstrvofv/main.pdf?rlkey=ma2pimb4xcyjl17zvy893bnr3&st=2f1yzz16&dl=0), Summer Institute 2025 (2025) [Oral]
+
+* [*A Neural Operator for Primordial Black Hole Physics*](https://www.dropbox.com/scl/fi/j5m29r4mfz92fqxvj2uuj/main.pdf?rlkey=cfjkz2h0a9de4iqbto12a49np&st=vl5967uy&dl=0), The 4th workshop on Symmetry and Structure of the Universe (2025) [Oral]
+
+* [*PBH Phenomenology with Operator Learning*](https://www.dropbox.com/scl/fi/wxobs4uyd1d1otewfuq3q/main.pdf?rlkey=06ja38ckktp84mnachku21gjr&st=ghs0fl89&dl=0), LSSU Seminar @ JBNU (2025) [Oral, Invited]
+
+* [*AI with Hamiltonian Mechanics: From Predictions to Understanding*](https://www.dropbox.com/scl/fi/w4krmvnjfu60woevaibee/AI_with_Hamiltonian_AIHEP-EastAsia.pdf?rlkey=cp9ah1nlkz3x4rkic1ugb6sk2&st=tpaioyql&dl=0), AI+HEP in East Asia (2025) [Oral]
 
 * *Can A.I. Understand Hamiltonian Mechanics?*, RIKEN DEEP-IN Seminar (2025) [Oral, Invited]
 
