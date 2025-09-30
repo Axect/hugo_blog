@@ -2,9 +2,7 @@
 
 ## First steps after clone
 
-1. Submodule init: `git submodule init`
-2. Submodule update: `git submodule update`
-3. Build with theme: `hugo -t hello-friend-ng`
+1. Execute `init.sh` to install theme
 
 ## Deploy process
 
