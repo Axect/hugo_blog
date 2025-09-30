@@ -2,8 +2,10 @@ baseURL = "https://axect.github.io"
 defaultContentLanguage = "kr"
 title = "Axect's Blog"
 theme = "hello-friend-ng"
-paginate = 10
 rssLimit = 10
+
+[pagination]
+pagerSize = 10
 
 archetypeDir = "archetypes"
 contentDir = "content"
@@ -26,6 +28,8 @@ disable404 = false
 disableHugoGeneratorInject = false
 enableGlobalLanguageMenu = true
 
+[markup.goldmark.renderer]
+unsafe = true
 
 [params]
 dateform = "Jan 2, 2006"
