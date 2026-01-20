@@ -30,9 +30,16 @@ Researcher & Rustacean
 
 ## Research Area
 
-* Astroparticle Physics
-* Dark matter & BSM
-* Scientific computation & Machine learning
+* Particle Cosmology
+  * Primordial Black Holes
+  * Axions & Axion-Like Particles
+* AI4Science
+  * Physics-Inspired Machine Learning (HNN)
+  * Neural Operator Learning
+  * Bayesian Data Assimilation
+* Scientific Computing
+  * Automatic Differentiation
+  * Numerical Analysis & High-Performance Computing
 
 -----
 

@@ -30,9 +30,16 @@ toc: false
 
 ## 연구분야
 
-* 천체입자물리
-* 암흑물질 및 BSM
-* 과학계산 및 기계학습
+* 입자우주론
+  * 원시 블랙홀 (Primordial Black Holes)
+  * 액시온 및 액시온 유사 입자 (Axions & ALPs)
+* AI4Science
+  * Physics-Inspired Machine Learning (HNN)
+  * 신경 연산자 학습 (Neural Operator Learning)
+  * 베이지안 데이터 동화 (Bayesian Data Assimilation)
+* 과학계산
+  * 자동미분 (Automatic Differentiation)
+  * 수치해석 및 고성능 계산
 
 -----
 
