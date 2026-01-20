@@ -11,14 +11,20 @@ About [**Tae Geun Kim (Axect)**](https://github.com/Axect)
 
 ## I am
 
-Graduate student & Rustacean
+Researcher & Rustacean
+
+-----
+
+## Experience
+
+* Joint Postdoc: Institute of Modern Physics, Fudan University & RIKEN iTHEMS (2025.10 ~ )
 
 -----
 
 ## Education
 
-* M.S. & Ph.D. Integrated: Department of Physics, Yonsei University (2017 ~ 2025)
-* B.S.: Department of Astronomy, Yonsei University (2012 ~ 2017)
+* Ph.D.: Department of Physics, Yonsei University (2017.03 ~ 2025.08)
+* B.S.: Department of Astronomy, Yonsei University (2012.03 ~ 2017.02)
 
 -----
 
