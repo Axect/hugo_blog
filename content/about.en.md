@@ -185,9 +185,13 @@ Researcher & Rustacean
 
 * Kayoung Ban, Dong Woo Kang, {{<emph "Tae-Geun Kim">}}, Seong Chan Park and Yeji Park, *DeeLeMa : Missing information search with Deep Learning for Mass estimation*, [Phys. Rev. Research **5**, 043186](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.043186), [arXiv:2212.12836](https://arxiv.org/abs/2212.12836) (2022)
 
-* Yongsoo Jho, {{<emph "Tae-Geun Kim">}}, Jong-Chul Park, Seong Chan Park and Yeji Park, *Axions from Primordial Black Holes*, [arXiv:2212.11977](https://arxiv.org/abs/2212.11977) (2022)
+* Yongsoo Jho, {{<emph "Tae-Geun Kim">}}, Jong-Chul Park, Seong Chan Park and Yeji Park, *Axions from Primordial Black Holes*, [PTEP ptag011](https://doi.org/10.1093/ptep/ptag011), [arXiv:2212.11977](https://arxiv.org/abs/2212.11977) (2022)
 
 ### Conferences
+
+* *Accelerating PBH Phenomenology via Neural Operators*, The 2nd AI+HEP in East Asia @ KEK (2026) [Oral]
+
+* *From Primordial Black Holes to Nuclei: Solving Inverse Problems in Physics with Operator Learning*, Nuclear Lunch Seminar @ Fudan University (2025) [Oral, Invited]
 
 * [*Can AI Understand Hamiltonian Mechanics?*](https://www.dropbox.com/scl/fi/ac1233d41f7amxstrvofv/main.pdf?rlkey=ma2pimb4xcyjl17zvy893bnr3&st=2f1yzz16&dl=0), Summer Institute 2025 (2025) [Oral]
 
@@ -212,6 +216,8 @@ Researcher & Rustacean
 * *Primordial Black Hole dominant Axion background*, 2024 KPS Fall Meeting (2024) [Oral]
 
 * [*Exploration of Primordial Black Holes and Axion-Like Particles through a novel decay model on cosmological scale*](https://www.dropbox.com/scl/fi/q79z6wwwxrshj88gw5y3k/SI2023_TGKim.pdf?rlkey=jv0ypybbi8175rju495a1k0xt&dl=0), 27th International Summer Institute on Phenomenology of Elementary Particle Physics and Cosmology (2023) [Poster]
+
+* *Exploration of Primordial Black Holes and Axion-Like Particles through a novel decay model on cosmological scale*, 16th International Conference on Interconnections between Particle Physics and Cosmology (2022) [Oral]
 
 * [*Constraining ALPs via PBH with time-varying decay process*](https://axect.github.io/Slides/PHY/PBH_ALP/20221021_WPDC.html), Workshop on Physics of Dark Cosmos: dark matter, dark energy, and all (2022) [Oral]
 
