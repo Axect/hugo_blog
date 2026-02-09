@@ -53,6 +53,13 @@ hugo -t hello-friend-ng
 | `animated` | Animated border quote effect |
 | `note` | Quote paper styling with curly quotes |
 
+## AI Collaboration
+
+When using Gemini MCP tools for content review or planning:
+- **ALWAYS use `gemini-3-pro-preview` model**
+- Never use gemini-2.5-pro or other models
+- Example: `mcp__gemini-cli__ask-gemini` with `"model": "gemini-3-pro-preview"`
+
 ## Deployment
 
 The site deploys to a sibling `axect.github.io` repository. The `build_local.sh` script handles building and copying files. After running it, commit and push changes in that repository.

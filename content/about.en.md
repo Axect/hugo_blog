@@ -28,18 +28,9 @@ Researcher & Rustacean
 
 -----
 
-## Research Area
+## Research Interests
 
-* Particle Cosmology
-  * Primordial Black Holes
-  * Axions & Axion-Like Particles
-* AI4Science
-  * Physics-Inspired Machine Learning (HNN)
-  * Neural Operator Learning
-  * Bayesian Data Assimilation
-* Scientific Computing
-  * Automatic Differentiation
-  * Numerical Analysis & High-Performance Computing
+My research bridges **dark matter phenomenology** and **AI4Science**, exploring primordial black holes, axion-like particles, and developing operator learning frameworks for physics. For detailed research vision and publications, please visit the [Research](/research) page.
 
 -----
 
@@ -86,144 +77,14 @@ Researcher & Rustacean
 
 -----
 
-## Project
+## Open Source Projects
 
-* **Peroxide**: Numerical library for Rust (Maintainer)
-  * Link
-    * [Github](https://github.com/Axect/Peroxide)
-    * [Crates](https://crates.io/crates/peroxide)
-    * [Docs](https://peroxide.surge.sh)
-  * Tech stacks
-    * Vectorization: SIMD, BLAS, LAPACK
-    * FFI: C, Fortran, Python
-    * Data structures: Dataframe
-    * IO: csv, netcdf, json, parquet, serde
-    * Meta-programming: `proc-macro`
+For a comprehensive list of my open-source projects, please visit the [Software](/software) page.
 
-* **Puruspe**: Pure Rust Special function library (Maintainer)
-  * Link
-    * [Github](https://github.com/Axect/Puruspe)
-    * [Crates](https://crates.io/crates/puruspe)
-    * [Docs](https://docs.rs/puruspe)
-
-* **Radient**: Rust automatic differentiation library (Maintainer)
-  * Link
-    * [Github](https://github.com/Axect/Radient)
-    * [Crates](https://crates.io/crates/radient)
-    * [Docs](https://docs.rs/radient)
-  * Tech stacks
-    * Reverse mode automatic differentiation
-    * Arena based memory management
-
-* **Forger**: Rust Reinforcement Learning library (Maintainer)
-  * Link
-    * [Github](https://github.com/Axect/Forger)
-    * [Crates](https://crates.io/crates/forger)
-    * [Docs](https://docs.rs/forger)
-  * Tech stacks
-    * Reinforcement Learning
-      * Monte Carlo
-      * Temporal Difference
-      * Q-Learning
-
-* **DeeLeMa**: Deep Learning for Mass estimation (Maintainer)
-  * Link
-    * [Github](https://github.com/Yonsei-HEP-COSMO/DeeLeMa)
-    * [ArXiv](https://arxiv.org/abs/2212.12836)
-    * [PRR](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.043186)
-  * Tech stacks
-    * Deep Learning Framework: PyTorch, PyTorch Lightning
-    * Hyperparameter Optimization: Wandb-sweep
-    * Monitoring: Wandb, Tensorboard
-    * Package Management: PDM
-
-* ZelLayGen: Zellij Layout Generator (Maintainer)
-  * Link
-    * [Github](https://github.com/Axect/Zellaygen)
-  * Tech stacks
-    * Language: Rust
-    * Serialization & Deserialization: Serde
-    * Data format: TOML, KDL
-
-* **NCDataFrame.jl**: Julia netCDF I/O with DataFrame (Maintainer)
-  * Link
-    * [Github](https://github.com/Axect/NCDataFrame.jl)
-    * [JuliaHub](https://juliahub.com/ui/Packages/NCDataFrame/zhMPT/)
-    * [Docs](https://juliahub.com/docs/NCDataFrame/zhMPT)
-
-* **Puruda**: Pure Rust Dataframe library (Archived)
-  * Link
-    * [Github](https://github.com/Axect/Puruda)
-    * [Crates](https://crates.io/crates/puruda)
-  * Tech stacks
-    * Meta-programming: `proc-macro`
-    * IO: csv, netcdf
-
-* **HNumeric**: Numerical library for Haskell (Archived)
-  * Link
-    * [Github](https://github.com/Axect/HNumeric)
-    * [Hackage](https://hackage.haskell.org/package/HNumeric)
-
-* **DNumeric**: Numerical library for D (Archived)
-  * Link
-    * [Github](https://github.com/Axect/DNumeric)
-    * [DUB](https://code.dlang.org/packages/dnumeric)
-
------
-
-## Academic Activities
-
-### Papers
-
-* Taehyeun Kim, {{<emph "Tae-Geun Kim">}}, Anouk Girard and Ilya Kolmanovsky, *Learning Hamiltonian Dynamics with Bayesian Data Assimilation*, [arXiv:2501.18808](https://arxiv.org/abs/2501.18808) (2025)
-
-* {{<emph "Tae-Geun Kim">}} and Seong Chan Park,  *Neural Hamilton: Can A.I. Understand Hamiltonian Mechanics?*, [arXiv:2410.20951](https://arxiv.org/abs/2410.20951) (2024)
-
-* {{<emph "Tae-Geun Kim">}}, *HyperbolicLR: Epoch insensitive learning rate scheduler*, [arXiv:2407.15200](https://arxiv.org/abs/2407.15200) (2024)
-
-* Chang Min Hyun, {{<emph "Tae-Geun Kim">}}, and Kyounghun Lee, *Unsupervised sequence-to-sequence learning for automatic signal quality assessment in multi-channel electrical impedance-based hemodynamic monitoring*, [CMPB 108079](https://doi.org/10.1016/j.cmpb.2024.108079), [arXiv:2305.09368](https://arxiv.org/abs/2305.09368) (2023)
-
-* Kayoung Ban, Dong Woo Kang, {{<emph "Tae-Geun Kim">}}, Seong Chan Park and Yeji Park, *DeeLeMa : Missing information search with Deep Learning for Mass estimation*, [Phys. Rev. Research **5**, 043186](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.043186), [arXiv:2212.12836](https://arxiv.org/abs/2212.12836) (2022)
-
-* Yongsoo Jho, {{<emph "Tae-Geun Kim">}}, Jong-Chul Park, Seong Chan Park and Yeji Park, *Axions from Primordial Black Holes*, [PTEP ptag011](https://doi.org/10.1093/ptep/ptag011), [arXiv:2212.11977](https://arxiv.org/abs/2212.11977) (2022)
-
-### Conferences
-
-* *Accelerating PBH Phenomenology via Neural Operators*, The 2nd AI+HEP in East Asia @ KEK (2026) [Oral]
-
-* *From Primordial Black Holes to Nuclei: Solving Inverse Problems in Physics with Operator Learning*, Nuclear Lunch Seminar @ Fudan University (2025) [Oral, Invited]
-
-* [*Can AI Understand Hamiltonian Mechanics?*](https://www.dropbox.com/scl/fi/ac1233d41f7amxstrvofv/main.pdf?rlkey=ma2pimb4xcyjl17zvy893bnr3&st=2f1yzz16&dl=0), Summer Institute 2025 (2025) [Oral]
-
-* [*A Neural Operator for Primordial Black Hole Physics*](https://www.dropbox.com/scl/fi/j5m29r4mfz92fqxvj2uuj/main.pdf?rlkey=cfjkz2h0a9de4iqbto12a49np&st=vl5967uy&dl=0), The 4th workshop on Symmetry and Structure of the Universe (2025) [Oral]
-
-* [*PBH Phenomenology with Operator Learning*](https://www.dropbox.com/scl/fi/wxobs4uyd1d1otewfuq3q/main.pdf?rlkey=06ja38ckktp84mnachku21gjr&st=ghs0fl89&dl=0), LSSU Seminar @ JBNU (2025) [Oral, Invited]
-
-* [*AI with Hamiltonian Mechanics: From Predictions to Understanding*](https://www.dropbox.com/scl/fi/w4krmvnjfu60woevaibee/AI_with_Hamiltonian_AIHEP-EastAsia.pdf?rlkey=cp9ah1nlkz3x4rkic1ugb6sk2&st=tpaioyql&dl=0), AI+HEP in East Asia (2025) [Oral]
-
-* *Can A.I. Understand Hamiltonian Mechanics?*, RIKEN DEEP-IN Seminar (2025) [Oral, Invited]
-
-* *Can A.I. Understand Hamiltonian Mechanics?*, Dark Matter as a portal to New Physics 2025 (2025) [Oral, Invited]
-
-* *Can A.I. Understand Hamiltonian Mechanics?*, Focused workshop on AI in High Energy Physics (2025) [Oral]
-
-* *Can A.I. Understand Hamiltonian Mechanics?*, 2024 Korea-France STAR Workshop [Oral]
-
-* *Can A.I. Understand Hamiltonian Mechanics?*, Invited Seminar @ KIAS (2024) [Oral, Invited]
-
-* *Can A.I. Understand Hamiltonian Mechanics?*, 21st Saga-Yonsei Joint Workshop (2024) [Oral]
-
-* *Primordial Black Hole dominant Axion background*, 2024 KPS Fall Meeting (2024) [Oral]
-
-* [*Exploration of Primordial Black Holes and Axion-Like Particles through a novel decay model on cosmological scale*](https://www.dropbox.com/scl/fi/q79z6wwwxrshj88gw5y3k/SI2023_TGKim.pdf?rlkey=jv0ypybbi8175rju495a1k0xt&dl=0), 27th International Summer Institute on Phenomenology of Elementary Particle Physics and Cosmology (2023) [Poster]
-
-* *Exploration of Primordial Black Holes and Axion-Like Particles through a novel decay model on cosmological scale*, 16th International Conference on Interconnections between Particle Physics and Cosmology (2022) [Oral]
-
-* [*Constraining ALPs via PBH with time-varying decay process*](https://axect.github.io/Slides/PHY/PBH_ALP/20221021_WPDC.html), Workshop on Physics of Dark Cosmos: dark matter, dark energy, and all (2022) [Oral]
-
-* [*Constraining ALPs via PBH with time-varying decay process Part.2*](https://axect.github.io/Slides/PHY/PBH_ALP/20221021_kps.html), KPS 70th Anniversary and 2022 Fall Meeting (2022) [Oral] [Best Oral Award]
-
-* [*Bird's eye view of Neutron star cooling*](https://axect.github.io/Slides/PHY/NS/neutron-saga.html), 16th Saga-Yonsei Joint Workshop (2019) [Oral]
+Featured projects include:
+* **Peroxide** - Comprehensive scientific computing library for Rust (1M+ downloads, 500+ stars) providing linear algebra, ODE solvers, and optimization tools
+* **DeeLeMa** - PyTorch-based framework for dark matter mass estimation, published in *Physical Review Research* (2023)
+* **Neural Hamilton** - Current research on operator learning and neural ODEs to reconstruct Hamiltonian mechanics from data, benchmarking against classical RK4 solvers (arXiv 2024)
 
 -----
 

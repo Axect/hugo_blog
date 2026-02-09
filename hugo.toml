@@ -1,5 +1,5 @@
 baseURL = "https://axect.github.io"
-defaultContentLanguage = "kr"
+defaultContentLanguage = "en"
 title = "Axect's Blog"
 theme = "hello-friend-ng"
 rssLimit = 10
@@ -44,8 +44,8 @@ dateformNumTime = "2006-01-02 15:04 -0700"
 disableReadOtherPosts = false
 
 # Metadata mostly used in document's head
-description = "Axect's Blog"
-keywords = "blog, homepage"
+description = "Tae-Geun Kim - AI4Science & Dark Matter Physics Research"
+keywords = "AI4Science, Operator Learning, Inverse Problems, Physics-Informed Machine Learning, Dark Matter Physics, Primordial Black Holes, Axions, Interdisciplinary AI, Scientific Computing, Rust"
 images = [""]
 
 # Default theme "light" or "dark"
@@ -78,8 +78,16 @@ name = "github"
 url = "https://github.com/Axect"
 
 [[params.social]]
+name = "orcid"
+url = "https://orcid.org/0009-0000-4229-2935"
+
+[[params.social]]
+name = "googlescholar"
+url = "https://scholar.google.com/citations?user=Gnat36QAAAAJ"
+
+[[params.social]]
 name = "cv"
-url = "https://axect.github.io/cv"
+url = "https://github.com/Axect/cv_typst/blob/main/cv.pdf"
 
 [[params.social]]
 name = "researchgate"
@@ -115,7 +123,7 @@ weight = 2
 [languages.kr.params]
 subtitle = "수학, 물리 그리고 계산"
 readOtherPosts = "다른 글 읽기"
-keywords = ""
+keywords = "AI4Science, 연산자 학습, 역문제, 물리기반 머신러닝, 암흑물질 물리학, 원시블랙홀, 액시온, 학제간 AI, 과학계산, Rust"
 
 [languages.kr.params.logo]
 logoText = "cd /home/axect/"
@@ -131,7 +139,7 @@ weight = 1
 [languages.en.params]
 subtitle = "Mathematics, Physics and Computations"
 readOtherPosts = "Read other posts"
-keywords = ""
+keywords = "AI4Science, Operator Learning, Inverse Problems, Physics-Informed Machine Learning, Dark Matter Physics, Primordial Black Holes, Axions, Interdisciplinary AI, Scientific Computing, Rust"
 
 
 [languages.en.params.logo]
@@ -150,6 +158,16 @@ logoHomeLink = "/en"
 identifier = "blog"
 name = "Blog"
 url = "/posts"
+
+[[menu.main]]
+identifier = "software"
+name = "Software"
+url = "/software"
+
+[[menu.main]]
+identifier = "research"
+name = "Research"
+url = "/research"
 
 [[menu.main]]
 identifier = "about"

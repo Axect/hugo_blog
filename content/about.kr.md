@@ -28,18 +28,9 @@ toc: false
 
 -----
 
-## 연구분야
+## 연구 관심사
 
-* 입자우주론
-  * 원시 블랙홀 (Primordial Black Holes)
-  * 액시온 및 액시온 유사 입자 (Axions & ALPs)
-* AI4Science
-  * Physics-Inspired Machine Learning (HNN)
-  * 신경 연산자 학습 (Neural Operator Learning)
-  * 베이지안 데이터 동화 (Bayesian Data Assimilation)
-* 과학계산
-  * 자동미분 (Automatic Differentiation)
-  * 수치해석 및 고성능 계산
+제 연구는 **암흑물질 현상론**과 **AI4Science**를 연결하여, 원시 블랙홀, 액시온 유사 입자를 탐구하고 물리학을 위한 연산자 학습 프레임워크를 개발합니다. 자세한 연구 비전과 출판물은 [Research](/research) 페이지를 참고해주세요.
 
 -----
 
@@ -93,88 +84,14 @@ toc: false
 
 -----
 
-## 프로젝트
+## 오픈소스 프로젝트
 
-* **Peroxide**: Rust 수치 계산 라이브러리 (Maintainer)
-  * 링크
-    * [Github](https://github.com/Axect/Peroxide)
-    * [Crates](https://crates.io/crates/peroxide)
-    * [Docs](https://peroxide.surge.sh)
-  * 사용 기술
-    * Vectorization: SIMD, BLAS, LAPACK
-    * FFI: C, Fortran, Python
-    * Data structures: Dataframe
-    * IO: csv, netcdf, json, parquet, serde
-    * Meta-programming: `proc-macro`
+오픈소스 프로젝트의 전체 목록은 [Software](/software) 페이지를 참고해주세요.
 
-* **Puruspe**: 순수 Rust Special function 라이브러리 (Maintainer)
-  * 링크
-    * [Github](https://github.com/Axect/Puruspe)
-    * [Crates](https://crates.io/crates/puruspe)
-    * [Docs](https://docs.rs/puruspe)
-
-* **Radient**: Rust 자동미분 라이브러리 (Maintainer)
-  * 링크
-    * [Github](https://github.com/Axect/Radient)
-    * [Crates](https://crates.io/crates/radient)
-    * [Docs](https://docs.rs/radient)
-  * 사용기술
-    * Reverse mode automatic differentiation
-    * Arena based memory management
-
-* **Forger**: Rust 강화학습 라이브러리 (Maintainer)
-  * 링크
-    * [Github](https://github.com/Axect/Forger)
-    * [Crates](https://crates.io/crates/forger)
-    * [Docs](https://docs.rs/forger)
-  * 사용기술
-    * Reinforcement Learning
-      * Monte Carlo
-      * Temporal Difference
-      * Q-Learning
-
-* **DeeLeMa**: Deep Learning for Mass estimation (Maintainer)
-  * 링크
-    * [Github](https://github.com/Yonsei-HEP-COSMO/DeeLeMa)
-    * [ArXiv](https://arxiv.org/abs/2212.12836)
-    * [PRR](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.043186)
-  * 사용기술
-    * Deep Learning Framework: PyTorch, PyTorch Lightning
-    * Hyperparameter Optimization: Wandb-sweep
-    * Monitoring: Wandb, Tensorboard
-    * Package Management: PDM
-
-* ZelLayGen: Zellij Layout Generator (Maintainer)
-  * 링크
-    * [Github](https://github.com/Axect/Zellaygen)
-  * 사용기술
-    * Language: Rust
-    * Serialization & Deserialization: Serde
-    * Data format: TOML, KDL
-
-* **NCDataFrame.jl**: Julia에서 DataFrame으로 netCDF I/O를 구현한 라이브러리 (Maintainer)
-  * 링크
-    * [Github](https://github.com/Axect/NCDataFrame.jl)
-    * [JuliaHub](https://juliahub.com/ui/Packages/NCDataFrame/zhMPT/)
-    * [Docs](https://juliahub.com/docs/NCDataFrame/zhMPT)
-
-* **Puruda**: Pure Rust Dataframe library (Archived)
-  * 링크
-    * [Github](https://github.com/Axect/Puruda)
-    * [Crates](https://crates.io/crates/puruda)
-  * 사용기술
-    * Meta-programming: `proc-macro`
-    * IO: csv, netcdf
-
-* **HNumeric**: Haskell 수치 계산 라이브러리 (Archived)
-  * 링크
-    * [Github](https://github.com/Axect/HNumeric)
-    * [Hackage](https://hackage.haskell.org/package/HNumeric)
-
-* **DNumeric**: D 수치 계산 라이브러리 (Archived)
-  * 링크
-    * [Github](https://github.com/Axect/DNumeric)
-    * [DUB](https://code.dlang.org/packages/dnumeric)
+주요 프로젝트:
+* **Peroxide** - 선형대수, ODE 솔버, 최적화 도구를 제공하는 종합 과학계산 Rust 라이브러리 (1M+ 다운로드, 500+ stars)
+* **DeeLeMa** - 암흑물질 질량 추정을 위한 PyTorch 기반 프레임워크, *Physical Review Research* 게재 (2023)
+* **Neural Hamilton** - 데이터로부터 해밀토니안 역학을 재구성하는 연산자 학습 및 Neural ODE 현재 연구, 전통적인 RK4 솔버와 벤치마킹 (arXiv 2024)
 
 -----
 

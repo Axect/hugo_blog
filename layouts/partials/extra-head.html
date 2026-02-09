@@ -1,0 +1,139 @@
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.Subtitle }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}" />
+<meta property="og:description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary | plainify | truncate 200 }}{{ end }}" />
+{{ with .Params.images }}
+<meta property="og:image" content="{{ index . 0 | absURL }}" />
+{{ else }}
+<meta property="og:image" content="{{ .Site.BaseURL }}images/og-default.png" />
+{{ end }}
+<meta property="og:locale" content="{{ if eq .Lang "kr" }}ko_KR{{ else }}en_US{{ end }}" />
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content="{{ .Permalink }}" />
+<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.Subtitle }}{{ else }}{{ .Title }}{{ end }}" />
+<meta name="twitter:description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary | plainify | truncate 200 }}{{ end }}" />
+{{ with .Params.images }}
+<meta name="twitter:image" content="{{ index . 0 | absURL }}" />
+{{ else }}
+<meta name="twitter:image" content="{{ .Site.BaseURL }}images/og-default.png" />
+{{ end }}
+
+<!-- Enhanced Schema.org for Academic Profile -->
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Tae-Geun Kim",
+  "alternateName": "Axect",
+  "url": "{{ .Site.BaseURL }}",
+  "image": "{{ .Site.BaseURL }}images/profile.jpg",
+  "jobTitle": "Postdoctoral Researcher",
+  "worksFor": [
+    {
+      "@type": "Organization",
+      "name": "Institute of Modern Physics, Fudan University"
+    },
+    {
+      "@type": "Organization",
+      "name": "RIKEN iTHEMS"
+    }
+  ],
+  "affiliation": [
+    {
+      "@type": "Organization",
+      "name": "Fudan University"
+    },
+    {
+      "@type": "Organization",
+      "name": "RIKEN"
+    }
+  ],
+  "alumniOf": {
+    "@type": "EducationalOrganization",
+    "name": "Yonsei University"
+  },
+  "description": "{{ .Site.Params.description }}",
+  "knowsAbout": [
+    "Dark Matter Physics",
+    "Primordial Black Holes",
+    "Axion-Like Particles",
+    "AI4Science",
+    "Operator Learning",
+    "Physics-Informed Machine Learning",
+    "Inverse Problems",
+    "Scientific Computing"
+  ],
+  "sameAs": [
+    "https://github.com/Axect",
+    "https://orcid.org/0009-0000-4229-2935",
+    "https://scholar.google.com/citations?user=Gnat36QAAAAJ",
+    "https://www.researchgate.net/profile/Tae-Geun-Kim-3",
+    "https://www.linkedin.com/in/tae-geun-kim/",
+    "https://github.com/Axect/cv_typst/blob/main/cv.pdf"
+  ]
+}
+</script>
+{{ end }}
+
+{{ if and (not .IsHome) (eq .Section "posts") }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ .Title }}",
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+  "author": {
+    "@type": "Person",
+    "name": "Tae-Geun Kim",
+    "url": "{{ .Site.BaseURL }}"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Tae-Geun Kim"
+  },
+  "description": "{{ .Summary | plainify }}",
+  "url": "{{ .Permalink }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  }{{ with .Params.tags }},
+  "keywords": [{{ range $i, $e := . }}{{ if $i }}, {{ end }}"{{ $e }}"{{ end }}]{{ end }}
+}
+</script>
+{{ end }}
+
+{{ if eq .RelPermalink "/research/" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "author": {
+    "@type": "Person",
+    "name": "Tae-Geun Kim",
+    "url": "{{ .Site.BaseURL }}"
+  },
+  "headline": "Research Portfolio - Tae-Geun Kim",
+  "description": "Dark Matter Phenomenology and AI4Science research",
+  "url": "{{ .Permalink }}"
+}
+</script>
+{{ end }}
+
+<!-- Google Scholar Meta Tags -->
+<meta name="citation_author" content="Kim, Tae-Geun" />
+{{ if and (not .IsHome) (eq .Section "posts") }}
+<meta name="citation_title" content="{{ .Title }}" />
+<meta name="citation_publication_date" content="{{ .Date.Format "2006/01/02" }}" />
+<meta name="citation_online_date" content="{{ .Date.Format "2006/01/02" }}" />
+{{ end }}
+
+<!-- Copy BibTeX functionality for Research page -->
+{{ if eq .RelPermalink "/research/" }}
+<script src="{{ "js/copy-bibtex.js" | relURL }}"></script>
+{{ end }}
