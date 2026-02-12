@@ -39,29 +39,10 @@ Applying deep learning techniques tailored to each domain: operator learning for
 
 ## Publications
 
-### 2025
+### 2026
 
-**Learning Hamiltonian Dynamics with Bayesian Data Assimilation**
-Taehyeun Kim, {{<emph "Tae-Geun Kim">}}, Anouk Girard, Ilya Kolmanovsky
-[📄 arXiv:2501.18808](https://arxiv.org/abs/2501.18808)
-
-<details>
-<summary>📋 BibTeX</summary>
-
-```bibtex
-@article{kim2025learning,
-  title={Learning Hamiltonian Dynamics with Bayesian Data Assimilation},
-  author={Kim, Taehyeun and Kim, Tae-Geun and Girard, Anouk and Kolmanovsky, Ilya},
-  journal={arXiv preprint arXiv:2501.18808},
-  year={2025}
-}
-```
-</details>
-
------
-
-**Primordial Black Holes as a Factory of Axions: Extragalactic Photons from Axions**
-{{<emph "Tae-Geun Kim">}}, Jong-Chul Park, Seong Chan Park, Yeji Park
+**Primordial Black Holes as a Factory of Axions: Extragalactic Photons from Axions**<br>
+{{<emph "Tae-Geun Kim">}}, Jong-Chul Park, Seong Chan Park, Yeji Park<br>
 [📄 PTEP ptag011](https://doi.org/10.1093/ptep/ptag011) | [📄 arXiv:2212.11977](https://arxiv.org/abs/2212.11977)
 
 <details>
@@ -83,10 +64,31 @@ Taehyeun Kim, {{<emph "Tae-Geun Kim">}}, Anouk Girard, Ilya Kolmanovsky
 
 -----
 
+### 2025
+
+**Learning Hamiltonian Dynamics with Bayesian Data Assimilation**<br>
+Taehyeun Kim, {{<emph "Tae-Geun Kim">}}, Anouk Girard, Ilya Kolmanovsky<br>
+[📄 arXiv:2501.18808](https://arxiv.org/abs/2501.18808)
+
+<details>
+<summary>📋 BibTeX</summary>
+
+```bibtex
+@article{kim2025learning,
+  title={Learning Hamiltonian Dynamics with Bayesian Data Assimilation},
+  author={Kim, Taehyeun and Kim, Tae-Geun and Girard, Anouk and Kolmanovsky, Ilya},
+  journal={arXiv preprint arXiv:2501.18808},
+  year={2025}
+}
+```
+</details>
+
+-----
+
 ### 2024
 
-**Neural Hamilton: Can A.I. Understand Hamiltonian Mechanics?**
-{{<emph "Tae-Geun Kim">}}, Seong Chan Park
+**Neural Hamilton: Can A.I. Understand Hamiltonian Mechanics?**<br>
+{{<emph "Tae-Geun Kim">}}, Seong Chan Park<br>
 [📄 arXiv:2410.20951](https://arxiv.org/abs/2410.20951) | [💻 Code](https://github.com/Axect/Neural_Hamilton)
 
 <details>
@@ -104,8 +106,8 @@ Taehyeun Kim, {{<emph "Tae-Geun Kim">}}, Anouk Girard, Ilya Kolmanovsky
 
 -----
 
-**HyperbolicLR: Epoch insensitive learning rate scheduler**
-{{<emph "Tae-Geun Kim">}}
+**HyperbolicLR: Epoch insensitive learning rate scheduler**<br>
+{{<emph "Tae-Geun Kim">}}<br>
 [📄 arXiv:2407.15200](https://arxiv.org/abs/2407.15200)
 
 <details>
@@ -123,8 +125,8 @@ Taehyeun Kim, {{<emph "Tae-Geun Kim">}}, Anouk Girard, Ilya Kolmanovsky
 
 -----
 
-**Unsupervised sequence-to-sequence learning for automatic signal quality assessment**
-Chang Min Hyun, {{<emph "Tae-Geun Kim">}}, Kyounghun Lee
+**Unsupervised sequence-to-sequence learning for automatic signal quality assessment**<br>
+Chang Min Hyun, {{<emph "Tae-Geun Kim">}}, Kyounghun Lee<br>
 [📄 CMPB 108079](https://doi.org/10.1016/j.cmpb.2024.108079) | [📄 arXiv:2305.09368](https://arxiv.org/abs/2305.09368)
 
 <details>
@@ -146,8 +148,8 @@ Chang Min Hyun, {{<emph "Tae-Geun Kim">}}, Kyounghun Lee
 
 ### 2023
 
-**DeeLeMa: Missing information search with Deep Learning for Mass estimation**
-Kayoung Ban, Dong Woo Kang, {{<emph "Tae-Geun Kim">}}, Seong Chan Park, Yeji Park
+**DeeLeMa: Missing information search with Deep Learning for Mass estimation**<br>
+Kayoung Ban, Dong Woo Kang, {{<emph "Tae-Geun Kim">}}, Seong Chan Park, Yeji Park<br>
 [📄 Phys. Rev. Research 5, 043186](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.043186) | [📄 arXiv:2212.12836](https://arxiv.org/abs/2212.12836) | [💻 Code](https://github.com/Yonsei-HEP-COSMO/DeeLeMa)
 
 <details>
