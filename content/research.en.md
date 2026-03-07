@@ -5,35 +5,35 @@ draft: false
 toc: true
 ---
 
-## Research Vision
+## Research Overview
 
-My research bridges the gap between **dark matter phenomenology** and **scientific machine learning**, creating a unified approach to understanding fundamental physics through both traditional analytical methods and modern AI techniques.
+My research sits at the intersection of **dark matter phenomenology** and **scientific machine learning**. One part of my work studies primordial black holes (PBHs), axion-like particles (ALPs), and the photon, positron, and neutrino signals they can generate. The other part develops machine learning models and computational frameworks that preserve physical structure while accelerating expensive calculations, solving inverse problems, and reconstructing dynamics from limited information.
 
-I investigate dark matter candidates—particularly primordial black holes and axion-like particles—using a combination of cosmological observations, astrophysical constraints, and novel computational methods. Simultaneously, I develop **operator learning frameworks** that enable AI to not merely fit data, but to genuinely understand and emulate the underlying physical laws governing these systems.
+With training that began in astronomy and continued through a Ph.D. in theoretical particle physics, I have built a research program that moves naturally between astroparticle phenomenology and AI-driven modeling. Work at Yonsei HEP-COSMO established this foundation, and my current appointments at Fudan University and RIKEN iTHEMS are extending it toward precision phenomenology and physics-informed AI. I do not treat these as separate tracks: phenomenology motivates the computational questions, and machine learning becomes useful only when it respects the structure of the underlying physics.
 
-This dual expertise positions me uniquely at the intersection of particle cosmology and AI4Science, where I can both discover new physics and create the computational tools needed to explore it.
+This perspective runs through my recent projects. In PBH-ALP phenomenology, I studied cosmological particle evolution and observational signatures with more careful treatments of propagation and lifetime effects. In DeeLeMa, I approached mass reconstruction in particle physics as a deep-learning inverse problem. In Neural Hamilton, I asked whether operator-learning architectures can infer Hamiltonian dynamics directly from the Hamiltonian itself. Across these projects, the common goal is to build research methods that improve both physical interpretability and computational efficiency.
 
 -----
 
-## Current Focus & Future Directions
+## Current Research Directions
 
-### Physics-Informed Machine Learning for Cosmology
+### Dark Matter Phenomenology and Astroparticle Signatures
 
-Developing neural operators (DeepONet, MambONet) that learn Hamiltonian mechanics and can accelerate computationally expensive phenomenology calculations in primordial black hole physics. This approach has shown that AI can outperform traditional numerical solvers (RK4) while maintaining physical interpretability.
+My current phenomenology work focuses on making PBH- and ALP-based dark matter studies more precise and more directly comparable to data. This includes extragalactic photon signals from evaporating PBHs, axion backgrounds in the sub-MeV regime, and refined modeling of the Galactic 511 keV excess. A recurring theme is replacing oversimplified assumptions with treatments that better capture cosmological evolution, particle propagation, and realistic astrophysical environments.
 
-**Future Direction**: Extend operator learning to inverse problems in dark matter detection, enabling real-time parameter inference from observational data.
+The aim is not only to propose interesting dark matter scenarios, but to produce quantitative constraints that can stand up to detailed observational comparison. In the longer term, I want to extend this program toward multi-messenger phenomenology that connects gamma rays, positrons, neutrinos, and gravitational-wave-informed early-universe physics.
 
-### Dark Matter Phenomenology
+### Operator Learning and Inverse Problems for Physics
 
-Exploring the interplay between primordial black holes and axion-like particles as complementary dark matter candidates. My work establishes novel constraints using astrophysical probes (gamma-ray observations, neutrino detectors) and demonstrates how PBH evaporation can serve as a "factory" for axion production.
+The second pillar of my work is scientific ML for physics problems where conventional solvers are accurate but too slow, or where the main challenge is inversion rather than forward prediction. In Neural Hamilton and follow-up work on Bayesian data assimilation, I studied how to learn Hamiltonian dynamics while improving long-term stability. I am now extending this line toward neural-operator surrogates for PBH secondary spectra and related phenomenology calculations.
 
-**Future Direction**: Investigate multi-messenger signatures combining gravitational waves, electromagnetic signals, and particle detections to probe the early universe.
+What matters to me here is not generic surrogate modeling. The key questions are whether a model preserves the right physical structure, whether it supports robust inference from observational data, and whether it can become a practical tool for day-to-day phenomenology. That naturally leads to future work on inverse problems, uncertainty-aware inference, and reusable ML tools designed for theoretical physics.
 
-### Interdisciplinary AI Applications
+### Method Development and Research Software
 
-Applying deep learning techniques tailored to each domain: operator learning for cosmology, sequence-to-sequence models for biomedical signal processing, learning rate schedulers for optimization. Developing domain-specific architectures while building transferable frameworks for cross-domain knowledge transfer.
+My broader work includes biomedical signal-quality assessment, optimization methods such as HyperbolicLR, and open-source numerical software in Rust. These projects are not side topics so much as extensions of the same methodological interest: how to design reliable computational tools for hard scientific problems.
 
-**Future Direction**: Build a unified scientific ML platform that adapts to diverse physics problems, leveraging the appropriate neural architecture for each domain—from quantum field theory to experimental data analysis.
+This makes software and methodology a core part of my research identity. Long term, I want to build a workflow in which precise phenomenology, fast learned surrogates, interpretable inference, and reusable research software reinforce one another. The objective is to narrow the gap between theoretical modeling and data-driven discovery without sacrificing rigor in either direction.
 
 -----
 
