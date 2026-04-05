@@ -5,36 +5,45 @@
 
   <h1>{{ .Title }}</h1>
 
-  <div class="card-list">
-    {{ range $software }}
+  {{ $sorted := slice }}
+  {{ range $software }}
     {{ $s := index $stats .name }}
+    {{ $stars := 0 }}
+    {{ with $s }}{{ with .stars }}{{ $stars = . }}{{ end }}{{ end }}
+    {{ $sorted = $sorted | append (dict "item" . "stars" $stars) }}
+  {{ end }}
+
+  <div class="card-list">
+    {{ range sort $sorted "stars" "desc" }}
+    {{ $proj := .item }}
+    {{ $s := index $stats $proj.name }}
     <div class="card" onclick="this.querySelector('.card-expand').classList.toggle('open')">
       <div class="card-top">
-        <div class="title">{{ .name }}</div>
+        <div class="title">{{ $proj.name }}</div>
       </div>
-      <div class="authors">{{ .description }}</div>
+      <div class="authors">{{ $proj.description }}</div>
       <div class="badges">
-        <span class="badge badge-lang {{ lower .language }}">{{ .language }}</span>
+        <span class="badge badge-lang {{ lower $proj.language }}">{{ $proj.language }}</span>
         {{ with $s }}
           {{ with .stars }}<span class="badge badge-stars">&#9733; {{ . }}</span>{{ end }}
           {{ with .downloads }}<span class="badge badge-downloads">&#8615; {{ . }}</span>{{ end }}
         {{ end }}
       </div>
       <div class="tags">
-        {{ range .tags }}<span class="tag">{{ . }}</span>{{ end }}
+        {{ range $proj.tags }}<span class="tag">{{ . }}</span>{{ end }}
       </div>
       <div class="software-links">
-        {{ with .github }}<a href="{{ . }}" target="_blank">GitHub</a>{{ end }}
-        {{ with .docs }}<a href="{{ . }}" target="_blank">Docs</a>{{ end }}
-        {{ with .crates_name }}<a href="https://crates.io/crates/{{ . }}" target="_blank">Crates.io</a>{{ end }}
+        {{ with $proj.github }}<a href="{{ . }}" target="_blank">GitHub</a>{{ end }}
+        {{ with $proj.docs }}<a href="{{ . }}" target="_blank">Docs</a>{{ end }}
+        {{ with $proj.crates_name }}<a href="https://crates.io/crates/{{ . }}" target="_blank">Crates.io</a>{{ end }}
       </div>
       <div class="card-expand">
-        {{ with .detail }}<p>{{ . }}</p>{{ end }}
-        {{ with .features }}
+        {{ with $proj.detail }}<p>{{ . }}</p>{{ end }}
+        {{ with $proj.features }}
         <ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
         {{ end }}
-        {{ with .paper_doi }}<p><a href="https://doi.org/{{ . }}" target="_blank">Paper (DOI)</a></p>{{ end }}
-        {{ with .paper_arxiv }}<p><a href="https://arxiv.org/abs/{{ . }}" target="_blank">Paper (arXiv)</a></p>{{ end }}
+        {{ with $proj.paper_doi }}<p><a href="https://doi.org/{{ . }}" target="_blank">Paper (DOI)</a></p>{{ end }}
+        {{ with $proj.paper_arxiv }}<p><a href="https://arxiv.org/abs/{{ . }}" target="_blank">Paper (arXiv)</a></p>{{ end }}
       </div>
     </div>
     {{ end }}
