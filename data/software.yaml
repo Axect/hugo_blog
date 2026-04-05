@@ -285,7 +285,6 @@
   featured: false
   detail: |
     연세대학교 전문연구요원 유연근무제 시간 계산기.
-    Flexible work hours calculator for Yonsei University technical research personnel.
   features:
     - "Flexible work schedule time calculation"
     - "Yonsei University specific"
