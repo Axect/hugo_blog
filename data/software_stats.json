@@ -40,7 +40,50 @@
   "Overleap": {
     "stars": 3
   },
+  "PyTorch Scheduler": {
+    "stars": 1
+  },
+  "White Owl": {
+    "stars": 3
+  },
+  "HyperbolicLR": {
+    "stars": 3
+  },
   "Puruda": {
+    "stars": 3,
     "downloads": "3.3K"
+  },
+  "Rustag": {
+    "stars": 2
+  },
+  "Yonsei Thesis Typst": {
+    "stars": 4
+  },
+  "Rugfield": {
+    "stars": 2
+  },
+  "Zellaygen": {
+    "stars": 25
+  },
+  "Yonsei Flexible": {
+    "stars": 2
+  },
+  "NCDataFrame.jl": {
+    "stars": 5
+  },
+  "Natural Unit": {
+    "stars": 2
+  },
+  "DNumeric": {
+    "stars": 4
+  },
+  "FPTools": {
+    "stars": 2
+  },
+  "RGE": {
+    "stars": 4
+  },
+  "HNumeric": {
+    "stars": 8
   }
 }

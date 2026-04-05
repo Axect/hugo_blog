@@ -2,6 +2,7 @@
 """Fetch GitHub stars and crates.io downloads for software projects."""
 
 import json
+import os
 import sys
 import urllib.request
 import urllib.error
@@ -13,10 +14,15 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SOFTWARE_FILE = PROJECT_ROOT / "data" / "software.yaml"
 STATS_FILE = PROJECT_ROOT / "data" / "software_stats.json"
 
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
-def fetch_json(url: str) -> dict | None:
+
+def fetch_json(url: str, headers: dict | None = None) -> dict | None:
     """Fetch JSON from a URL, return None on failure."""
-    req = urllib.request.Request(url, headers={"User-Agent": "hugo-blog-stats/1.0"})
+    h = {"User-Agent": "hugo-blog-stats/1.0"}
+    if headers:
+        h.update(headers)
+    req = urllib.request.Request(url, headers=h)
     try:
         with urllib.request.urlopen(req, timeout=10) as resp:
             return json.loads(resp.read())
@@ -29,7 +35,10 @@ def github_stars(repo_url: str) -> int | None:
     """Extract owner/repo from GitHub URL and fetch star count."""
     parts = repo_url.rstrip("/").split("/")
     owner, repo = parts[-2], parts[-1]
-    data = fetch_json(f"https://api.github.com/repos/{owner}/{repo}")
+    headers = {}
+    if GITHUB_TOKEN:
+        headers["Authorization"] = f"token {GITHUB_TOKEN}"
+    data = fetch_json(f"https://api.github.com/repos/{owner}/{repo}", headers)
     if data and "stargazers_count" in data:
         return data["stargazers_count"]
     return None
