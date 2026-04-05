@@ -37,7 +37,7 @@
   language: "Python"
   github: "https://github.com/Yonsei-HEP-COSMO/DeeLeMa"
   tags: ["Machine Learning", "Particle Physics", "PyTorch"]
-  featured: true
+  featured: false
   paper_doi: "10.1103/PhysRevResearch.5.043186"
   paper_arxiv: "2212.12836"
   detail: |
@@ -84,7 +84,7 @@
   crates_name: "puruspe"
   docs: "https://docs.rs/puruspe"
   tags: ["Special Functions", "Mathematics"]
-  featured: false
+  featured: true
   detail: |
     Pure Rust implementation of mathematical special functions for scientific computing.
   features:
