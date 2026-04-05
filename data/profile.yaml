@@ -4,8 +4,8 @@ role: "Postdoctoral Researcher"
 affiliation:
   - "Key Laboratory of Nuclear Physics and Ion-beam Application (MOE), Fudan University"
   - "RIKEN Center for Interdisciplinary Theoretical and Mathematical Sciences (iTHEMS)"
-description: "Dark matter phenomenology, scientific computing, and machine learning"
-description_ko: "암흑물질 현상학, 과학 계산, 그리고 기계학습"
+description: "Dark matter phenomenology, AI for Science, and Science of AI"
+description_ko: "암흑물질 현상학, AI for Science, 그리고 Science of AI"
 education:
   - degree: "Ph.D. in Theoretical Particle Physics"
     institution: "Yonsei University"
