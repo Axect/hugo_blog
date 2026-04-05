@@ -1,0 +1,102 @@
+- title: "Primordial Black Holes as a Factory of Axions: Extragalactic Photons from Axions"
+  journal: "Prog. Theor. Exp. Phys."
+  year: 2026
+  authors: ["Tae-Geun Kim", "Jong-Chul Park", "Seong Chan Park", "Yeji Park"]
+  tags: ["Dark Matter", "PBH", "Axion"]
+  doi: "10.1093/ptep/ptag011"
+  arxiv: "2212.11977"
+  abstract: "We investigate the extragalactic photon signals produced by axion-like particles emitted from primordial black holes via Hawking radiation."
+  bibtex: |
+    @article{kim2023primordial,
+      title={Primordial Black Holes as a Factory of Axions: Extragalactic Photons from Axions},
+      author={Kim, Tae-Geun and Park, Jong-Chul and Park, Seong Chan and Park, Yeji},
+      journal={Progress of Theoretical and Experimental Physics},
+      pages={ptag011},
+      year={2026},
+      doi={10.1093/ptep/ptag011}
+    }
+
+- title: "Learning Hamiltonian Dynamics with Bayesian Data Assimilation"
+  journal: "arXiv preprint"
+  year: 2025
+  authors: ["Taehyeun Kim", "Tae-Geun Kim", "Anouk Girard", "Ilya Kolmanovsky"]
+  tags: ["Machine Learning", "Hamiltonian", "Bayesian"]
+  arxiv: "2501.18808"
+  abstract: "We propose a framework combining Hamiltonian neural networks with Bayesian data assimilation for learning dynamical systems."
+  bibtex: |
+    @article{kim2025learning,
+      title={Learning Hamiltonian Dynamics with Bayesian Data Assimilation},
+      author={Kim, Taehyeun and Kim, Tae-Geun and Girard, Anouk and Kolmanovsky, Ilya},
+      journal={arXiv preprint arXiv:2501.18808},
+      year={2025}
+    }
+
+- title: "Neural Hamilton: Can A.I. Understand Hamiltonian Mechanics?"
+  journal: "arXiv preprint"
+  year: 2024
+  authors: ["Tae-Geun Kim", "Seong Chan Park"]
+  tags: ["Machine Learning", "Operator Learning", "Hamiltonian"]
+  arxiv: "2410.20951"
+  code: "https://github.com/Axect/Neural_Hamilton"
+  abstract: "We investigate whether neural network architectures can learn Hamiltonian dynamics directly from the Hamiltonian function using operator learning."
+  bibtex: |
+    @article{kim2024neural,
+      title={Neural Hamilton: Can A.I. Understand Hamiltonian Mechanics?},
+      author={Kim, Tae-Geun and Park, Seong Chan},
+      journal={arXiv preprint arXiv:2410.20951},
+      year={2024}
+    }
+
+- title: "HyperbolicLR: Epoch insensitive learning rate scheduler"
+  journal: "arXiv preprint"
+  year: 2024
+  authors: ["Tae-Geun Kim"]
+  tags: ["Machine Learning", "Optimization"]
+  arxiv: "2407.15200"
+  abstract: "We propose HyperbolicLR, a learning rate scheduler that is insensitive to the total number of training epochs."
+  bibtex: |
+    @article{kim2024hyperboliclr,
+      title={HyperbolicLR: Epoch insensitive learning rate scheduler},
+      author={Kim, Tae-Geun},
+      journal={arXiv preprint arXiv:2407.15200},
+      year={2024}
+    }
+
+- title: "Unsupervised sequence-to-sequence learning for automatic signal quality assessment in multi-channel electrical impedance-based hemodynamic monitoring"
+  journal: "Comput. Meth. Prog. Bio."
+  year: 2024
+  authors: ["Chang Min Hyun", "Tae-Geun Kim", "Kyounghun Lee"]
+  tags: ["Machine Learning", "Biomedical", "Signal Processing"]
+  doi: "10.1016/j.cmpb.2024.108079"
+  arxiv: "2305.09368"
+  abstract: "We propose an unsupervised sequence-to-sequence learning framework for automatic signal quality assessment in multi-channel EIT-based hemodynamic monitoring."
+  bibtex: |
+    @article{hyun2024unsupervised,
+      title={Unsupervised sequence-to-sequence learning for automatic signal quality assessment in multi-channel electrical impedance-based hemodynamic monitoring},
+      author={Hyun, Chang Min and Kim, Tae-Geun and Lee, Kyounghun},
+      journal={Computer Methods and Programs in Biomedicine},
+      pages={108079},
+      year={2024},
+      doi={10.1016/j.cmpb.2024.108079}
+    }
+
+- title: "DeeLeMa: Missing information search with Deep Learning for Mass estimation"
+  journal: "Phys. Rev. Research"
+  year: 2023
+  authors: ["Kayoung Ban", "Dong Woo Kang", "Tae-Geun Kim", "Seong Chan Park", "Yeji Park"]
+  tags: ["Machine Learning", "Particle Physics", "Mass Estimation"]
+  doi: "10.1103/PhysRevResearch.5.043186"
+  arxiv: "2212.12836"
+  code: "https://github.com/Yonsei-HEP-COSMO/DeeLeMa"
+  abstract: "We propose DeeLeMa, a deep learning framework for mass estimation using missing information search in particle physics events."
+  bibtex: |
+    @article{ban2023deelema,
+      title={DeeLeMa: Missing information search with Deep Learning for Mass estimation},
+      author={Ban, Kayoung and Kang, Dong Woo and Kim, Tae-Geun and Park, Seong Chan and Park, Yeji},
+      journal={Physical Review Research},
+      volume={5},
+      number={4},
+      pages={043186},
+      year={2023},
+      doi={10.1103/PhysRevResearch.5.043186}
+    }
