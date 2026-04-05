@@ -117,3 +117,56 @@
   features:
     - "Monte Carlo, Temporal Difference, Q-Learning"
     - "Educational focus"
+
+- name: "Magi Researchers"
+  description: "Multi-model AI research synthesis with cross-verification"
+  language: "Python"
+  github: "https://github.com/Axect/magi-researchers"
+  tags: ["AI", "Research", "Multi-Model"]
+  featured: false
+  detail: |
+    Three AI models, one synthesis — Claude, Gemini & Codex cross-verify
+    each other for rigorous multi-perspective research.
+  features:
+    - "Claude, Gemini, and Codex integration"
+    - "Cross-verification for research validation"
+    - "Multi-perspective synthesis"
+
+- name: "Tonz"
+  description: "Modern, fast disk usage viewer"
+  language: "Rust"
+  github: "https://github.com/Axect/tonz"
+  crates_name: "tonz"
+  tags: ["CLI", "Disk Usage", "TUI"]
+  featured: false
+  detail: |
+    See what's heavy — a modern, fast disk usage viewer written in Rust.
+  features:
+    - "Fast recursive directory scanning"
+    - "Modern TUI interface"
+
+- name: "arXiv Explorer"
+  description: "Personalized arXiv paper recommendation and management"
+  language: "Python"
+  github: "https://github.com/Axect/arXiv_explorer"
+  tags: ["arXiv", "Research", "Recommendation"]
+  featured: false
+  detail: |
+    Personalized arXiv paper recommendation and management system.
+  features:
+    - "Personalized paper recommendations"
+    - "Paper management and organization"
+
+- name: "Overleap"
+  description: "Real-time bidirectional sync between Overleaf and local filesystem"
+  language: "JavaScript"
+  github: "https://github.com/Axect/overleap"
+  tags: ["Overleaf", "Sync", "LaTeX"]
+  featured: false
+  detail: |
+    Leap over the browser. Real-time bidirectional sync between Overleaf
+    and your local filesystem.
+  features:
+    - "Real-time bidirectional sync"
+    - "Browser-less Overleaf workflow"
+    - "npm package for easy installation"
