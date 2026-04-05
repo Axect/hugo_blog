@@ -1,0 +1,119 @@
+- name: "Peroxide"
+  description: "Comprehensive Rust numerical computing library"
+  language: "Rust"
+  github: "https://github.com/Axect/Peroxide"
+  crates_name: "peroxide"
+  docs: "https://peroxide.surge.sh"
+  tags: ["Numeric", "Linear Algebra", "Statistics", "ODE"]
+  featured: true
+  detail: |
+    Comprehensive numerical computing library for Rust, providing functionality
+    comparable to NumPy/SciPy. Core infrastructure for scientific computing research.
+  features:
+    - "Linear algebra with BLAS/LAPACK integration"
+    - "Optimization algorithms (Gradient Descent, Levenberg-Marquardt)"
+    - "Numerical integration & ODE/PDE solvers"
+    - "Statistical distributions & special functions"
+    - "DataFrame with multiple I/O formats"
+
+- name: "Radient"
+  description: "Rust automatic differentiation library"
+  language: "Rust"
+  github: "https://github.com/Axect/Radient"
+  crates_name: "radient"
+  docs: "https://docs.rs/radient"
+  tags: ["Automatic Differentiation", "Computational Graph"]
+  featured: false
+  detail: |
+    Experimental reverse-mode automatic differentiation library with arena-based
+    memory management for research and prototyping.
+  features:
+    - "Reverse-mode AD with tape-based gradient computation"
+    - "Arena allocation for memory safety and performance"
+    - "Integration with Peroxide"
+
+- name: "DeeLeMa"
+  description: "Deep Learning for Mass Estimation in particle physics"
+  language: "Python"
+  github: "https://github.com/Yonsei-HEP-COSMO/DeeLeMa"
+  tags: ["Machine Learning", "Particle Physics", "PyTorch"]
+  featured: true
+  paper_doi: "10.1103/PhysRevResearch.5.043186"
+  paper_arxiv: "2212.12836"
+  detail: |
+    Deep learning framework for particle physics mass estimation using missing
+    information search. Published in Physical Review Research.
+  features:
+    - "Published in Phys. Rev. Research 5, 043186 (2023)"
+    - "PyTorch-based with Lightning integration"
+    - "Wandb for hyperparameter tuning"
+
+- name: "Neural Hamilton"
+  description: "Operator learning for Hamiltonian mechanics"
+  language: "Python"
+  github: "https://github.com/Axect/Neural_Hamilton"
+  tags: ["Operator Learning", "Hamiltonian", "Neural ODE"]
+  featured: true
+  paper_arxiv: "2410.20951"
+  detail: |
+    Official implementation of operator learning for Hamiltonian mechanics.
+    Explores whether AI can truly understand physical dynamics.
+  features:
+    - "Four neural architectures (DeepONet, TraONet, VaRONet, MambONet)"
+    - "Novel potential generation via Gaussian Random Fields"
+    - "Multi-language (Python, Rust, Julia)"
+
+- name: "PyTorch Template"
+  description: "Flexible PyTorch template for ML experiments"
+  language: "Python"
+  github: "https://github.com/Axect/pytorch_template"
+  tags: ["Machine Learning", "Template", "PyTorch"]
+  featured: false
+  detail: |
+    Modular PyTorch project template designed for reproducible machine learning
+    experiments with YAML-based configuration.
+  features:
+    - "YAML-based experiment configuration"
+    - "Multiple random seed support"
+    - "Device selection and LR scheduling"
+
+- name: "Puruspe"
+  description: "Pure Rust special functions library"
+  language: "Rust"
+  github: "https://github.com/Axect/Puruspe"
+  crates_name: "puruspe"
+  docs: "https://docs.rs/puruspe"
+  tags: ["Special Functions", "Mathematics"]
+  featured: false
+  detail: |
+    Pure Rust implementation of mathematical special functions for scientific computing.
+  features:
+    - "Gamma, Beta, Error functions"
+    - "Regularized and inverse variants"
+    - "No external dependencies"
+
+- name: "Quantum Algorithms"
+  description: "Quantum computing algorithm implementations"
+  language: "Python"
+  github: "https://github.com/Axect/QuantumAlgorithms"
+  tags: ["Quantum Computing", "Education"]
+  featured: false
+  detail: |
+    Comprehensive collection of quantum algorithms in multiple frameworks.
+  features:
+    - "Pennylane, RustQIP, Qiskit, Cirq implementations"
+    - "Interactive Jupyter notebooks"
+
+- name: "Forger"
+  description: "Rust reinforcement learning library"
+  language: "Rust"
+  github: "https://github.com/Axect/Forger"
+  crates_name: "forger"
+  docs: "https://docs.rs/forger"
+  tags: ["Reinforcement Learning", "Education"]
+  featured: false
+  detail: |
+    Reinforcement learning algorithms implemented in Rust.
+  features:
+    - "Monte Carlo, Temporal Difference, Q-Learning"
+    - "Educational focus"
