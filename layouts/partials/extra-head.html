@@ -1,3 +1,8 @@
+<!-- Hahmlet Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
@@ -108,7 +113,7 @@
 </script>
 {{ end }}
 
-{{ if eq .RelPermalink "/research/" }}
+{{ if in .RelPermalink "/research/" }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -134,6 +139,6 @@
 {{ end }}
 
 <!-- Copy BibTeX functionality for Research page -->
-{{ if eq .RelPermalink "/research/" }}
+{{ if in .RelPermalink "/research/" }}
 <script src="{{ "js/copy-bibtex.js" | relURL }}"></script>
 {{ end }}

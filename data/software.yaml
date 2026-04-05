@@ -1,0 +1,368 @@
+- name: "Peroxide"
+  description: "Comprehensive Rust numerical computing library"
+  language: "Rust"
+  github: "https://github.com/Axect/Peroxide"
+  crates_name: "peroxide"
+  docs: "https://peroxide.surge.sh"
+  tags: ["Numeric", "Linear Algebra", "Statistics", "ODE"]
+  featured: true
+  detail: |
+    Comprehensive numerical computing library for Rust, providing functionality
+    comparable to NumPy/SciPy. Core infrastructure for scientific computing research.
+  features:
+    - "Linear algebra with BLAS/LAPACK integration"
+    - "Optimization algorithms (Gradient Descent, Levenberg-Marquardt)"
+    - "Numerical integration & ODE/PDE solvers"
+    - "Statistical distributions & special functions"
+    - "DataFrame with multiple I/O formats"
+
+- name: "Radient"
+  description: "Rust automatic differentiation library"
+  language: "Rust"
+  github: "https://github.com/Axect/Radient"
+  crates_name: "radient"
+  docs: "https://docs.rs/radient"
+  tags: ["Automatic Differentiation", "Computational Graph"]
+  featured: false
+  detail: |
+    Experimental reverse-mode automatic differentiation library with arena-based
+    memory management for research and prototyping.
+  features:
+    - "Reverse-mode AD with tape-based gradient computation"
+    - "Arena allocation for memory safety and performance"
+    - "Integration with Peroxide"
+
+- name: "DeeLeMa"
+  description: "Deep Learning for Mass Estimation in particle physics"
+  language: "Python"
+  github: "https://github.com/Yonsei-HEP-COSMO/DeeLeMa"
+  tags: ["Machine Learning", "Particle Physics", "PyTorch"]
+  featured: false
+  paper_doi: "10.1103/PhysRevResearch.5.043186"
+  paper_arxiv: "2212.12836"
+  detail: |
+    Deep learning framework for particle physics mass estimation using missing
+    information search. Published in Physical Review Research.
+  features:
+    - "Published in Phys. Rev. Research 5, 043186 (2023)"
+    - "PyTorch-based with Lightning integration"
+    - "Wandb for hyperparameter tuning"
+
+- name: "Neural Hamilton"
+  description: "Operator learning for Hamiltonian mechanics"
+  language: "Python"
+  github: "https://github.com/Axect/Neural_Hamilton"
+  tags: ["Operator Learning", "Hamiltonian", "Neural ODE"]
+  featured: true
+  paper_arxiv: "2410.20951"
+  detail: |
+    Official implementation of operator learning for Hamiltonian mechanics.
+    Explores whether AI can truly understand physical dynamics.
+  features:
+    - "Four neural architectures (DeepONet, TraONet, VaRONet, MambONet)"
+    - "Novel potential generation via Gaussian Random Fields"
+    - "Multi-language (Python, Rust, Julia)"
+
+- name: "PyTorch Template"
+  description: "Flexible PyTorch template for ML experiments"
+  language: "Python"
+  github: "https://github.com/Axect/pytorch_template"
+  tags: ["Machine Learning", "Template", "PyTorch"]
+  featured: false
+  detail: |
+    Modular PyTorch project template designed for reproducible machine learning
+    experiments with YAML-based configuration.
+  features:
+    - "YAML-based experiment configuration"
+    - "Multiple random seed support"
+    - "Device selection and LR scheduling"
+
+- name: "Puruspe"
+  description: "Pure Rust special functions library"
+  language: "Rust"
+  github: "https://github.com/Axect/Puruspe"
+  crates_name: "puruspe"
+  docs: "https://docs.rs/puruspe"
+  tags: ["Special Functions", "Mathematics"]
+  featured: true
+  detail: |
+    Pure Rust implementation of mathematical special functions for scientific computing.
+  features:
+    - "Gamma, Beta, Error functions"
+    - "Regularized and inverse variants"
+    - "No external dependencies"
+
+- name: "Quantum Algorithms"
+  description: "Quantum computing algorithm implementations"
+  language: "Python"
+  github: "https://github.com/Axect/QuantumAlgorithms"
+  tags: ["Quantum Computing", "Education"]
+  featured: false
+  detail: |
+    Comprehensive collection of quantum algorithms in multiple frameworks.
+  features:
+    - "Pennylane, RustQIP, Qiskit, Cirq implementations"
+    - "Interactive Jupyter notebooks"
+
+- name: "Forger"
+  description: "Rust reinforcement learning library"
+  language: "Rust"
+  github: "https://github.com/Axect/Forger"
+  crates_name: "forger"
+  docs: "https://docs.rs/forger"
+  tags: ["Reinforcement Learning", "Education"]
+  featured: false
+  detail: |
+    Reinforcement learning algorithms implemented in Rust.
+  features:
+    - "Monte Carlo, Temporal Difference, Q-Learning"
+    - "Educational focus"
+
+- name: "Magi Researchers"
+  description: "Multi-model AI research synthesis with cross-verification"
+  language: "Python"
+  github: "https://github.com/Axect/magi-researchers"
+  tags: ["AI", "Research", "Multi-Model"]
+  featured: false
+  detail: |
+    Three AI models, one synthesis — Claude, Gemini & Codex cross-verify
+    each other for rigorous multi-perspective research.
+  features:
+    - "Claude, Gemini, and Codex integration"
+    - "Cross-verification for research validation"
+    - "Multi-perspective synthesis"
+
+- name: "Tonz"
+  description: "Modern, fast disk usage viewer"
+  language: "Rust"
+  github: "https://github.com/Axect/tonz"
+  crates_name: "tonz"
+  tags: ["CLI", "Disk Usage", "TUI"]
+  featured: false
+  detail: |
+    See what's heavy — a modern, fast disk usage viewer written in Rust.
+  features:
+    - "Fast recursive directory scanning"
+    - "Modern TUI interface"
+
+- name: "arXiv Explorer"
+  description: "Personalized arXiv paper recommendation and management"
+  language: "Python"
+  github: "https://github.com/Axect/arXiv_explorer"
+  tags: ["arXiv", "Research", "Recommendation"]
+  featured: false
+  detail: |
+    Personalized arXiv paper recommendation and management system.
+  features:
+    - "Personalized paper recommendations"
+    - "Paper management and organization"
+
+- name: "Overleap"
+  description: "Real-time bidirectional sync between Overleaf and local filesystem"
+  language: "JavaScript"
+  github: "https://github.com/Axect/overleap"
+  tags: ["Overleaf", "Sync", "LaTeX"]
+  featured: false
+  detail: |
+    Leap over the browser. Real-time bidirectional sync between Overleaf
+    and your local filesystem.
+  features:
+    - "Real-time bidirectional sync"
+    - "Browser-less Overleaf workflow"
+    - "npm package for easy installation"
+
+- name: "PyTorch Scheduler"
+  description: "Comprehensive collection of learning rate schedulers for PyTorch"
+  language: "Python"
+  github: "https://github.com/Axect/pytorch-scheduler"
+  tags: ["Machine Learning", "PyTorch", "Optimization"]
+  featured: false
+  detail: |
+    17 schedulers, composable warmup, opinionated presets, and first-class paper references.
+  features:
+    - "17 learning rate schedulers"
+    - "Composable warmup support"
+    - "Research-driven with paper references"
+
+- name: "White Owl"
+  description: "Rust web framework"
+  language: "Rust"
+  github: "https://github.com/Axect/white_owl"
+  tags: ["Web", "Rust"]
+  featured: false
+  detail: |
+    Web framework written in Rust.
+  features:
+    - "Rust-based web framework"
+
+- name: "HyperbolicLR"
+  description: "Hyperbolic learning rate scheduler"
+  language: "Python"
+  github: "https://github.com/Axect/HyperbolicLR"
+  tags: ["Deep Learning", "Optimization", "Scheduler"]
+  featured: false
+  detail: |
+    Reference implementation for the HyperbolicLR paper — a learning rate
+    scheduler that is insensitive to the total number of training epochs.
+  features:
+    - "Epoch-insensitive scheduling"
+    - "Image classification & operator learning support"
+    - "Time series forecasting"
+    - "Reference implementation for arXiv:2407.15200"
+
+- name: "Puruda"
+  description: "Pure Rust DataFrame library"
+  language: "Rust"
+  github: "https://github.com/Axect/Puruda"
+  crates_name: "puruda"
+  tags: ["DataFrame", "Rust"]
+  featured: false
+  detail: |
+    PUre RUst DAtaframe — DataFrame library implemented in pure Rust.
+    Superseded by Peroxide's DataFrame module.
+  features:
+    - "Pure Rust DataFrame implementation"
+    - "Superseded by Peroxide"
+
+- name: "Rustag"
+  description: "Command-line file organization with custom tagging and fuzzy search"
+  language: "Rust"
+  github: "https://github.com/Axect/Rustag"
+  tags: ["CLI", "File Management", "Fuzzy Search"]
+  featured: false
+  detail: |
+    Rust-built command-line tool that simplifies file organization through
+    custom tagging and swift fuzzy search, enhancing file management
+    directly from your terminal.
+  features:
+    - "Custom file tagging system"
+    - "Fuzzy search for quick file retrieval"
+    - "Terminal-based file management"
+
+- name: "Yonsei Thesis Typst"
+  description: "Thesis/Dissertation Typst template for Yonsei University"
+  language: "Typst"
+  github: "https://github.com/Axect/yonsei-thesis-typst"
+  tags: ["Typst", "Template", "Thesis"]
+  featured: false
+  detail: |
+    Thesis/Dissertation template for Yonsei University written in Typst.
+  features:
+    - "Official Yonsei University thesis/dissertation format"
+    - "Typst-based for modern typesetting"
+
+- name: "Rugfield"
+  description: "Rust Gaussian random field generator"
+  language: "Rust"
+  github: "https://github.com/Axect/Rugfield"
+  tags: ["Physics", "Gaussian Random Fields", "Simulation"]
+  featured: false
+  detail: |
+    Gaussian random field generator implemented in Rust. Used for
+    generating physically plausible potentials in neural operator research.
+  features:
+    - "Gaussian random field generation"
+    - "Used in Neural Hamilton research"
+
+- name: "Zellaygen"
+  description: "Zellij layout generator"
+  language: "Rust"
+  github: "https://github.com/Axect/Zellaygen"
+  tags: ["CLI", "Zellij", "Layout"]
+  featured: false
+  detail: |
+    Zellij layout generator written in Rust. Automatically generates
+    Zellij terminal multiplexer layouts.
+  features:
+    - "Automatic Zellij layout generation"
+    - "Rust implementation"
+
+- name: "Yonsei Flexible"
+  description: "Flexible work hours calculator for Yonsei University"
+  language: "Rust"
+  github: "https://github.com/Axect/Yonsei-Flexible"
+  tags: ["Utility", "Calculator", "Rust"]
+  featured: false
+  detail: |
+    Flexible work hours calculator for technical research personnel at Yonsei University.
+  features:
+    - "Flexible work schedule time calculation"
+    - "Yonsei University specific"
+
+- name: "NCDataFrame.jl"
+  description: "Read & write NetCDF files via DataFrames in Julia"
+  language: "Julia"
+  github: "https://github.com/Axect/NCDataFrame.jl"
+  tags: ["Julia", "NetCDF", "DataFrame"]
+  featured: false
+  detail: |
+    Julia package for reading and writing NetCDF files via DataFrames interface.
+  features:
+    - "NetCDF file reading/writing"
+    - "Julia DataFrame integration"
+
+- name: "Natural Unit"
+  description: "Physical unit conversion with fundamental constants"
+  language: "Rust"
+  github: "https://github.com/Axect/Natural_Unit"
+  tags: ["Physics", "Units", "Constants"]
+  featured: false
+  detail: |
+    Physical unit conversion library with fundamental constants for
+    natural unit system calculations in physics.
+  features:
+    - "Natural unit system support"
+    - "Fundamental physical constants"
+    - "Unit conversion utilities"
+
+- name: "DNumeric"
+  description: "Numerical computation library for D language"
+  language: "D"
+  github: "https://github.com/Axect/DNumeric"
+  tags: ["Numeric", "D"]
+  featured: false
+  detail: |
+    Numerical computation repository for the D programming language.
+  features:
+    - "D language numerical computing"
+
+- name: "FPTools"
+  description: "Functional programming and efficient tools for D"
+  language: "D"
+  github: "https://github.com/Axect/FPTools"
+  tags: ["Functional Programming", "D"]
+  featured: false
+  detail: |
+    Functional programming and efficient tools for the D programming language.
+  features:
+    - "Functional programming utilities for D"
+    - "Efficient data processing tools"
+
+- name: "RGE"
+  description: "Renormalization Group Equation solver in Go & Julia"
+  language: "Go"
+  github: "https://github.com/Axect/RGE"
+  tags: ["Physics", "Particle Physics", "Go", "Julia"]
+  featured: false
+  detail: |
+    Go & Julia package to solve Renormalization Group Equations with
+    Julia integration for plotting.
+  features:
+    - "RGE numerical solver"
+    - "Go implementation with Julia plotting"
+    - "Particle physics applications"
+
+- name: "HNumeric"
+  description: "Haskell numeric library with MATLAB & R syntax"
+  language: "Haskell"
+  github: "https://github.com/Axect/HNumeric"
+  tags: ["Numeric", "Haskell", "Linear Algebra", "Statistics"]
+  featured: false
+  detail: |
+    Haskell numeric library with pure functional implementation,
+    providing MATLAB & R-like syntax for linear algebra, statistics,
+    and machine learning.
+  features:
+    - "Pure functional implementation"
+    - "MATLAB & R-like syntax"
+    - "Linear algebra, statistics, vector operations"

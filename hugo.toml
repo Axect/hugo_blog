@@ -50,6 +50,7 @@ images = [""]
 
 # Default theme "light" or "dark"
 defaultTheme = "light"
+customCSS = ["/css/custom.css"]
 
 enableSharingButtons = true
 enableGlobalLanguageMenu = true
@@ -129,6 +130,30 @@ keywords = "AI4Science, 연산자 학습, 역문제, 물리기반 머신러닝, 
 logoText = "cd /home/axect/"
 logoHomeLink = "/"
 
+[[languages.kr.menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
+
+[[languages.kr.menu.main]]
+identifier = "research"
+name = "Research"
+url = "/research"
+weight = 2
+
+[[languages.kr.menu.main]]
+identifier = "software"
+name = "Software"
+url = "/software"
+weight = 3
+
+[[languages.kr.menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/posts"
+weight = 4
+
 [languages.en]
 languageCode = "en"
 languageName = "English"
@@ -146,35 +171,26 @@ keywords = "AI4Science, Operator Learning, Inverse Problems, Physics-Informed Ma
 logoText = "cd /home/axect/"
 logoHomeLink = "/en"
 
+[[languages.en.menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
 
-# or
-#
-# path = "/img/your-example-logo.svg"
-# alt = "Your example logo alt text"
-
-# And you can even create generic menu
-[menu]
-[[menu.main]]
-identifier = "blog"
-name = "Blog"
-url = "/posts"
-
-[[menu.main]]
-identifier = "software"
-name = "Software"
-url = "/software"
-
-[[menu.main]]
+[[languages.en.menu.main]]
 identifier = "research"
 name = "Research"
 url = "/research"
+weight = 2
 
-[[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about"
+[[languages.en.menu.main]]
+identifier = "software"
+name = "Software"
+url = "/software"
+weight = 3
 
-[[menu.main]]
-identifier = "tags"
-name = "Tags"
-url = "/tags"
+[[languages.en.menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/posts"
+weight = 4
