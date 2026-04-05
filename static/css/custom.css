@@ -7,6 +7,7 @@ h1, h2, h3, h4, h5, h6 {
 /* === Homepage Profile === */
 .profile-header {
   text-align: center;
+  margin-top: 2rem;
   margin-bottom: 2rem;
   padding-bottom: 1.5rem;
   border-bottom: 1px solid #e0e0e0;
@@ -45,6 +46,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #555;
   line-height: 1.8;
   font-weight: 300;
+  margin-top: 1.5rem;
 }
 
 .profile-links {
