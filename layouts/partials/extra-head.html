@@ -113,7 +113,7 @@
 </script>
 {{ end }}
 
-{{ if eq .RelPermalink "/research/" }}
+{{ if in .RelPermalink "/research/" }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -139,6 +139,6 @@
 {{ end }}
 
 <!-- Copy BibTeX functionality for Research page -->
-{{ if eq .RelPermalink "/research/" }}
+{{ if in .RelPermalink "/research/" }}
 <script src="{{ "js/copy-bibtex.js" | relURL }}"></script>
 {{ end }}
