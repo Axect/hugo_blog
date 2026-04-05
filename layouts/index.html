@@ -1,0 +1,112 @@
+{{ define "main" }}
+<main aria-role="main">
+  {{ $profile := .Site.Data.profile }}
+  {{ $pubs := .Site.Data.publications }}
+  {{ $software := .Site.Data.software }}
+
+  <!-- Profile Header -->
+  <div class="profile-header">
+    <div class="name">{{ $profile.name }}</div>
+    <div class="role">{{ $profile.role }}</div>
+    <div class="affiliation">
+      {{ range $profile.affiliation }}
+        {{ . }}<br>
+      {{ end }}
+    </div>
+    <div class="divider"></div>
+    <div class="desc">
+      {{ if eq .Lang "kr" }}
+        {{ $profile.description_ko }}
+      {{ else }}
+        {{ $profile.description }}
+      {{ end }}
+    </div>
+    <div class="profile-links">
+      {{ with $profile.links.github }}<a href="{{ . }}" target="_blank">GitHub</a>{{ end }}
+      {{ with $profile.links.scholar }}<a href="{{ . }}" target="_blank">Scholar</a>{{ end }}
+      {{ with $profile.links.orcid }}<a href="{{ . }}" target="_blank">ORCID</a>{{ end }}
+      {{ with $profile.links.cv }}<a href="{{ . }}" target="_blank">CV</a>{{ end }}
+      {{ with $profile.links.linkedin }}<a href="{{ . }}" target="_blank">LinkedIn</a>{{ end }}
+      {{ with $profile.links.email }}<a href="{{ . }}">Email</a>{{ end }}
+    </div>
+  </div>
+
+  <!-- Stats Bar -->
+  <div class="stats-bar">
+    <div class="stat">
+      <div class="num">{{ len $pubs }}</div>
+      <div class="label">Publications</div>
+    </div>
+    <div class="stat">
+      <div class="num">{{ len $software }}</div>
+      <div class="label">Software</div>
+    </div>
+    <div class="stat">
+      <div class="num">{{ len .Site.RegularPages }}</div>
+      <div class="label">Posts</div>
+    </div>
+  </div>
+
+  <!-- Recent Publications -->
+  <div class="section-title">Recent Publications</div>
+  <div class="card-list">
+    {{ range first 3 $pubs }}
+    <div class="card" onclick="this.querySelector('.card-expand').classList.toggle('open')">
+      <div class="card-top">
+        <div class="title">{{ .title }}</div>
+        <div class="year">{{ .year }}</div>
+      </div>
+      <div class="journal">{{ .journal }}</div>
+      <div class="authors">{{ delimit .authors ", " }}</div>
+      <div class="tags">
+        {{ range .tags }}<span class="tag">{{ . }}</span>{{ end }}
+      </div>
+      <div class="card-expand">
+        {{ with .abstract }}<strong>Abstract:</strong> {{ . }}{{ end }}
+        {{ with .bibtex }}<div class="bibtex">{{ . }}</div>{{ end }}
+        <div class="links">
+          {{ with .doi }}<a href="https://doi.org/{{ . }}" target="_blank">DOI</a>{{ end }}
+          {{ with .arxiv }}<a href="https://arxiv.org/abs/{{ . }}" target="_blank">arXiv</a>{{ end }}
+          {{ with .code }}<a href="{{ . }}" target="_blank">Code</a>{{ end }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+
+  <!-- Featured Software -->
+  {{ $stats := .Site.Data.software_stats }}
+  <div class="section-title" style="margin-top: 2.5rem;">Featured Software</div>
+  <div class="card-list">
+    {{ range where $software "featured" true }}
+    {{ $s := index $stats .name }}
+    <div class="card" onclick="this.querySelector('.card-expand').classList.toggle('open')">
+      <div class="card-top">
+        <div class="title">{{ .name }}</div>
+      </div>
+      <div class="authors">{{ .description }}</div>
+      <div class="badges">
+        <span class="badge badge-lang {{ lower .language }}">{{ .language }}</span>
+        {{ with $s }}
+          {{ with .stars }}<span class="badge badge-stars">&#9733; {{ . }}</span>{{ end }}
+          {{ with .downloads }}<span class="badge badge-downloads">&#8615; {{ . }}</span>{{ end }}
+        {{ end }}
+      </div>
+      <div class="tags">
+        {{ range .tags }}<span class="tag">{{ . }}</span>{{ end }}
+      </div>
+      <div class="card-expand">
+        {{ with .detail }}{{ . }}{{ end }}
+        {{ with .features }}
+        <ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+        {{ end }}
+        <div class="links">
+          {{ with .github }}<a href="{{ . }}" target="_blank">GitHub</a>{{ end }}
+          {{ with .docs }}<a href="{{ . }}" target="_blank">Docs</a>{{ end }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</main>
+{{ end }}
