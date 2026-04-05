@@ -278,13 +278,13 @@
     - "Rust implementation"
 
 - name: "Yonsei Flexible"
-  description: "Yonsei University flexible work hours calculator"
+  description: "Flexible work hours calculator for Yonsei University"
   language: "Rust"
   github: "https://github.com/Axect/Yonsei-Flexible"
   tags: ["Utility", "Calculator", "Rust"]
   featured: false
   detail: |
-    연세대학교 전문연구요원 유연근무제 시간 계산기.
+    Flexible work hours calculator for technical research personnel at Yonsei University.
   features:
     - "Flexible work schedule time calculation"
     - "Yonsei University specific"
