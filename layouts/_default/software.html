@@ -1,0 +1,43 @@
+{{ define "main" }}
+<main aria-role="main">
+  {{ $software := .Site.Data.software }}
+  {{ $stats := .Site.Data.software_stats }}
+
+  <h1>{{ .Title }}</h1>
+
+  <div class="card-list">
+    {{ range $software }}
+    {{ $s := index $stats .name }}
+    <div class="card" onclick="this.querySelector('.card-expand').classList.toggle('open')">
+      <div class="card-top">
+        <div class="title">{{ .name }}</div>
+      </div>
+      <div class="authors">{{ .description }}</div>
+      <div class="badges">
+        <span class="badge badge-lang {{ lower .language }}">{{ .language }}</span>
+        {{ with $s }}
+          {{ with .stars }}<span class="badge badge-stars">&#9733; {{ . }}</span>{{ end }}
+          {{ with .downloads }}<span class="badge badge-downloads">&#8615; {{ . }}</span>{{ end }}
+        {{ end }}
+      </div>
+      <div class="tags">
+        {{ range .tags }}<span class="tag">{{ . }}</span>{{ end }}
+      </div>
+      <div class="software-links">
+        {{ with .github }}<a href="{{ . }}" target="_blank">GitHub</a>{{ end }}
+        {{ with .docs }}<a href="{{ . }}" target="_blank">Docs</a>{{ end }}
+        {{ with .crates_name }}<a href="https://crates.io/crates/{{ . }}" target="_blank">Crates.io</a>{{ end }}
+      </div>
+      <div class="card-expand">
+        {{ with .detail }}<p>{{ . }}</p>{{ end }}
+        {{ with .features }}
+        <ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+        {{ end }}
+        {{ with .paper_doi }}<p><a href="https://doi.org/{{ . }}" target="_blank">Paper (DOI)</a></p>{{ end }}
+        {{ with .paper_arxiv }}<p><a href="https://arxiv.org/abs/{{ . }}" target="_blank">Paper (arXiv)</a></p>{{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</main>
+{{ end }}
