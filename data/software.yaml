@@ -170,3 +170,181 @@
     - "Real-time bidirectional sync"
     - "Browser-less Overleaf workflow"
     - "npm package for easy installation"
+
+- name: "PyTorch Scheduler"
+  description: "Comprehensive collection of learning rate schedulers for PyTorch"
+  language: "Python"
+  github: "https://github.com/Axect/pytorch-scheduler"
+  tags: ["Machine Learning", "PyTorch", "Optimization"]
+  featured: false
+  detail: |
+    17 schedulers, composable warmup, opinionated presets, and first-class paper references.
+  features:
+    - "17 learning rate schedulers"
+    - "Composable warmup support"
+    - "Research-driven with paper references"
+
+- name: "White Owl"
+  description: "Rust CLI tool"
+  language: "Rust"
+  github: "https://github.com/Axect/white_owl"
+  tags: ["CLI", "Rust"]
+  featured: false
+  detail: |
+    Rust CLI utility tool.
+  features:
+    - "Rust implementation"
+
+- name: "HyperbolicLR"
+  description: "Epoch insensitive learning rate scheduler"
+  language: "Python"
+  github: "https://github.com/Axect/HyperbolicLR"
+  tags: ["Machine Learning", "Optimization", "Scheduler"]
+  featured: false
+  detail: |
+    Reference implementation for the HyperbolicLR paper — a learning rate
+    scheduler that is insensitive to the total number of training epochs.
+  features:
+    - "Epoch-insensitive scheduling"
+    - "Reference implementation for arXiv:2407.15200"
+
+- name: "Puruda"
+  description: "Pure Rust DataFrame library"
+  language: "Rust"
+  github: "https://github.com/Axect/Puruda"
+  crates_name: "puruda"
+  tags: ["DataFrame", "Data"]
+  featured: false
+  detail: |
+    Pure Rust DataFrame library (superseded by Peroxide's DataFrame module).
+  features:
+    - "Pure Rust implementation"
+    - "Superseded by Peroxide"
+
+- name: "Rustag"
+  description: "Rust tagged union and algebraic data types"
+  language: "Rust"
+  github: "https://github.com/Axect/Rustag"
+  tags: ["Rust", "Type System"]
+  featured: false
+  detail: |
+    Tagged union and algebraic data type utilities for Rust.
+  features:
+    - "Tagged union support"
+    - "Algebraic data types"
+
+- name: "Yonsei Thesis Typst"
+  description: "Yonsei University thesis template in Typst"
+  language: "Typst"
+  github: "https://github.com/Axect/yonsei-thesis-typst"
+  tags: ["Typst", "Template", "Thesis"]
+  featured: false
+  detail: |
+    Yonsei University thesis template written in Typst.
+  features:
+    - "Official Yonsei thesis format"
+    - "Typst-based for modern typesetting"
+
+- name: "Rugfield"
+  description: "Rust Gaussian field generator"
+  language: "Rust"
+  github: "https://github.com/Axect/Rugfield"
+  tags: ["Physics", "Gaussian Random Fields"]
+  featured: false
+  detail: |
+    Gaussian random field generator implemented in Rust.
+  features:
+    - "Gaussian random field generation"
+    - "Rust implementation"
+
+- name: "Zellaygen"
+  description: "Zellij layout generator"
+  language: "Rust"
+  github: "https://github.com/Axect/Zellaygen"
+  tags: ["CLI", "Zellij", "Terminal"]
+  featured: false
+  detail: |
+    Zellij layout generator written in Rust.
+  features:
+    - "Automatic Zellij layout generation"
+
+- name: "Yonsei Flexible"
+  description: "Flexible Yonsei University LaTeX template"
+  language: "TeX"
+  github: "https://github.com/Axect/Yonsei-Flexible"
+  tags: ["LaTeX", "Template", "Academic"]
+  featured: false
+  detail: |
+    Flexible LaTeX template for Yonsei University documents.
+  features:
+    - "Customizable academic template"
+    - "Yonsei University format"
+
+- name: "NCDataFrame.jl"
+  description: "Julia netCDF I/O with DataFrame integration"
+  language: "Julia"
+  github: "https://github.com/Axect/NCDataFrame.jl"
+  tags: ["Julia", "NetCDF", "DataFrame"]
+  featured: false
+  detail: |
+    Julia netCDF I/O with DataFrame integration.
+  features:
+    - "NetCDF file reading/writing"
+    - "DataFrame integration"
+
+- name: "Natural Unit"
+  description: "Natural unit conversion library"
+  language: "Rust"
+  github: "https://github.com/Axect/Natural_Unit"
+  tags: ["Physics", "Units"]
+  featured: false
+  detail: |
+    Natural unit conversion library for physics computations.
+  features:
+    - "Natural unit system support"
+    - "Physics unit conversions"
+
+- name: "DNumeric"
+  description: "Numerical library for D programming language"
+  language: "D"
+  github: "https://github.com/Axect/DNumeric"
+  tags: ["Numeric", "D"]
+  featured: false
+  detail: |
+    Numerical library for D programming language.
+  features:
+    - "D language numeric library"
+
+- name: "FPTools"
+  description: "Functional programming tools"
+  language: "Rust"
+  github: "https://github.com/Axect/FPTools"
+  tags: ["Functional Programming", "Rust"]
+  featured: false
+  detail: |
+    Functional programming tools and utilities for Rust.
+  features:
+    - "Functional programming utilities"
+
+- name: "RGE"
+  description: "Renormalization Group Equation solver"
+  language: "Go"
+  github: "https://github.com/Axect/RGE"
+  tags: ["Physics", "RGE", "Go"]
+  featured: false
+  detail: |
+    Go package for solving Renormalization Group Equations with Julia integration for plotting.
+  features:
+    - "RGE numerical solver"
+    - "Julia integration for visualization"
+
+- name: "HNumeric"
+  description: "Numerical library for Haskell"
+  language: "Haskell"
+  github: "https://github.com/Axect/HNumeric"
+  tags: ["Numeric", "Haskell"]
+  featured: false
+  detail: |
+    Numerical library for Haskell.
+  features:
+    - "Haskell numeric library"
