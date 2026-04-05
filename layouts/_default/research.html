@@ -1,0 +1,87 @@
+{{ define "main" }}
+<main aria-role="main">
+  {{ $pubs := .Site.Data.publications }}
+  {{ $talks := .Site.Data.presentations }}
+
+  <h1>{{ .Title }}</h1>
+
+  <!-- Tabs -->
+  <div class="tab-container">
+    <div class="tab-buttons">
+      <button class="tab-btn active" onclick="switchTab(event, 'publications')">Publications</button>
+      <button class="tab-btn" onclick="switchTab(event, 'presentations')">Presentations</button>
+    </div>
+
+    <!-- Publications Tab -->
+    <div id="publications" class="tab-content active">
+      <div class="card-list">
+        {{ range $pubs }}
+        <div class="card" onclick="this.querySelector('.card-expand').classList.toggle('open')">
+          <div class="card-top">
+            <div class="title">{{ .title }}</div>
+            <div class="year">{{ .year }}</div>
+          </div>
+          <div class="journal">{{ .journal }}</div>
+          <div class="authors">{{ delimit .authors ", " }}</div>
+          <div class="tags">
+            {{ range .tags }}<span class="tag">{{ . }}</span>{{ end }}
+          </div>
+          <div class="card-expand">
+            {{ with .abstract }}<p><strong>Abstract:</strong> {{ . }}</p>{{ end }}
+            {{ with .bibtex }}<div class="bibtex">{{ . }}</div>{{ end }}
+            <div class="links">
+              {{ with .doi }}<a href="https://doi.org/{{ . }}" target="_blank">DOI</a>{{ end }}
+              {{ with .arxiv }}<a href="https://arxiv.org/abs/{{ . }}" target="_blank">arXiv</a>{{ end }}
+              {{ with .code }}<a href="{{ . }}" target="_blank">Code</a>{{ end }}
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+
+    <!-- Presentations Tab -->
+    <div id="presentations" class="tab-content">
+      <div class="card-list">
+        {{ range $talks }}
+        <div class="card"{{ if or .slides .award }} onclick="this.querySelector('.card-expand').classList.toggle('open')"{{ end }}>
+          <div class="card-top">
+            <div class="title">{{ .title }}</div>
+            <div class="year">{{ .date }}</div>
+          </div>
+          <div class="journal">{{ .event }}</div>
+          <div class="authors">{{ .location }}</div>
+          <div class="badges">
+            {{ $typeClass := "oral" }}
+            {{ if eq .type "Invited" }}{{ $typeClass = "invited" }}{{ end }}
+            {{ if eq .type "Poster" }}{{ $typeClass = "poster" }}{{ end }}
+            <span class="badge badge-type {{ $typeClass }}">{{ .type }}</span>
+            {{ with .award }}<span class="badge badge-award">&#127942; {{ . }}</span>{{ end }}
+          </div>
+          {{ if or .slides .award }}
+          <div class="card-expand">
+            <div class="links">
+              {{ with .slides }}<a href="{{ . }}" target="_blank">Slides</a>{{ end }}
+            </div>
+          </div>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
+  <script>
+  function switchTab(evt, tabId) {
+    document.querySelectorAll('.tab-content').forEach(function(el) {
+      el.classList.remove('active');
+    });
+    document.querySelectorAll('.tab-btn').forEach(function(el) {
+      el.classList.remove('active');
+    });
+    document.getElementById(tabId).classList.add('active');
+    evt.currentTarget.classList.add('active');
+  }
+  </script>
+</main>
+{{ end }}
