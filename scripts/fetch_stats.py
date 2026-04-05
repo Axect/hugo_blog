@@ -43,6 +43,15 @@ def crates_downloads(crate_name: str) -> int | None:
     return None
 
 
+def format_number(n: int) -> str:
+    """Format large numbers for display: 1062209 -> '1.0M', 6625 -> '6.6K'."""
+    if n >= 1_000_000:
+        return f"{n / 1_000_000:.1f}M"
+    elif n >= 1_000:
+        return f"{n / 1_000:.1f}K"
+    return str(n)
+
+
 def main():
     if not SOFTWARE_FILE.exists():
         print(f"ERROR: {SOFTWARE_FILE} not found", file=sys.stderr)
@@ -76,7 +85,7 @@ def main():
         if proj.get("crates_name"):
             downloads = crates_downloads(proj["crates_name"])
             if downloads is not None:
-                entry["downloads"] = downloads
+                entry["downloads"] = format_number(downloads)
             elif name in prev_stats and "downloads" in prev_stats[name]:
                 entry["downloads"] = prev_stats[name]["downloads"]
                 print(f"  Using cached downloads for {name}")
