@@ -6,9 +6,11 @@
   docs: "https://peroxide.surge.sh"
   tags: ["Numeric", "Linear Algebra", "Statistics", "ODE"]
   featured: true
+  paper_doi: "10.21105/joss.10366"
   detail: |
     Comprehensive numerical computing library for Rust, providing functionality
     comparable to NumPy/SciPy. Core infrastructure for scientific computing research.
+    Published in the Journal of Open Source Software (JOSS), 11(124), 10366.
   features:
     - "Linear algebra with BLAS/LAPACK integration"
     - "Optimization algorithms (Gradient Descent, Levenberg-Marquardt)"

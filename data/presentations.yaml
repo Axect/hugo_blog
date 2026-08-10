@@ -1,3 +1,33 @@
+- title: "Can you trust your neural sampler?"
+  event: "CCP2026 @ Sejong University"
+  type: "Invited"
+  date: "2026"
+  location: "Seoul, Korea"
+
+- title: "Can one see the mass of a PBH?"
+  event: "KIAS Seminar"
+  type: "Invited"
+  date: "2026"
+  location: "Seoul, Korea"
+
+- title: "Neural Inverse Problems and Degeneracy: SMEFT and PBHs"
+  event: "PARTIQAL @ IBS"
+  type: "Invited"
+  date: "2026"
+  location: "Daejeon, Korea"
+
+- title: "Inverse Problems in High Energy Physics"
+  event: "DEEP-IN Starter Meeting @ RIKEN"
+  type: "Invited"
+  date: "2026"
+  location: "Wako, Japan"
+
+- title: "Can you trust your neural samplers?"
+  event: "AI Agents for Nuclear Physics @ Fudan University"
+  type: "Oral"
+  date: "2026"
+  location: "Shanghai, China"
+
 - title: "Accelerating PBH Phenomenology via Neural Operators"
   event: "The 2nd AI+HEP in East Asia @ KEK"
   type: "Oral"
@@ -11,7 +41,7 @@
   location: "Shanghai, China"
 
 - title: "Can AI Understand Hamiltonian Mechanics?"
-  event: "Summer Institute 2025"
+  event: "29th International Summer Institute on Phenomenology"
   type: "Oral"
   date: "2025"
   location: "Yeosu, Korea"
@@ -46,7 +76,7 @@
 
 - title: "Can A.I. Understand Hamiltonian Mechanics?"
   event: "Dark Matter as a portal to New Physics 2025"
-  type: "Invited"
+  type: "Oral"
   date: "2025"
   location: "Pohang, Korea"
 
