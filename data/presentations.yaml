@@ -1,3 +1,27 @@
+- title: "Trustworthy Neural Sampler"
+  event: "ECT* Workshop"
+  type: "Oral"
+  date: "2026"
+  location: "Trento, Italy"
+
+- title: "Can one see the mass of a PBH?"
+  event: "Seminar @ Bielefeld University"
+  type: "Invited"
+  date: "2026"
+  location: "Bielefeld, Germany"
+
+- title: "Can you trust your neural sampler?"
+  event: "ITP Seminar @ Heidelberg University"
+  type: "Invited"
+  date: "2026"
+  location: "Heidelberg, Germany"
+
+- title: "A graph-bandwidth law for context windows in autoregressive samplers"
+  event: "EuCAIFCon 2026"
+  type: "Oral"
+  date: "2026"
+  location: "Heidelberg, Germany"
+
 - title: "Can you trust your neural sampler?"
   event: "CCP2026 @ Sejong University"
   type: "Invited"
@@ -41,7 +65,7 @@
   location: "Shanghai, China"
 
 - title: "Can AI Understand Hamiltonian Mechanics?"
-  event: "29th International Summer Institute on Phenomenology"
+  event: "29th International Summer Institute on Phenomenology of Elementary Particle Physics and Cosmology"
   type: "Oral"
   date: "2025"
   location: "Yeosu, Korea"
