@@ -1,6 +1,6 @@
 {
   "Peroxide": {
-    "stars": 722,
+    "stars": 728,
     "downloads": "1.3M"
   },
   "Radient": {
@@ -18,26 +18,29 @@
   },
   "Puruspe": {
     "stars": 29,
-    "downloads": "1.3M"
+    "downloads": "1.5M"
   },
   "Quantum Algorithms": {
     "stars": 7
   },
   "Forger": {
     "stars": 3,
-    "downloads": "6.6K"
+    "downloads": "6.7K"
   },
   "Magi Researchers": {
     "stars": 13
   },
   "Tonz": {
     "stars": 6,
-    "downloads": "70"
+    "downloads": "72"
   },
   "arXiv Explorer": {
     "stars": 8
   },
   "Overleap": {
+    "stars": 3
+  },
+  "Skills": {
     "stars": 3
   },
   "PyTorch Scheduler": {
@@ -63,7 +66,7 @@
     "stars": 1
   },
   "Zellaygen": {
-    "stars": 27
+    "stars": 28
   },
   "Yonsei Flexible": {
     "stars": 2

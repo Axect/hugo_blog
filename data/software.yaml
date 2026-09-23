@@ -173,6 +173,21 @@
     - "Browser-less Overleaf workflow"
     - "npm package for easy installation"
 
+- name: "Skills"
+  description: "Reusable skills for AI coding agents"
+  language: "Python"
+  github: "https://github.com/Axect/skills"
+  tags: ["AI Agents", "Research Workflow", "Automation"]
+  featured: false
+  detail: |
+    Reusable skills for AI coding agents (Claude Code, Codex, Forge) covering
+    paper review, commit triage, GPU rentals, reference search, research logs,
+    and image-prompt composition.
+  features:
+    - "Works with Claude Code, Codex, and Forge"
+    - "Research workflows: paper review, reference search, research logs"
+    - "Engineering workflows: commit triage, GPU rentals, Overleaf sync"
+
 - name: "PyTorch Scheduler"
   description: "Comprehensive collection of learning rate schedulers for PyTorch"
   language: "Python"
