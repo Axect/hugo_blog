@@ -7,7 +7,7 @@
   <!-- Profile Header -->
   <div class="profile-header">
     <div class="name">{{ $profile.name }}</div>
-    <div class="role">{{ $profile.role }}</div>
+    <div class="role">{{ $profile.role }}{{ $note := cond (eq .Lang "kr") $profile.name_note_ko $profile.name_note }}{{ with $note }} &middot; {{ . }}{{ end }}</div>
     <div class="affiliation">
       {{ range $profile.affiliation }}
         {{ . }}<br>

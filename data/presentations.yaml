@@ -17,7 +17,7 @@
   location: "Heidelberg, Germany"
 
 - title: "A graph-bandwidth law for context windows in autoregressive samplers"
-  event: "EuCAIFCon 2026"
+  event: "EuCAIFCon 2026 (parallel talk and poster)"
   type: "Oral"
   date: "2026"
   location: "Heidelberg, Germany"
@@ -52,7 +52,7 @@
   date: "2026"
   location: "Shanghai, China"
 
-- title: "Accelerating PBH Phenomenology via Neural Operators"
+- title: "Accelerating Primordial Black Hole Phenomenology: An Operator Learning Approach"
   event: "The 2nd AI+HEP in East Asia @ KEK"
   type: "Oral"
   date: "2026"

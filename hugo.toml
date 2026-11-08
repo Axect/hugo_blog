@@ -44,7 +44,7 @@ dateformNumTime = "2006-01-02 15:04 -0700"
 disableReadOtherPosts = false
 
 # Metadata mostly used in document's head
-description = "Tae-Geun Kim - AI4Science & Dark Matter Physics Research"
+description = "Tae-Geun Kim-Morgen - AI4Science & Dark Matter Physics Research"
 keywords = "AI4Science, Operator Learning, Inverse Problems, Physics-Informed Machine Learning, Dark Matter Physics, Primordial Black Holes, Axions, Interdisciplinary AI, Scientific Computing, Rust"
 images = [""]
 
@@ -100,7 +100,7 @@ url = "https://www.linkedin.com/in/tae-geun-kim/"
 
 [[params.social]]
 name = "email"
-url = "mailto:axect.tg@proton.me"
+url = "mailto:tgkim@fudan.edu.cn"
 
 [params.author]
 name = "Axect"

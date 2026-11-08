@@ -1,4 +1,6 @@
-name: "Tae-Geun Kim"
+name: "Tae-Geun Kim-Morgen"
+name_note: "Publications under Tae-Geun Kim"
+name_note_ko: "논문 출판명: Tae-Geun Kim"
 name_ko: "김태근"
 role: "Postdoctoral Researcher"
 affiliation:
@@ -16,7 +18,7 @@ education:
 experience:
   - role: "Joint Postdoc"
     institution: "Fudan University & RIKEN iTHEMS"
-    period: "2025.10 –"
+    period: "2025.11 –"
 honors:
   - title: "APS DCOMP Travel/Registration Award"
     org: "APS Division of Computational Physics, CCP2026"

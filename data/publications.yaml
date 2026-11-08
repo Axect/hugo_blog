@@ -38,13 +38,13 @@
       doi={10.1093/ptep/ptag011}
     }
 
-- title: "Learning Hamiltonian Dynamics with Bayesian Data Assimilation"
-  journal: "arXiv preprint"
+- title: "Learning Unknown Gravitational Fields for Spacecraft State Estimation: Temporal Hamiltonian Neural Network-based Adaptive Kalman Filtering"
+  journal: "Under review at IEEE TAES"
   year: 2025
   authors: ["Taehyeun Kim", "Tae-Geun Kim", "Anouck Girard", "Ilya Kolmanovsky"]
   tags: ["Machine Learning", "Hamiltonian", "Bayesian"]
   arxiv: "2501.18808"
-  abstract: "We propose a framework combining Hamiltonian neural networks with Bayesian data assimilation for learning dynamical systems."
+  abstract: "Earlier version on arXiv as \"Learning Hamiltonian Dynamics with Bayesian Data Assimilation\". We propose a framework combining Hamiltonian neural networks with Bayesian data assimilation for learning dynamical systems."
   bibtex: |
     @article{kim2025learning,
       title={Learning Hamiltonian Dynamics with Bayesian Data Assimilation},

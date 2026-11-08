@@ -33,15 +33,15 @@
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "name": "Tae-Geun Kim",
-  "alternateName": "Axect",
+  "name": "Tae-Geun Kim-Morgen",
+  "alternateName": ["Tae-Geun Kim", "Axect"],
   "url": "{{ .Site.BaseURL }}",
   "image": "{{ .Site.BaseURL }}images/profile.jpg",
   "jobTitle": "Postdoctoral Researcher",
   "worksFor": [
     {
       "@type": "Organization",
-      "name": "Institute of Modern Physics, Fudan University"
+      "name": "Key Laboratory of Nuclear Physics and Ion-beam Application (MOE), Fudan University"
     },
     {
       "@type": "Organization",
@@ -95,12 +95,12 @@
   "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
   "author": {
     "@type": "Person",
-    "name": "Tae-Geun Kim",
+    "name": "Tae-Geun Kim-Morgen",
     "url": "{{ .Site.BaseURL }}"
   },
   "publisher": {
     "@type": "Person",
-    "name": "Tae-Geun Kim"
+    "name": "Tae-Geun Kim-Morgen"
   },
   "description": "{{ .Summary | plainify }}",
   "url": "{{ .Permalink }}",
@@ -120,10 +120,10 @@
   "@type": "ScholarlyArticle",
   "author": {
     "@type": "Person",
-    "name": "Tae-Geun Kim",
+    "name": "Tae-Geun Kim-Morgen",
     "url": "{{ .Site.BaseURL }}"
   },
-  "headline": "Research Portfolio - Tae-Geun Kim",
+  "headline": "Research Portfolio - Tae-Geun Kim-Morgen",
   "description": "Dark Matter Phenomenology and AI4Science research",
   "url": "{{ .Permalink }}"
 }
@@ -131,7 +131,7 @@
 {{ end }}
 
 <!-- Google Scholar Meta Tags -->
-<meta name="citation_author" content="Kim, Tae-Geun" />
+<meta name="citation_author" content="Kim-Morgen, Tae-Geun" />
 {{ if and (not .IsHome) (eq .Section "posts") }}
 <meta name="citation_title" content="{{ .Title }}" />
 <meta name="citation_publication_date" content="{{ .Date.Format "2006/01/02" }}" />
