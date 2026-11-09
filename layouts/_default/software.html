@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main aria-role="main">
-  {{ $software := .Site.Data.software }}
-  {{ $stats := .Site.Data.software_stats }}
+  {{ $software := hugo.Data.software }}
+  {{ $stats := hugo.Data.software_stats }}
 
   <h1>{{ .Title }}</h1>
 

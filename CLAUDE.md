@@ -25,6 +25,8 @@ hugo -t hello-friend-ng
 ./build_local.sh
 ```
 
+The theme compiles SCSS with Dart Sass: a `sass` binary (Dart Sass, not libsass) must be on `PATH` (`pacman -S dart-sass`, or the release tarball from github.com/sass/dart-sass).
+
 ## Architecture
 
 ### Directory Structure

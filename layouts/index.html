@@ -1,8 +1,8 @@
 {{ define "main" }}
 <main aria-role="main">
-  {{ $profile := .Site.Data.profile }}
-  {{ $pubs := .Site.Data.publications }}
-  {{ $software := .Site.Data.software }}
+  {{ $profile := hugo.Data.profile }}
+  {{ $pubs := hugo.Data.publications }}
+  {{ $software := hugo.Data.software }}
 
   <!-- Profile Header -->
   <div class="profile-header">
@@ -75,7 +75,7 @@
   </div>
 
   <!-- Featured Software -->
-  {{ $stats := .Site.Data.software_stats }}
+  {{ $stats := hugo.Data.software_stats }}
   <div class="section-title" style="margin-top: 2.5rem;">Featured Software</div>
   <div class="card-list">
     {{ range where $software "featured" true }}

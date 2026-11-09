@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main aria-role="main">
-  {{ $pubs := .Site.Data.publications }}
-  {{ $talks := .Site.Data.presentations }}
+  {{ $pubs := hugo.Data.publications }}
+  {{ $talks := hugo.Data.presentations }}
 
   <h1>{{ .Title }}</h1>
 

@@ -57,7 +57,7 @@ enableGlobalLanguageMenu = true
 googleAnalyticsID = "G-KME9ENECWV"
 
 [params.footer]
-trademark = 2023
+trademark = "2023–2026"
 rss = true
 copyright = true
 author = true
@@ -115,8 +115,8 @@ series = "series"
 
 [languages]
 [languages.kr]
-languageCode = "kr"
-languageName = "Korean"
+locale = "ko"
+label = "Korean"
 title = "Axect's Blog"
 copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 weight = 2
@@ -155,8 +155,8 @@ url = "/posts"
 weight = 4
 
 [languages.en]
-languageCode = "en"
-languageName = "English"
+locale = "en"
+label = "English"
 title = "Axect's Blog"
 copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 weight = 1
