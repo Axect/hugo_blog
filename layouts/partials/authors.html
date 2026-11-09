@@ -1,0 +1,7 @@
+{{- /* Author list: own name in bold, co-first authors marked with an asterisk. Context: a publications.yaml entry. */ -}}
+{{- $cofirst := .cofirst | default slice -}}
+{{- range $i, $a := .authors -}}
+{{- if $i }}, {{ end -}}
+{{- if eq $a "Tae-Geun Kim" }}<strong>{{ $a }}</strong>{{ else }}{{ $a }}{{ end -}}
+{{- if in $cofirst $a }}<sup>*</sup>{{ end -}}
+{{- end -}}

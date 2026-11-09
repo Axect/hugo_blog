@@ -22,7 +22,7 @@
             <div class="year">{{ .year }}</div>
           </div>
           <div class="journal">{{ .journal }}</div>
-          <div class="authors">{{ delimit .authors ", " }}</div>
+          <div class="authors">{{ partial "authors.html" . }}</div>
           <div class="tags">
             {{ range .tags }}<span class="tag">{{ . }}</span>{{ end }}
           </div>
@@ -38,6 +38,7 @@
         </div>
         {{ end }}
       </div>
+      <div class="footnote"><sup>*</sup> Co-first authors</div>
     </div>
 
     <!-- Presentations Tab -->

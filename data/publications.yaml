@@ -22,6 +22,7 @@
   journal: "Prog. Theor. Exp. Phys."
   year: 2026
   authors: ["Yongsoo Jho", "Tae-Geun Kim", "Jong-Chul Park", "Seong Chan Park", "Yeji Park"]
+  cofirst: ["Yongsoo Jho", "Tae-Geun Kim", "Jong-Chul Park", "Seong Chan Park", "Yeji Park"]
   tags: ["Dark Matter", "PBH", "Axion"]
   doi: "10.1093/ptep/ptag011"
   arxiv: "2212.11977"
@@ -42,6 +43,7 @@
   journal: "Under review at IEEE TAES"
   year: 2025
   authors: ["Taehyeun Kim", "Tae-Geun Kim", "Anouck Girard", "Ilya Kolmanovsky"]
+  cofirst: ["Taehyeun Kim", "Tae-Geun Kim"]
   tags: ["Machine Learning", "Hamiltonian", "Bayesian"]
   arxiv: "2501.18808"
   abstract: "Earlier version on arXiv as \"Learning Hamiltonian Dynamics with Bayesian Data Assimilation\": In this paper, we develop a neural network-based approach for time-series prediction in unknown Hamiltonian dynamical systems. Our approach leverages a surrogate model and learns the system dynamics using generalized coordinates (positions) and their conjugate momenta while preserving a constant Hamiltonian. Additionally, we employ Bayesian data assimilation to refine predictions in real-time using online measurement data."
@@ -88,6 +90,7 @@
   journal: "Comput. Meth. Prog. Bio."
   year: 2024
   authors: ["Chang Min Hyun", "Tae-Geun Kim", "Kyounghun Lee"]
+  cofirst: ["Chang Min Hyun", "Tae-Geun Kim"]
   tags: ["Machine Learning", "Biomedical", "Signal Processing"]
   doi: "10.1016/j.cmpb.2024.108079"
   arxiv: "2305.09368"
@@ -106,6 +109,7 @@
   journal: "Phys. Rev. Research"
   year: 2023
   authors: ["Kayoung Ban", "Dong Woo Kang", "Tae-Geun Kim", "Seong Chan Park", "Yeji Park"]
+  cofirst: ["Kayoung Ban", "Dong Woo Kang", "Tae-Geun Kim", "Seong Chan Park", "Yeji Park"]
   tags: ["Machine Learning", "Particle Physics", "Mass Estimation"]
   doi: "10.1103/PhysRevResearch.5.043186"
   arxiv: "2212.12836"

@@ -88,7 +88,7 @@ url = "https://scholar.google.com/citations?user=Gnat36QAAAAJ"
 
 [[params.social]]
 name = "cv"
-url = "https://github.com/Axect/cv_typst/blob/main/cv.pdf"
+url = "https://axect.github.io/cv.pdf"
 
 [[params.social]]
 name = "researchgate"

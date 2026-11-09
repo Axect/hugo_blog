@@ -22,6 +22,7 @@
   description: "Rust automatic differentiation library"
   language: "Rust"
   github: "https://github.com/Axect/Radient"
+  archive: true
   crates_name: "radient"
   docs: "https://docs.rs/radient"
   tags: ["Automatic Differentiation", "Computational Graph"]
@@ -98,6 +99,7 @@
   description: "Quantum computing algorithm implementations"
   language: "Python"
   github: "https://github.com/Axect/QuantumAlgorithms"
+  archive: true
   tags: ["Quantum Computing", "Education"]
   featured: false
   detail: |
@@ -110,6 +112,7 @@
   description: "Rust reinforcement learning library"
   language: "Rust"
   github: "https://github.com/Axect/Forger"
+  archive: true
   crates_name: "forger"
   docs: "https://docs.rs/forger"
   tags: ["Reinforcement Learning", "Education"]
@@ -285,6 +288,7 @@
   description: "Zellij layout generator"
   language: "Rust"
   github: "https://github.com/Axect/Zellaygen"
+  archive: true
   tags: ["CLI", "Zellij", "Layout"]
   featured: false
   detail: |
@@ -298,6 +302,7 @@
   description: "Flexible work hours calculator for Yonsei University"
   language: "Rust"
   github: "https://github.com/Axect/Yonsei-Flexible"
+  archive: true
   tags: ["Utility", "Calculator", "Rust"]
   featured: false
   detail: |
@@ -310,6 +315,7 @@
   description: "Read & write NetCDF files via DataFrames in Julia"
   language: "Julia"
   github: "https://github.com/Axect/NCDataFrame.jl"
+  archive: true
   tags: ["Julia", "NetCDF", "DataFrame"]
   featured: false
   detail: |
@@ -322,6 +328,7 @@
   description: "Physical unit conversion with fundamental constants"
   language: "Rust"
   github: "https://github.com/Axect/Natural_Unit"
+  archive: true
   tags: ["Physics", "Units", "Constants"]
   featured: false
   detail: |
@@ -336,6 +343,7 @@
   description: "Numerical computation library for D language"
   language: "D"
   github: "https://github.com/Axect/DNumeric"
+  archive: true
   tags: ["Numeric", "D"]
   featured: false
   detail: |
@@ -347,6 +355,7 @@
   description: "Functional programming and efficient tools for D"
   language: "D"
   github: "https://github.com/Axect/FPTools"
+  archive: true
   tags: ["Functional Programming", "D"]
   featured: false
   detail: |
@@ -358,6 +367,7 @@
 - name: "RGE"
   description: "Renormalization Group Equation solver in Go & Julia"
   language: "Go"
+  archive: true
   github: "https://github.com/Axect/RGE"
   tags: ["Physics", "Particle Physics", "Go", "Julia"]
   featured: false
@@ -373,6 +383,7 @@
   description: "Haskell numeric library with MATLAB & R syntax"
   language: "Haskell"
   github: "https://github.com/Axect/HNumeric"
+  archive: true
   tags: ["Numeric", "Haskell", "Linear Algebra", "Statistics"]
   featured: false
   detail: |

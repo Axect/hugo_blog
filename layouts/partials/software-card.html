@@ -1,0 +1,32 @@
+{{- /* One software card. Context: dict "proj" (software.yaml entry) "stats" (software_stats.json). */ -}}
+{{ $proj := .proj }}
+{{ $s := index .stats $proj.name }}
+<div class="card" onclick="this.querySelector('.card-expand').classList.toggle('open')">
+  <div class="card-top">
+    <div class="title">{{ $proj.name }}</div>
+  </div>
+  <div class="authors">{{ $proj.description }}</div>
+  <div class="badges">
+    <span class="badge badge-lang {{ lower $proj.language }}">{{ $proj.language }}</span>
+    {{ with $s }}
+      {{ with .stars }}<span class="badge badge-stars">&#9733; {{ . }}</span>{{ end }}
+      {{ with .downloads }}<span class="badge badge-downloads">&#8615; {{ . }}</span>{{ end }}
+    {{ end }}
+  </div>
+  <div class="tags">
+    {{ range $proj.tags }}<span class="tag">{{ . }}</span>{{ end }}
+  </div>
+  <div class="software-links">
+    {{ with $proj.github }}<a href="{{ . }}" target="_blank">GitHub</a>{{ end }}
+    {{ with $proj.docs }}<a href="{{ . }}" target="_blank">Docs</a>{{ end }}
+    {{ with $proj.crates_name }}<a href="https://crates.io/crates/{{ . }}" target="_blank">Crates.io</a>{{ end }}
+  </div>
+  <div class="card-expand">
+    {{ with $proj.detail }}<p>{{ . }}</p>{{ end }}
+    {{ with $proj.features }}
+    <ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+    {{ end }}
+    {{ with $proj.paper_doi }}<p><a href="https://doi.org/{{ . }}" target="_blank">Paper (DOI)</a></p>{{ end }}
+    {{ with $proj.paper_arxiv }}<p><a href="https://arxiv.org/abs/{{ . }}" target="_blank">Paper (arXiv)</a></p>{{ end }}
+  </div>
+</div>

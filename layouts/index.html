@@ -3,6 +3,8 @@
   {{ $profile := hugo.Data.profile }}
   {{ $pubs := hugo.Data.publications }}
   {{ $software := hugo.Data.software }}
+  {{ $talks := hugo.Data.presentations }}
+  {{ $kr := eq .Lang "kr" }}
 
   <!-- Profile Header -->
   <div class="profile-header">
@@ -47,8 +49,27 @@
     </div>
   </div>
 
+  <!-- Research -->
+  <div class="section-title">Research</div>
+  <div class="research-list">
+    {{ range $profile.research }}
+    <div class="research-item">
+      <div class="research-title">{{ if $kr }}{{ .title_ko }}{{ else }}{{ .title }}{{ end }}</div>
+      <div class="research-text">{{ if $kr }}{{ .text_ko }}{{ else }}{{ .text }}{{ end }}</div>
+    </div>
+    {{ end }}
+  </div>
+
+  <!-- News -->
+  <div class="section-title" style="margin-top: 2.5rem;">News</div>
+  <ul class="news-list">
+    {{ range hugo.Data.news }}
+    <li><span class="news-date">{{ .date }}</span><span class="news-text">{{ if $kr }}{{ .text_ko }}{{ else }}{{ .text }}{{ end }}</span></li>
+    {{ end }}
+  </ul>
+
   <!-- Recent Publications -->
-  <div class="section-title">Recent Publications</div>
+  <div class="section-title" style="margin-top: 2.5rem;">Recent Publications</div>
   <div class="card-list">
     {{ range first 3 $pubs }}
     <div class="card" onclick="this.querySelector('.card-expand').classList.toggle('open')">
@@ -57,7 +78,7 @@
         <div class="year">{{ .year }}</div>
       </div>
       <div class="journal">{{ .journal }}</div>
-      <div class="authors">{{ delimit .authors ", " }}</div>
+      <div class="authors">{{ partial "authors.html" . }}</div>
       <div class="tags">
         {{ range .tags }}<span class="tag">{{ . }}</span>{{ end }}
       </div>
@@ -73,6 +94,23 @@
     </div>
     {{ end }}
   </div>
+  <div class="footnote"><sup>*</sup> Co-first authors &middot; <a href="{{ "research/" | relLangURL }}">All publications</a></div>
+
+  <!-- Recent Talks -->
+  <div class="section-title" style="margin-top: 2.5rem;">Recent Talks</div>
+  <div class="card-list">
+    {{ range first 4 $talks }}
+    <div class="card card-static">
+      <div class="card-top">
+        <div class="title">{{ .title }}</div>
+        <div class="year">{{ .date }}</div>
+      </div>
+      <div class="journal">{{ .event }}{{ if eq .type "Invited" }} &middot; Invited{{ end }}</div>
+      <div class="authors">{{ .location }}</div>
+    </div>
+    {{ end }}
+  </div>
+  <div class="footnote"><a href="{{ "research/" | relLangURL }}">All talks</a></div>
 
   <!-- Featured Software -->
   {{ $stats := hugo.Data.software_stats }}
