@@ -1,3 +1,9 @@
+- title: "Interaction Geometry and Hidden Bias in Learning Lattice Spin Systems"
+  event: "ATHIC 2026 (parallel talk)"
+  type: "Oral"
+  date: "2026"
+  location: "Shanghai, China"
+
 - title: "Trustworthy Neural Sampler"
   event: "ECT* Workshop"
   type: "Oral"
@@ -134,14 +140,14 @@
   date: "2024"
   location: "Yeosu, Korea"
 
-- title: "Exploration of Primordial Black Holes and Axion-Like Particles"
+- title: "Exploration of PBHs and ALPs through a novel decay model on cosmological scale"
   event: "27th International Summer Institute on Phenomenology"
   type: "Poster"
   date: "2023"
   location: "Nantou, Taiwan"
   slides: "https://www.dropbox.com/scl/fi/q79z6wwwxrshj88gw5y3k/SI2023_TGKim.pdf?rlkey=jv0ypybbi8175rju495a1k0xt&dl=0"
 
-- title: "Exploration of Primordial Black Holes and Axion-Like Particles"
+- title: "Exploration of PBHs and ALPs through a novel decay model on cosmological scale"
   event: "16th International Conference on Interconnections between Particle Physics and Cosmology"
   type: "Oral"
   date: "2022"
@@ -166,5 +172,5 @@
   event: "16th Saga-Yonsei Joint Workshop"
   type: "Oral"
   date: "2019"
-  location: ""
+  location: "Saga, Japan"
   slides: "https://axect.github.io/Slides/PHY/NS/neutron-saga.html"
